@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.16)  4 AUG 2014 20:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.16)  6 AUG 2014 22:42
 entering extended mode
  %&-line parsing enabled.
 **bare_jrnl.tex
@@ -97,18 +97,43 @@ LaTeX Info: Redefining \cite on input line 285.
 LaTeX Info: Redefining \nocite on input line 356.
 Package: cite 2009/08/29  v 5.2
 )
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip44
 \subfigcapskip=\skip45
-\subfigcaptopadj=\dimen117
+\subfigcaptopadj=\dimen119
 \subfigbottomskip=\skip46
-\subfigcapmargin=\dimen118
+\subfigcapmargin=\dimen120
 \subfiglabelskip=\skip47
-\c@subfigure=\count91
-\c@lofdepth=\count92
-\c@subtable=\count93
-\c@lotdepth=\count94
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -135,37 +160,80 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 392.
 LaTeX Font Info:    ... okay on input line 392.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 392.
 LaTeX Font Info:    ... okay on input line 392.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen121
+\scratchbox=\box27
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen122
+\MPnumerator=\count100
+\everyMPtoPDFconversion=\toks17
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 466.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 466.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 466.
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 532--533
+\OT1/ptm/m/n/10 cor-ri-dors, both of which im-pact sys-tem sta-bil-ity. More
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 532--533
+\OT1/ptm/m/n/10 good lo-cal ob-serv-abil-ity, its per-for-mance with intra-area
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 728.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              <7> on input line 538.
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--540
+
+ []
+
+<Wide_Area_ResponseComparison_SamePlot.png, id=1, 759.83875pt x 569.12625pt>
+File: Wide_Area_ResponseComparison_SamePlot.png Graphic file (type png)
+
+<use Wide_Area_ResponseComparison_SamePlot.png> [1{/var/lib/texmf/fonts/map/pdf
+tex/updmap/pdftex.map}
 
 
-] [2
-
-] (./bare_jrnl.aux) ) 
+] [2 <./Wide_Area_ResponseComparison_SamePlot.png>]
+(./bare_jrnl.aux) ) 
 Here is how much of TeX's memory you used:
- 1250 strings out of 494799
- 20112 string characters out of 1177748
- 71552 words of memory out of 3000000
- 4480 multiletter control sequences out of 15000+50000
- 44194 words of font info for 78 fonts, out of 3000000 for 9000
+ 1932 strings out of 494799
+ 29148 string characters out of 1177748
+ 84908 words of memory out of 3000000
+ 5135 multiletter control sequences out of 15000+50000
+ 44095 words of font info for 78 fonts, out of 3000000 for 9000
  215 hyphenation exceptions out of 8191
- 28i,8n,28p,1032b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
-tmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/sha
-re/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_jrnl.pdf (2 pages, 80277 bytes).
+ 26i,8n,28p,1185b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts
+/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utm
+bi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share
+/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_jrnl.pdf (2 pages, 100889 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

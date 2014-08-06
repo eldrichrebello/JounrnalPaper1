@@ -126,7 +126,7 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+\usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -468,7 +468,10 @@ Energy Research through the STRON$g^{2}$rid project.}}
 
 \begin{abstract}
 %\boldmath
- The modern power grid in increasingly being used under operating conditions of increasing stress, for which it was not designed. The increasing levels of variable sources such as wind and other other renewables also present stability problems. One of the these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Research has been carried out into the area of wide area oscillation damping to study and damp these inter-area modes. Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually. This paper takes an established Phasor based oscillation damping method and combines it with modern PMU measurements to produce a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested with various inputs to demonstrate the flexibility and advantages of using wide area measurements in power system control.
+The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed. The increasing penetration levels of variable energy sources such as wind present significant power grid stability issues. One of the these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS) -based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping method and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in a real-time Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system.
+
+%The developed hardware prototype has been tested using Real-Time hardware-in-the-loop (HIL) approach and the simulations are performed on Klien-Roger-Kundur two area four machine test system. 
+
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
 % This preserves the distinction between vectors and scalars. However,
@@ -479,7 +482,7 @@ Energy Research through the STRON$g^{2}$rid project.}}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-IEEEtran, journal, synchrophasor, PMU, damping control, Wide Area measurements
+IEEEtran, journal, synchrophasor, PMU, damping control, Wide Area measurement and control
 \end{IEEEkeywords}
 
 
@@ -515,7 +518,7 @@ IEEEtran, journal, synchrophasor, PMU, damping control, Wide Area measurements
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{he} goal of this paper is to demonstrate the flexibility in oscillation damping controller design that is provided by using synchrophasors. The Phasor Power Oscillation Damping algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrpohasor input and using each as a damping input to the controller. A brief analysis of the performance of each input is also presented.
+\IEEEPARstart{T}{he} goal of this paper is to demonstrate the flexibility in oscillation damping controller design that is provided by using synchrophasors. The Phasor Power Oscillation Damping algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrpohasor input and using each as a damping input to the controller. A brief analysis of the performance of each input is also presented.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
@@ -523,14 +526,17 @@ IEEEtran, journal, synchrophasor, PMU, damping control, Wide Area measurements
  
 %\hfill January 11, 2007
 
-\subsection{Methodology}
-Subsection text here.
+\subsection{Background}
+As modern power systems grow in size, both in terms of power transfer capacity and geographic spread, they are increasingly being used for purposes that the power system was not designed for. Examples of these \textquoteleft new\textquoteright ~uses include conditions of increasing stress such as power trading between countries. These interconnections, which link synchronous generators, often separated by vast physical distances, create conditions where small disturbances can excite oscillations that may or may not settle. When the generators of one area oscillate at a low frequency (typically 0.2\textendash 2.5Hz) against the generators of another interconnected, but distinct area, \textquoteleft inter-area\textquoteright ~oscillations may start.\\
+
+Although the purpose of system interconnection was to increase stability, the present situation of the power system incorporates renewable energy sources and power trading corridors, both of which impact system stability. More modern solutions to the problems of inter area and intra oscillations use Power System Stabilizers (PSS) \cite{Dmello}. While a PSS provides excellent damping to intra area modes with good local observability, its performance with intra-area modes may not be satisfactory \cite{localREMcomparison}.\\
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+\subsubsection{Methodology}
+This paper presents a Wide Area Power Oscillation Damper (WAPOD)\footnote{Historically, damping stabilizers have been termed WAPOD where the P represents a measurement of active power through the line. Active power here would be used as a controller input signal. Although this term is not accurate when other quantities are used as control inputs or feedback signals, the term is used here to maintain consistency with existing literature.} prototype using commercially available micro-controller hardware, based entirely on PMU measurements received over a TCP/IP network. A previously
+developed damping algorithm \cite{PhasorPOD} will be implemented on a general purpose micro-controller and will be run in real-time. The inputs to the controller will come from one or multiple PMU's, each monitoring data at different points in the power system. The power system model used in this paper is the two-area four-machine model, originally proposed by Klein, Rogers and Kundur \cite{KundurTwoArea}. To prove the real-world applicability of the developed controller, all tests are carried out in real-time, with conditions such as noise and network transport delay present.\\
 
 
 % An example of a floating figure using the graphicx package.
@@ -617,7 +623,14 @@ Subsubsection text here.
 
 \section{Setup Preparation}
 
-\section{Testing}
+\section{Testing \& Results}
+\begin{figure}[!th]
+\centering
+\includegraphics[width=2.5in]{Wide_Area_ResponseComparison_SamePlot.png}
+\caption{Result Comparison}
+\label{fig_sim}
+\end{figure}
+%\includegraphics{Wide_Area_ResponseComparison_SamePlot.png} 
 
 \section{Additional Inputs}
 
@@ -630,7 +643,7 @@ Subsubsection text here.
 \subsection{Loop Rates and FPGA Resources}
 
 \section{Conclusion}
-This work has demonstrated the feasability of using wide-area power system data in the design of an oscillation damping controller. The real-time simulation results prove that the design goals of the controller were met. The flexibility of synchrophasor data was demonstrated and the wide range of inputs possible from this were also tested.
+This work has demonstrated the feasibility of using wide-area power system data in the design of an oscillation damping controller. The real-time simulation results prove that the design goals of the controller were met. The flexibility of synchrophasor data was demonstrated and the wide range of inputs possible from this were also tested.
 
 
 
@@ -700,10 +713,6 @@ The authors would like to thank...
 % (used to reserve space for the reference number labels box)
 \begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-  
 \bibitem{PhasorPOD} 
 L.~\"{A}ngquist and C.~Gama  \emph{Damping Algorithm based on Phasor Estimation} in Power Engineering Society Winter Meeting, 2001. IEEE, Volume 3, pp. 1160 - 1165  
 
@@ -711,6 +720,11 @@ L.~\"{A}ngquist and C.~Gama  \emph{Damping Algorithm based on Phasor Estimation}
 M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area oscillations in Power Systems} IEEE Trans, PWRS, no. 6, pp. 914-921, 1991. 
 
 \bibitem{eMEGASIM} \emph{eMEGASIM Power Grid Real-Time Digital HArdware in the Loop Simulator} Available Online at : \url{http://www.opal-rt.com/}
+
+\bibitem{Dmello} F. P.~Dmello, and. \ C.~Concordia
+  \emph{Concepts of Synchronous Machine Stability as Affected by Excitation Control} IEEE TRANSACTIONS ON POWER APPARATUS AND SYSTEMS, vol. PAS 88, no. 4, 1969. 
+  
+  \bibitem{localREMcomparison}  M. E.~Aboul-Ela, A. A.~Sallam, J. D.~McCalley and A. A.~Fouad, \emph{Damping Controller Design for Power System Oscillations Using Global Signals}, IEEE trans. on Power Systems, Vol. 11, No. 2, May 1996, pp. 767-773
 
 \end{thebibliography}
 
