@@ -1,12 +1,19 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.16)  6 AUG 2014 22:42
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.12)  12 AUG 2014 22:12
 entering extended mode
- %&-line parsing enabled.
 **bare_jrnl.tex
-(./bare_jrnl.tex
+("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\bare_jrnl.tex"
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, bulgarian, ukrainian, russian, finnish, swedish, loaded.
-(./IEEEtran.cls
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\IEEEtran.cls"
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -19,7 +26,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -92,38 +99,83 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (/usr/share/texmf-texlive/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 285.
-LaTeX Info: Redefining \nocite on input line 356.
-Package: cite 2009/08/29  v 5.2
+) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip44
 \subfigcapskip=\skip45
 \subfigcaptopadj=\dimen119
@@ -138,16 +190,15 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip48
 \subfig@bottom=\skip49
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-) (./bare_jrnl.aux)
-\openout1 = `bare_jrnl.aux'.
-
+)
+("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\bare_jrnl.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 392.
 LaTeX Font Info:    ... okay on input line 392.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 392.
@@ -161,7 +212,7 @@ LaTeX Font Info:    ... okay on input line 392.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 392.
 LaTeX Font Info:    ... okay on input line 392.
 
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen121
@@ -204,36 +255,197 @@ Underfull \hbox (badness 10000) in paragraph at lines 532--533
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 538.
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--540
+Underfull \hbox (badness 2189) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 (WA-POD)[] pro-to-type de-vel-oped here uses com-mer-cially
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
  []
 
-<Wide_Area_ResponseComparison_SamePlot.png, id=1, 759.83875pt x 569.12625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+<DataFlow.png, id=11, 469.2732pt x 247.1634pt>
+File: DataFlow.png Graphic file (type png)
+ <use DataFlow.png>
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 554.
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+
+ []
+
+<Final_RT_Arch.png, id=13, 1568.259pt x 332.442pt>
+File: Final_RT_Arch.png Graphic file (type png)
+ <use Final_RT_Arch.png>
+Underfull \hbox (badness 2368) in paragraph at lines 579--580
+\OT1/ptm/m/n/10 the Phasor-POD al-go-rithm run-ning on the FPGA. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 581.
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 581.
+
+Underfull \hbox (badness 2065) in paragraph at lines 581--582
+\OT1/ptm/m/n/10 Windows[] based com-puter. The Phasor-POD al-go-rithm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
+
+ []
+
+[2 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/DataFlow.png> <Z
+:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/Final_RT_Arch.png>]
+<PSS_degraded_performance.png, id=24, 552.464pt x 252.142pt>
+File: PSS_degraded_performance.png Graphic file (type png)
+
+<use PSS_degraded_performance.png>
+<Kundur2Area_outline.png, id=25, 660.18645pt x 243.18855pt>
+File: Kundur2Area_outline.png Graphic file (type png)
+
+<use Kundur2Area_outline.png>
+Underfull \hbox (badness 4819) in paragraph at lines 693--694
+\OT1/ptm/m/n/10 ex-ter-nal damp-ing con-trol. The dif-fer-ence be-tween the
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 693--694
+\OT1/ptm/m/n/10 4[]). All other ma-chines have their PSS's dis-con-nected.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
+
+ []
+
+<Wide_Area_ResponseComparison_SamePlot.png, id=26, 759.83875pt x 569.12625pt>
 File: Wide_Area_ResponseComparison_SamePlot.png Graphic file (type png)
 
-<use Wide_Area_ResponseComparison_SamePlot.png> [1{/var/lib/texmf/fonts/map/pdf
-tex/updmap/pdftex.map}
+<use Wide_Area_ResponseComparison_SamePlot.png>
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+
+ []
+
+[3 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/PSS_degraded_per
+formance.png (PNG copy)> <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal 
+Paper/Kundur2Area_outline.png (PNG copy)> <Z:/Class Work/Thesis - KTH/Extra Wor
+k/Papers/Journal Paper/Wide_Area_ResponseComparison_SamePlot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
+[]\OT1/ptm/m/n/10 The orig-i-nal POD (Pha-sor Os-cil-la-tion Damper)
+ []
 
 
-] [2 <./Wide_Area_ResponseComparison_SamePlot.png>]
-(./bare_jrnl.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
+
+ []
+
+
+LaTeX Warning: Reference `OPALlimits' on page 4 undefined on input line 723.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
+
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 744--745
+\OT1/ptm/m/n/10 syn-chropha-sor data, in-ter-po-late be-tween con-sec-u-tive da
+ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+ []
+
+[4]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+Missing character: There is no â in font ptmri7t!
+Missing character: There is no € in font ptmri7t!
+Missing character: There is no ” in font ptmri7t!
+ <lvanfretti.PNG, id=36, 97.86563pt x 97.86563pt>
+File: lvanfretti.PNG Graphic file (type png)
+ <use lvanfretti.PNG>
+File: lvanfretti.PNG Graphic file (type png)
+
+<use lvanfretti.PNG> <msalmas.PNG, id=39, 150.5625pt x 150.5625pt>
+File: msalmas.PNG Graphic file (type png)
+
+<use msalmas.PNG>
+File: msalmas.PNG Graphic file (type png)
+ <use msalmas.PNG> [5 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Pap
+er/lvanfretti.PNG> <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
+msalmas.PNG>]
+("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\bare_jrnl.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1932 strings out of 494799
- 29148 string characters out of 1177748
- 84908 words of memory out of 3000000
- 5135 multiletter control sequences out of 15000+50000
- 44095 words of font info for 78 fonts, out of 3000000 for 9000
- 215 hyphenation exceptions out of 8191
- 26i,8n,28p,1185b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts
-/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utm
-bi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_jrnl.pdf (2 pages, 100889 bytes).
+ 2489 strings out of 494053
+ 39096 string characters out of 3147731
+ 98395 words of memory out of 3000000
+ 5744 multiletter control sequences out of 15000+200000
+ 48548 words of font info for 84 fonts, out of 3000000 for 9000
+ 718 hyphenation exceptions out of 8191
+ 41i,10n,37p,1625b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/fontname/8r.enc}<C:/PROGRAMS/M
+iKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/PROGRAMS/MiKTeX/
+MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_
+2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/c
+msy7.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/
+PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/times/utmb8a.pfb><C:/PROGRAMS/MiKTeX
+/MiKTeX_2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fo
+nts/type1/urw/times/utmr8a.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on bare_jrnl.pdf (5 pages, 553861 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

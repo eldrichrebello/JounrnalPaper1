@@ -539,46 +539,22 @@ The Wide Area Power Oscillation Damper (WAPOD)\footnote{Historically, damping st
 
 \subsubsection{Hardware Outline}
 
-All real-time simulations here are performed on OPAL RT's e\textsc{Megasim} \cite{OPALemegasim} real-time simulation platform. \textsc{Simulink} models are executed in real-time and are interfaced with externally generated signals. Current and voltage signals from different points on the simulated network are extracted, amplified and then supplied as the input to two PMU's. Two cRIO-9076 \cite{cRIO9076} devices are used as PMU's. The synchrophasor data stream from these devices is streamed over a TCP/IP network to a Phasor Data Concentrator which produces a time-aligned output stream. This stream is then accessed, via a TCP/IP network, on a PC running LabVIEW which extracts raw measurement data. This extracted data is streamed over the network to a cRIO-9081 which runs the Phasors-POD algorithm in real-time. The FPGA on the cRIO-9081 \cite{cRIO9081} generates a damping signal which is then wired to the real-time simulator for use in the \textsc{Simulink} model.\\
+All real-time simulations here are performed on OPAL RT's e\textsc{Megasim} \cite{OPALemegasim} real-time simulation platform. \textsc{Simulink} models are executed in real-time and are interfaced with externally generated signals. Current and voltage signals from different points on the simulated network are extracted, amplified and then supplied as the input to two PMU's. Two cRIO-9076 devices are used as PMU's. The synchrophasor data stream from these devices is streamed over a TCP/IP network to a Phasor Data Concentrator which produces a time-aligned output stream. This stream is then accessed, via a TCP/IP network, on a PC running LabVIEW which extracts raw measurement data. This extracted data is streamed over the network to a cRIO-9081 which runs the Phasors-POD algorithm in real-time. The FPGA on the cRIO-9081 generates a damping signal which is then wired to the real-time simulator for use in the \textsc{Simulink} model.\\
 
-\begin{figure}[!h]
+\begin{figure}[!th]
 \centering
 \includegraphics[width=2.5in]{DataFlow.png} 
 \caption{Harware Outline}
 \label{Hardware_Outline}
 \end{figure}
 
-Vanfretti et. al. describe the details of the equipment used here in \cite{SmarTSLab}. It is important to note that the data flow in Figure~\ref{Hardware_Outline} involves both D/A and A/D conversions. Also, since no synchronisation is used for these conversions, it is important that the sample rates or loop rates of each section be integer multiples of each other. This will prevent data value errors. The issue of different loop rates is covered in Section \ref{looprate}.\\
+Vanfretti et. al. describe the details of the equipment used here in \cite{SmarTSLab}.\\
 
 \subsubsection{Software Outline}
 The two-area four-machine model used here is available in \textsc{Simulink}'s SimPowerSystems and can be accessed by typing \texttt{power\_PSS} as a \textsc{Matlab} command. The \textsc{Simulink} implementation of the Phasor-POD algorithm was developed by Almas and Vanfretti \cite{PhasorPODImplement}. The Phasor-POD algorithm essentially separates an input signal into an average valued and an oscillating component. The oscillating component when suitably phase-shifted can be used as a supplementary damping input to a generator's AVR or the excitation system of a FACTS device.\\
 
-LabVIEW's Real Time and FPGA modules were used to write the code for the respective sections of the cRIO. Also,  since no synchrophasor data-extraction software was capable of running independently on the RT controller, the process of extracting raw measurement data from the synchrophasor data stream was performed on a desktop computer. The software used for this was identical to that in \cite{SDK} and would run on a workstation computer, extract data from the PMU stream and send this extracted data to a LabVIEW program running on the same computer \cite{SDK}. \\
+LabVIEW's Real Time and FPGA modules were used to write the code for the respective sections of the cRIO.\\
 
-\subsubsection{Real-Time Implementation of Phasor-POD Algorithm}
-
-The hardware implementation of the POD was based on the Compact Reconfigurable Input / Output (cRIO) 9081 \cite{cRIO9081} from National Instruments. This controller is equipped with an on-board Field Programmable Gate Array (FPGA) running at 400MHz in addition to an independent real-time controller. The real-time implementation of the Phasor-POD algorithm was based on the \textsc{Simulink} implementation by Almas \& Vanfretti \cite{PhasorPODImplement} and its goal was the replicate the behaviour of the \textsc{Simulink} implementation as closely as possible. The algorithm accepts three inputs; the search frequency, $\omega_{cs1}$, the sampling time $T_{s}$, the phase correction $alpha$ and a signal scaling factor. It takes advantage of the fact that the oscillation frequency for a given network configuration is usually known, which in this case is the 0.64Hz inter-area mode. Using this known frequency value, a  co-ordinate system, rotating at this known frequency, is set up where the oscillating component is continuously extracted as a phasor \cite{PhasorPOD}.\\
-%update figure to show that Local control function was NOT implemented. Future work!-----------------------------------------------------------------------------
-\begin{figure}[!t]
-\centering
-\includegraphics[width=2.5in]{Final_RT_Arch.png} 
-\caption{RT Controller Architecture} %showing future expandability with Local control function
-\label{RTArchitecture}
-\end{figure}
-
-A three-layer, modular code architecture was selected for implementation, as shown in Figure \ref{RTArchitecture}. 
-
-\begin{itemize}
-\item Core FPGA Software : Interacts with hardware terminals for I/O and runs Phasor-POD algorithm
-
-\item Real Time (RT) Software : Manages network communication to remote terminal and also generates performance monitoring data
-
-\item Remote Interface: Runs on workstation computer: Used to update algorithm parameters and monitor data \& performance. This layer is non deterministic.
-\end{itemize}
-
-The Phasor-POD algorithm could be implemented on either the real-time section of the cRIO or the FPGA but was implemented on the FPGA. This decision was made keeping in mind the computational resources and response speed needed to match the step size of the real-time simulator. The complexity of the code meant that the cRIO\rq{s} real-time controller would not be able to complete an iteration of the algorithm in the required 50$\mu$s response time. The real-time section of the cRIO handles network communication. Its primary purpose is to receive measurement data that the workstation computer extracts and to stream this data to the Phasor-POD algorithm running on the FPGA. The real-time controller also handles commands coming from the user interface running on the workstation computer.  It also monitors the output of the FPGA, sends data to the user interface for monitoring, periodically logs input and output data and handles error  conditions.\\
-
-The remote interface runs in LabVIEW on a conventional Windows\textregistered~based computer. The Phasor-POD algorithm can be controlled from this interface. Also, the algorithm parameters can be set and modified. Since the operating system here is not real-time but is multi-tasking, the execution speed depends on the processor load and is not deterministic. Statnett's Synchrophasor Software Development Kit ($S^{3}DK$) was used to unwrap the PMU streams coming from the PDC and extract phasor measurements \cite{SDK}. This allowed for data to be extracted and used directly in the LabVIEW environment. Since the PMU reporting rate was 50 messages a second, new data was available every 20ms. The loop rate used by the $S^{3}DK$ was hence 20ms. The selection of a input for the controller and the computations required are performed here. For example, if active power is to be used as a POD input, voltage and current values must be multiplied to obtain the active power. If the voltage angle difference is to be used as an input, the required calculations are performed in this VI.\\
 
 %This format for equations does not work. Why?---------------------------------
 
@@ -676,6 +652,8 @@ The remote interface runs in LabVIEW on a conventional Windows\textregistered~ba
 
 \subsection{Two-Area Model Preparation}
 
+The two-area network \cite{KundurTwoArea} is known to be unstable without external damping control. The difference between the rotational inertias of two of the machines, in an otherwise symmetric network gives rise to the 0.64Hz inter-area mode. The Simulink model used here implements damping control using a supplementary signal generated from a PSS and applied to the excitation system of each of the machines to achieve steady-state stability and also to damp out the inter-area mode. This model was modified to have a damping control system only at Machine M1 in Area-1. All other machines have their PSS's disconnected. This configuration was  verified to be able to both achieve stability and to be able to restore the system to stability after the application (and subsequent clearing) of an 8 cycle, three-phase to ground fault. This model uses a PSS tuned to achieve the maximum damping, given the operating conditions. To demonstrate a potential application scenario for the developed prototype, the performance of the PSS is degraded so that it is still able to provide damping but takes substantially longer.
+
 \begin{figure}[!th]
 \centering
 \includegraphics[width=2.5in]{PSS_degraded_performance.png}
@@ -683,26 +661,11 @@ The remote interface runs in LabVIEW on a conventional Windows\textregistered~ba
 \label{PSS_Degrade}
 \end{figure}
 
-\begin{figure}[!th]
-\centering
-\includegraphics[width=2.5in]{Kundur2Area_outline.png}
-\caption{Modified Two-Area Four-Machine network}
-\label{NetworkOutline}
-\end{figure}
-
-The two-area network \cite{KundurTwoArea} is known to be unstable without external damping control. The difference between the rotational inertias of two of the machines, in an otherwise symmetric network gives rise to the 0.64Hz inter-area mode. The \textsc{Simulink} model used here implements damping control using a supplementary signal generated from a PSS and applied to the excitation system of each of the machines to achieve steady-state stability and also to damp out the inter-area mode. This model was modified to have a damping control system only at Machine M1 in Area-1 (see~Figure \ref{NetworkOutline}). All other machines have their PSS's disconnected. This configuration was  verified to be able to both achieve stability and to be able to restore the system to stability after the application (and subsequent clearing) of an 8 cycle, three-phase to ground fault. The original model uses a PSS tuned to achieve maximum damping, given the operating conditions. To demonstrate a potential application scenario for the developed POD prototype, the performance of the PSS is degraded so that it is still able to provide damping but takes substantially longer (Figure \ref{PSS_Degrade}) . This figure shows the system response to a 200ms perturbation in the voltage reference of machine M1. Note that under the action of the sole PSS at machine M1, the inter-area mode is damped and the system is restored to stability. This mimics a real-world situation where an already installed PSS whose performance has degraded over time due to changing network conditions or poor tuning.\\
-
-This network was grouped into sub-systems and prepared for simulation on in RT-LAB. The time step chosen was 50$\mu$s. Current and voltage measurements were taken from the points marked in Figure \ref{NetworkOutline} and were extracted from the analogue outputs of the real-time simulator. The damping signal dVpod in Figure \ref{NetworkOutline} was generated at two points; one in the real-time simulation itself using a Simulink implementation of the Phasor POD algorithm and one externally on the cRIO. Either one of these signal could be switched in for use in the simulation.\\
-
 \section{Testing \& Results}
-
-\subsection{Local Signals}
-
-\subsection{Wide Area Signals}
 \begin{figure}[!th]
 \centering
 \includegraphics[width=2.5in]{Wide_Area_ResponseComparison_SamePlot.png}
-\caption{Response Comparison Using Wide Area Signals}
+\caption{Result Comparison}
 \label{fig_sim}
 \end{figure}
 %\includegraphics{Wide_Area_ResponseComparison_SamePlot.png} 
@@ -713,39 +676,9 @@ This network was grouped into sub-systems and prepared for simulation on in RT-L
 
 \subsection{Time Delays}
 
-The Phasor POD algorithm running in SIMULINK has close to zero time delay between network behaviour changing and the controller responding. The same algorithm, when run on the cRIO, receives data with a stochastic delay. Figure \ref{Hardware_Outline} illustrates the complete data path and from this, it is evident that several sources of time delay exist. Sections such as the analogue amplifiers, the FPGA execution speed (a constant 50$\mu$s), the real-time section of the cRIO and the PDC all represent fixed, non-zero time delays. Sections such as the D/A and A/D conversion in the real-time simulator also add a deterministic time delay. However, sections of the data path such as communication over a TCP/IP network and the PC used to extract raw measurement data from the synchrophasor stream all represent variable delays. These delays all contribute to a delayed response from the cRIO. This delay allows for a network disturbance to grow slightly before the cRIO starts responding. It also has the effect of changing the phase compensation required in the Phasor-POD algorithm. Though the delay cannot be compensated for, the phase compensation needed can be changed depending on the measured delay. Presently, the phase compensation required is determined iteratively though this can be automated using time-stamped data.\\
-
-%In a direct comparison between the simulated Phasor-POD and one running on the cRIO, the time delay will be 
-
 \subsection{Analogue Limits and Noise}
-The original POD (Phasor Oscillation Damper) algorithm~\cite{PhasorPOD} was developed and simulated in an ideal, noise-free environment with zero delay. More importantly, no limits are imposed on the magnitude of either the controller's inputs or outputs when it is simulated. In contrast, a hardware-based implementation that uses analogue signals faces several challenges, one of which is the analogue signal magnitude limits.\\
 
-Consider the analogue outputs of the OPAL RT simulator listed on Page \pageref{OPALlimits}. These are low level outputs and can be directly connected to the PMU inputs. However, the inputs modules of the PMU's are rated for 0-300V and a 0-16V analogue signal will not use a significant portion of this range. Additionally, a signal of such a small magnitude will also be contaminated by noise and will consequently have a poor Signal to Noise ratio. A similar argument can be made for the current outputs.\\
-
-The output of the simulated POD can vary over several orders of magnitude, ranging from $10^{5}$ at times of peak damping to as small as $10^{-3}$ once the oscillation magnitude has become small. It is not possible to recreate analogue signals with such vast ranges. The voltage output module used with the cRIO here had a 24-bit resolution and was limited to 10V in magnitude. Any values generated by the POD algorithm that were greater in magnitude that 10V would cause output saturation. All these issues meant that signal magnitudes had to be amplified in certain cases to use the full measurement ranges or had to be limited in other cases, so as to capture variations without saturation.\\
-
-\subsection{Loop Rates and FPGA Resources}\label{looprate}
-The most significant challenge in the real-time implementation of the Phasor-POD algorithm was the fact that different sections of the hardware control loop run at different loop rates or step sizes. Added to this was the fact that the real-time simulator generated data every 50$\mu$s and thus expected data from the HIL setup at the same rate while the rest of the HIL setup did not support such a high data rate. The PMU\rq{s} used supported a maximum data reporting rate of 50 samples/second. Table~\ref{ex:LoopRates} lists the different components of the HIL setup together with their respective loop rates.
-\begin{table}[!ht]
-\caption{Comparison of Loop Rates of Different Components}\label{ex:LoopRates}
-\begin{center}
-\begin{tabular}{|l|c|c|}
-\hline \textbf{Element} & \textbf{Loop Rate} & \textbf{Mode} \\
-\hline OPAL RT Simulator & 50$\mu$s & Real Time \\ 
-\hline PMU (cRIO) & 20msec & Real Time \\ 
-\hline Workstation Computer& 20msec & Not Real Time \\ 
-\hline POD - RT Section & 20msec & Real Time \\ 
-\hline POD - FPGA & 50$\mu$s & Real Time \\ 
-\hline 
-\end{tabular}
-\end{center}
-\end{table} 
-
-50$\mu$s was chosen for the FPGA loop rate in order to match the loop rate of the real-time simulator. This was to ensure that data was always available at the analogue input of the simulator and no erroneous data points were read. The 50$\mu$s loop rate of the FPGA meant that new data was expected every 50$\mu$s, corresponding to a 2000s/s sampling rate. The fastest execution speed of the real-time section of the cRIO was 1ms, significantly slower than the FPGA\rq{s} speed. New synchrophasor data was available from the PMU\rq{s} only every 20ms. One solution to this problem was to upsample the synchrophasor data, interpolate between consecutive data points and then stream this data to the Phasor-POD algorithm on the FPGA. A FIFO\footnote{First In First Out} buffer would be used to buffer the data generated by the up-sampling process as it was gradually consumed by the FPGA. The major problem with this method was that the up-sampling process on the RT controller is computationally intensive and would not run at the required 20ms loop rate.\\
-
-An alternative solution would be to implement a \textbf{sample and hold} algorithm on the FPGA. As data was extracted every 20ms, the RT controller would receive this data and send it to the FPGA. This value would then be held constant till the next data point arrives. This was implemented and found to work satisfactorily. In essence, the only difference between the Phasor-POD algorithm running the SIMULINK simulation and that on the cRIO was the data rates of their input data. The simulated POD received new data every 50$\mu$s while the cRIO-based POD received data every 20ms.
-
-%A significant problem here was the fact that the synchrophasor data-extraction software running the on the workstation computer was not running in real-time. This, together with the TCP/IP sections, introduced stochastic delay in the control loop. 
+\subsection{Loop Rates and FPGA Resources}
 
 \section{Conclusion}
 This work has demonstrated the feasibility of using wide-area power system data in the design of an oscillation damping controller. The real-time simulation results prove that the design goals of the controller were met. The flexibility of synchrophasor data was demonstrated and the wide range of inputs possible from this were also tested.
@@ -843,7 +776,6 @@ M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area osc
   
 \bibitem{cRIO9076} \emph{Operating Instructions and Specifications Compact RIO NI cRIO-9075/9076}, National Instruments, Available Online at \url{http://www.ni.com/pdf/manuals/375650b.pdf}
 
-\bibitem{SDK} Vanfretti, Luigi and Aarstrand, Vemund H. and Almas, M. Shoaib and Peri\'c, Vedran S. and Gjerde, Jan O. , \emph{A Software Development Toolkit for Real-Time Synchrophasor Applications},  IEEE PES Grenoble PowerTech, 2013
 
 \end{thebibliography}
 
@@ -858,22 +790,22 @@ M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area osc
 %\begin{biography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{lvanfretti.PNG}}]{Luigi Vanfretti}
-Biography text here.
-\end{IEEEbiography}
-
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{msalmas.PNG}}]{M S Almas}
+\begin{IEEEbiography}{Michael Shell}
 Biography text here.
 \end{IEEEbiography}
 
 % if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{Eldrich Rebello}
+\begin{IEEEbiographynophoto}{John Doe}
 Biography text here.
 \end{IEEEbiographynophoto}
 
 % insert where needed to balance the two columns on the last page with
 % biographies
 %\newpage
+
+\begin{IEEEbiographynophoto}{Jane Doe}
+Biography text here.
+\end{IEEEbiographynophoto}
 
 % You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate
