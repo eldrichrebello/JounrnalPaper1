@@ -408,10 +408,10 @@
 \author{Eldrich~Rebello,~\IEEEmembership{Non-Member,~IEEE,}
         Muhammad~Shoaib~Almas,~\IEEEmembership{Fellow,~OSA,}
         and~Luigi~Vanfretti,~\IEEEmembership{Senior~Member,~IEEE}% <-this % stops a space
-\thanks{Eldrich Rebello is with the School of Electrical Engineering, Aalto University, Helsinki, Finland
+\thanks{Eldrich Rebello has completed his Master's degree the School of Electrical Engineering, Aalto University, Helsinki, Finland
 e-mail: eldrich.rebello@aalto.fi}% <-this % stops a space
 \thanks{M. Shoaib Almas and L. Vanfretti are with KTH Royal Institute of Technology, Stockholm, Sweden. Email: msalmas@kth.se luigiv@kth.se}% <-this % stops a space
-\thanks{This project was supported by the Nordic
+\thanks{This project was supported in part by the Nordic
 Energy Research through the STRON$g^{2}$rid project.}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
@@ -468,7 +468,7 @@ Energy Research through the STRON$g^{2}$rid project.}}
 
 \begin{abstract}
 %\boldmath
-The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed. The increasing penetration levels of variable energy sources such as wind present significant power grid stability issues. One of the these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS) -based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping method and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in a real-time Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system and is demonstrated to have applications independent of the controlled device.
+The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed. The increasing penetration levels of variable energy sources such as wind present significant power grid stability issues. One of the these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping algorithm and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in a real-time Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system and is demonstrated to have applications independent of the controlled device.
 
 %The developed hardware prototype has been tested using Real-Time hardware-in-the-loop (HIL) approach and the simulations are performed on Klien-Roger-Kundur two area four machine test system. 
 
@@ -482,7 +482,7 @@ The modern power grid is increasingly being used under operating conditions of i
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-IEEEtran, journal, synchrophasor, PMU, damping control, Wide Area measurement and control
+WAPOD, WAMPAC, synchrophasor, PMU, damping control, Wide Area measurement and control
 \end{IEEEkeywords}
 
 
@@ -518,9 +518,21 @@ IEEEtran, journal, synchrophasor, PMU, damping control, Wide Area measurement an
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{he} goal of this paper is to demonstrate both the potential and flexibility in oscillation damping controller design that is provided by using synchrophasors. The Phasor Power Oscillation Damping algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model in real-time. A HIL\footnote{Hardware-in-the-loop} test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrpohasor input and using each as a damping input to the controller. That the controller can have multiple applications is demonstrated by testing it with two different controlled devices; a generator AVR and a FACTS device excitation system. A brief analysis of the performance of each input is also presented.\\
+\IEEEPARstart{T}{he} goal of this paper is to demonstrate both the potential and flexibility in oscillation damping controller design that is provided by using synchrophasors. The Phasor Power Oscillation Damping (Phasor POD) algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model in real-time. A HIL\footnote{Hardware-in-the-loop} test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrpohasor input and using each as a damping input to the controller. That the controller can have multiple applications is demonstrated by testing it with two different controlled devices; a generator AVR and a FACTS device excitation system. A brief analysis of the performance of each input is also presented.\\
 
-Section \ref{Background} presents a brief background of the work together with the hardware and software architectures implemented.
+This paper is organised as follows:\\
+
+Section \ref{Background} presents a brief background of the work together with the hardware and software architectures implemented. An outline of the two-area model, the hardware used and finally, an outline of the whole HIL test setup is also presented.\\
+
+Section \ref{SetupPreparation} covers the preparation of the \emph{Simulink} models for real-time simulation and the modifications made for this. Two cases are examined, one with the WAPOD input fed to the excitation system of an SVC and the other with the WAPOD modulating the input of a generator AVR.\\
+
+The results obtained from the two tests are presented and examined in Section \ref{Results}.\\
+
+Section \ref{Challenges} outlines some of the major challenges and problems faced in the development, implementation and testing of this WAPOD controller including software challenges and the difficulties faced when dealing with real-world, analogue signals compared to pure simulations.\\
+
+No experimental implementation is ever ready for field-ready and there is always room for tremendous improvement. This is outlined in Section \ref{Future} and finally conclusions are drawn in Section \ref{Conclusion}.
+
+
 
 
 % You must have at least 2 lines in the paragraph with the drop letter
@@ -701,6 +713,8 @@ The nature of the Phasor-POD algorithm is generic enough to allow it to be used 
 
 The two-area network \cite{KundurTwoArea} is known to be unstable without external damping control. The difference between the rotational inertias of two of the machines, in an otherwise symmetric network gives rise to the 0.64Hz inter-area mode. The \textsc{Simulink} model used here implements damping control using a supplementary signal generated from a PSS and applied to the excitation system of each of the machines to achieve steady-state stability and also to damp out the inter-area mode. This model was modified to have a damping control system only at Machine M1 in Area-1 (see~Figure~\ref{NetworkOutline}). All other machines have their PSS's disconnected. This configuration was  verified to be able to both achieve stability and to be able to restore the system to stability after the application (and subsequent clearing) of an 8 cycle, three-phase to ground fault. The original model uses a PSS tuned to achieve maximum damping, given the operating conditions. To demonstrate a potential application scenario for the developed POD prototype, the performance of the PSS is degraded so that it is still able to provide damping but takes substantially longer (Figure \ref{PSS_Degrade}). This figure shows the system response to a 200ms perturbation in the voltage reference of machine M1. Note that under the action of the sole PSS at machine M1, the inter-area mode is damped and the system is restored to stability. This mimics a real-world situation where an already installed PSS whose performance has degraded over time due to changing network conditions or poor tuning.\\
 
+Details of the two-area model parameters are listed in Appendix \ref{LiiteC}.\\
+
 
 \subsection{Two-Area Model Preparation - FACTS Device}
 
@@ -750,7 +764,7 @@ The controller response to a small disturbance when operating in tandem with a d
 \end{figure}
 %\includegraphics{Wide_Area_ResponseComparison_SamePlot.png} 
 
-\section{Additional Inputs}
+%\section{Additional Inputs}
 
 \section{Challenges}\label{Challenges}
 
@@ -797,11 +811,11 @@ An alternative solution would be to implement a sample and hold algorithm on the
 
 %A significant problem here was the fact that the synchrophasor data-extraction software running the on the workstation computer was not running in real-time. This, together with the TCP/IP sections, introduced stochastic delay in the control loop. 
 
-\section{Further Work}
+\section{Further Work}\label{Future}
 
 The WAPOD prototype as developed in this work demonstrates the possibilities of using wide area synchrophasor data for damping control. The prototype here is, however, dependent on manual input for signal selection and algorithm parameter values. These two processes can be automated by having the WAPOD itself monitor the various input signals and intelligently select the one having the highest observability of a particular mode. The algorithm parameters can also be determined adaptively on the WAPOD itsef. On the same lines, this can further be extended to include selection among several measurement locations on the network. The fact that a stochastic time delay is introduced by unwrapping the synchrophasor data stream on a desktop computer can be addressed by performing this function on the WAPOD controller (here, the cRIO) itself.
 
-\section{Conclusion}
+\section{Conclusion}\label{Conclusion}
 This work has demonstrated the feasibility of using wide-area power system data in the design of an oscillation damping controller. The generic nature of the developed controller was demonstrated by using an identical implementation with mere changes in paramaters to suit the controlled device's input requirements and capabilities. The performance of the WAPOD can be improved by exploiting the full range of data available in a synchrophasor data stream.The flexibility of synchrophasor data was demonstrated and the wide range of inputs possible from this were also tested. The results from this work serve as a proof-of-concept to what?
 
 
@@ -824,13 +838,67 @@ This work has demonstrated the feasibility of using wide-area power system data 
 
 
 \appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
+%\section{Proof of the First Zonklar Equation}
+\section{Two Area Four-Machine Model Parameters\label{LiiteC}}
 
+Two-area model parameters (Similar to those used in \cite{KundurTwoArea})\\
+%\renewcommand{\theequation}{C\arabic{equation}}
+%\setcounter{equation}{0}  
+%\renewcommand{\thefigure}{C\arabic{figure}}
+%\setcounter{figure}{0}
+%\renewcommand{\thetable}{C\arabic{table}}
+%\setcounter{table}{0}
+
+\begin{table}[!ht]
+\caption{Common Generator Parameters used in Simulink Two Area Model}
+\begin{center}
+%\bigskip
+\begin{tabular}{|c|c|c|c|c|c|}
+
+\hline $ X_{d} $ & 1.8  &$ {X}_{d}^{\prime } $  & 1.8  & $ {X}_{d}^{\prime \prime } $ & 0.25  \\ 
+\hline $ X_{q} $ & 1.7  &$ {X}_{q}^{\prime } $  & 0.55 & $ {X}_{q}^{\prime \prime } $ & 0.25 \\ 
+\hline $ X_{l} $ & 0.2  & $ R_{a} $ & 0.0025  & $ K_{d} $  & 0 \\ 
+\hline $ {T}_{d0}^{\prime } $ &8s  & $ {T}_{q0}^{\prime } $ & 0.4s & - & - \\ 
+\hline $ {T}_{d}^{\prime \prime } $ & 0.03s & $ {T}_{q}^{\prime \prime } $ & 0.05s  &- &-  \\ 
+\hline $ A_{SAT} $& 0.015 & $ B_{SAT} $ & 9.6 & $ \psi_{T1} $  & 0.9 \\ 
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+\emph{N.B. All Parameters in p.u., on Generator Base}\\
+
+Step Up Transformer Impedance : $0+j0.15$\\
+
+\begin{table}[!ht]
+\caption{Transmission line parameters}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline $r=0.0001$ pu/km & $x_{l}=0.001$ pu/km \\
+\hline $b_{c}=0.00175$ pu/km &  Nominal Voltage : 230kV\\ 
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!ht]
+\caption{Self-excited DC exciter Parameters (common to all generators)}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline  $ K_{A} = 20 $& $ T_{A} = 0.055 $ & $ T_{E} = 0.36 $ & $ K_{F} = 0.125 $ \\ 
+\hline $ T_{F} = 1.8 $ & $ A_{ex} = 0.0053 $ & $ B_{ex} = 1.075 $ & $ T_{R} = 0.05 $ \\ 
+\hline 
+\end{tabular} 
+\end{center}
+\end{table}
 % you can choose not to have a title for an appendix
 % if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+\section{Modifications Made to PSS Model}
+
+The default simulation model supplied with the \texttt{power\_PSS} example in \textsc{Matlab} has three types of PSS models \cite{MATLABexample} : an MB-PSS, a $\Delta\omega $-PSS and a $\Delta P_{a}$ PSS. The comparison of the three as presented in \cite{MATLABexample} concludes that the performance of the MB-PSS is the best. This model is thus, not used when modulating the PSS output with the Phasor-POD algorithm. Instead, the $\delta P_{a}$ PSS is used. The PSS model here is the generic PSS model available with SimPowerSystems \cite{PSSDocumentation}.\\
+
+The input to the $\Delta\omega $-PSS is the rotor speed deviation $\Delta\omega $. For an accurate comparison, this was changed to the measured active power measured at the generator terminals, $P_{a}$. The lead-lag block parameters were also changed from $\frac{1 + 50x10^{-3}s}{1 + 1s}$ to $\frac{1 + 50x10^{-3}s}{1 + 6s}$. Parameters here were determined iteratively. The change to the lead-lag block produces the effect in Figure \ref{PSS_Degrade} where the PSS is still able to restore the system to stability but takes almost a minute to damp out the oscillations versus approximately three seconds in the ideal case.\\
+
+%Appendix two text goes here.
 
 
 % use section* for acknowledgement
@@ -906,6 +974,10 @@ M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area osc
 \bibitem{SDK} Vanfretti, Luigi and Aarstrand, Vemund H. and Almas, M. Shoaib and Peri\'c, Vedran S. and Gjerde, Jan O. , \emph{A Software Development Toolkit for Real-Time Synchrophasor Applications},  IEEE PES Grenoble PowerTech, 2013
 
 \bibitem{Chaudhuri} N.S~Chaudhuri, R~Majumder and B~Chaudhuri , \emph{Interaction between conventional and adaptive phasor power oscillation damping controllers} in Power and Energy Society General Meeting, 2010 IEEE Minneapolis, MN, 2012 pp. 1-7
+
+\bibitem{MATLABexample} I~Kamwa \emph{Performance of Three PSS for Interarea Oscillations} SimPowerSystems Examples, \textsc{Matlab} R2011a
+
+\bibitem{PSSDocumentation} \emph{Generic Power System Stabilizer} Documentation distributed with \textsc{Matlab} R2014a Available online at \url{http://www.mathworks.se/help/physmod/sps/powersys/ref/genericpowersystemstabilizer.html}
 
 \end{thebibliography}
 
