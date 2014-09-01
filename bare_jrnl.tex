@@ -405,7 +405,9 @@
 % was not built to handle multiple paragraphs
 %
 
-\author{Eldrich~Rebello,~\IEEEmembership{Non-Member,~IEEE,}
+%%Fix Later : Move Luigi as first author.
+
+\author{Luigi~Vanfretti, Eldrich~Rebello,~\IEEEmembership{Non-Member,~IEEE,}
         Muhammad~Shoaib~Almas,~\IEEEmembership{Fellow,~OSA,}
         and~Luigi~Vanfretti,~\IEEEmembership{Senior~Member,~IEEE}% <-this % stops a space
 \thanks{Eldrich Rebello has completed his Master's degree the School of Electrical Engineering, Aalto University, Helsinki, Finland
@@ -468,7 +470,7 @@ Energy Research through the STRON$g^{2}$rid project.}}
 
 \begin{abstract}
 %\boldmath
-The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed. The increasing penetration levels of variable energy sources such as wind present significant power grid stability issues. One of the these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping algorithm and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in a real-time Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system and is demonstrated to have applications independent of the controlled device.
+The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed. The increasing penetration levels of variable energy sources such as wind present significant grid stability issues. One of these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping algorithm and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in real-time using a Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system and is demonstrated to have applications independent of the controlled device.
 
 %The developed hardware prototype has been tested using Real-Time hardware-in-the-loop (HIL) approach and the simulations are performed on Klien-Roger-Kundur two area four machine test system. 
 
@@ -518,19 +520,19 @@ WAPOD, WAMPAC, synchrophasor, PMU, damping control, Wide Area measurement and co
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{he} goal of this paper is to demonstrate both the potential and flexibility in oscillation damping controller design that is provided by using synchrophasors. The Phasor Power Oscillation Damping (Phasor POD) algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model in real-time. A HIL\footnote{Hardware-in-the-loop} test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrpohasor input and using each as a damping input to the controller. That the controller can have multiple applications is demonstrated by testing it with two different controlled devices; a generator AVR and a FACTS device excitation system. A brief analysis of the performance of each input is also presented.\\
+\IEEEPARstart{T}{he} goal of this paper is to demonstrate both the potential and flexibility in oscillation damping controller design that is possible by using synchrophasors (C37.118). The Phasor Power Oscillation Damping (Phasor POD) algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model in real-time. This HIL\footnote{Hardware-in-the-loop} test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrophasor input and using each as a damping input to the controller. That the controller can have multiple applications is demonstrated by testing it with two different controlled devices; a generator AVR system and a FACTS-device excitation system. A brief analysis of the performance of each input is also presented.\\
 
 This paper is organised as follows:\\
 
 Section \ref{Background} presents a brief background of the work together with the hardware and software architectures implemented. An outline of the two-area model, the hardware used and finally, an outline of the whole HIL test setup is also presented.\\
 
-Section \ref{SetupPreparation} covers the preparation of the \emph{Simulink} models for real-time simulation and the modifications made for this. Two cases are examined, one with the WAPOD input fed to the excitation system of an SVC and the other with the WAPOD modulating the input of a generator AVR.\\
+Section \ref{SetupPreparation} covers the preparation of the \textsc{Simulink} models for real-time simulation and the modifications made for this. Two test cases are examined, one with the WAPOD input fed to the excitation system of an SVC and the other with the WAPOD modulating the input of a generator AVR.\\
 
 The results obtained from the two tests are presented and examined in Section \ref{Results}.\\
 
 Section \ref{Challenges} outlines some of the major challenges and problems faced in the development, implementation and testing of this WAPOD controller including software challenges and the difficulties faced when dealing with real-world, analogue signals compared to pure simulations.\\
 
-No experimental implementation is ever ready for field-ready and there is always room for tremendous improvement. This is outlined in Section \ref{Future} and finally conclusions are drawn in Section \ref{Conclusion}.
+No experimental implementation is ever field-ready and there is always room for tremendous improvement. This is outlined in Section \ref{Future} and finally conclusions are drawn in Section \ref{Conclusion}.
 
 
 
@@ -563,11 +565,11 @@ All real-time simulations here are performed on OPAL RT's e\textsc{Megasim} \cit
 \begin{figure}[!h]
 \centering
 \includegraphics[width=3.5in]{DataFlow.png} 
-\caption{Harware Outline}
+\caption{Harware Outline showing complete data path}
 \label{Hardware_Outline}
 \end{figure}
 
-Vanfretti et. al. describe the details of the equipment used here in \cite{SmarTSLab}. It is important to note that the data flow in Figure~\ref{Hardware_Outline} involves both D/A and A/D conversions. Also, since no synchronisation is used for these conversions, it is important that the sample rates or loop rates of each section be integer multiples of each other. This will prevent data value errors. The issue of different loop rates is covered in Section \ref{looprate}.\\
+Vanfretti et. al. describe the details of the equipment used here in \cite{SmarTSLab}. An image of the physical setup is included for clarity in Appendix \ref{SetupImage}. It is important to note that the data flow in Figure~\ref{Hardware_Outline} involves both D/A and A/D conversions. Also, since no synchronisation is used for these conversions, it is important that the sample rates or loop rates of each section be integer multiples of each other. This will prevent data value errors. The issue of different loop rates is covered in Section \ref{looprate}.\\
 
 \subsection{Software Architecture}
 The two-area four-machine model used here is available in \textsc{Simulink}'s SimPowerSystems and can be accessed by typing \texttt{power\_PSS} as a \textsc{Matlab} command. The \textsc{Simulink} implementation of the Phasor-POD algorithm was developed by Almas and Vanfretti \cite{PhasorPODImplement}. The Phasor-POD algorithm essentially separates an input signal into an average valued and an oscillating component. The oscillating component when suitably phase-shifted can be used as a supplementary damping input to a generator's AVR or the excitation system of a FACTS device.\\
@@ -581,7 +583,7 @@ The hardware implementation of the POD was based on the Compact Reconfigurable I
 \begin{figure}[!t]
 \centering
 \includegraphics[width=3.5in]{Final_RT_Arch.png} 
-\caption{RT Controller Architecture} %showing future expandability with Local control function
+\caption{RT Controller Architecture. The local control function is not implemented in this work} %showing future expandability with Local control function
 \label{RTArchitecture}
 \end{figure}
 
@@ -897,6 +899,39 @@ Step Up Transformer Impedance : $0+j0.15$\\
 The default simulation model supplied with the \texttt{power\_PSS} example in \textsc{Matlab} has three types of PSS models \cite{MATLABexample} : an MB-PSS, a $\Delta\omega $-PSS and a $\Delta P_{a}$ PSS. The comparison of the three as presented in \cite{MATLABexample} concludes that the performance of the MB-PSS is the best. This model is thus, not used when modulating the PSS output with the Phasor-POD algorithm. Instead, the $\delta P_{a}$ PSS is used. The PSS model here is the generic PSS model available with SimPowerSystems \cite{PSSDocumentation}.\\
 
 The input to the $\Delta\omega $-PSS is the rotor speed deviation $\Delta\omega $. For an accurate comparison, this was changed to the measured active power measured at the generator terminals, $P_{a}$. The lead-lag block parameters were also changed from $\frac{1 + 50x10^{-3}s}{1 + 1s}$ to $\frac{1 + 50x10^{-3}s}{1 + 6s}$. Parameters here were determined iteratively. The change to the lead-lag block produces the effect in Figure \ref{PSS_Degrade} where the PSS is still able to restore the system to stability but takes almost a minute to damp out the oscillations versus approximately three seconds in the ideal case.\\
+
+%Photos should span two columns or full page.
+
+\section{SmarTS Lab Outline \& Setup Images}
+
+The SmarTS Lab at KTH was set up with the aim of developing wide area monitoring, protection and control (WAMPAC) schemes for the power grid. Much of the infrastructure and activities involve PMU data and the associated communication and computer systems  \cite{SmarTSLab}. The lab is equipped with facilities for real-time (RT) simulations and also RT Hardware-in-the-loop (HIL) tests. A reduced schematic is shown in Figure \ref{fig:SmarTSlabOutline}\\
+
+The core of the setup is the eMEGASIM Real-time simulator from OPAL RT ~\cite{eMEGASIM}. Two \textquoteleft targets' are available,  each running a 12-core 3.3Ghz Intel i7 processor \cite{SmarTSLab}. This allows the running of models created in \textsc{Matlab}/Simulink in real-time. These simulations can interact with external devices through the simulator's low-power analogue outputs and inputs or with data streamed over TCP/IP, UDP etc \cite{SmarTSLab}. In this thesis, the power system under test is simulated on this platform.\\
+
+The analogue outputs and their ratings are listed below:\label{OPALlimits}
+
+\begin{itemize}
+\item \textbf{Analogue Outputs} : 32 (+/-16V and +/-10mA)
+\item \textbf{Analogue Inputs} : 128 (+/-100V and +/-10mA)
+\end{itemize}
+
+The full listing of the simulator's capabilities and interfaces is covered in \cite{SmarTSLab}. Only necessary and relevant details are covered here.\\
+
+The WAMPAC platform includes a Phasor Data Concentrator (PDC) and its associated software from Schweitzer Engineering Laboratories (SEL). Other devices are interfaced with the PDC such as protection relays with embedded PMU functionality, line differential protection relays (ABB), Compact RIO micro-controllers (National Instruments) and analogue signal amplifiers (Megger)\cite{SmarTSLab}. The hardware list here is incomplete and other devices are also used such as a GPS receiver, a relay current and voltage injection kit etc.\\
+
+\begin{figure*}[!t]\label{SetupImage}
+\centering
+\includegraphics[width=1\linewidth]{./LabView_Numbered}
+\caption{Outline of the SmarTS Lab. Corresponding to Numbers: 1: Real Time Simulator, 2: PDC Interface, 3: cRIO Tray, 4: Oscilloscope, 5: Analogue Signal Amplifiers, 6: SEL Protection Relays}
+\label{fig:LabView_Numbered}
+\end{figure*}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=1\linewidth]{./SmarTSlabOutline}
+\caption{Outline of SmarTS Lab at KTH}
+\label{fig:SmarTSlabOutline}
+\end{figure*}
 
 %Appendix two text goes here.
 
