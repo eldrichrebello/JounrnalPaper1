@@ -393,7 +393,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Real-Time Implementation of Synchrophasor-based Wide-Area Power Oscillation Damping Control System}
+\title{Real-Time Implementation of a Flexible, Synchrophasor-based Wide-Area Damping Control System}
 %
 %
 % author names and IEEE memberships
@@ -407,7 +407,7 @@
 
 %%Fix Later : Move Luigi as first author.
 
-\author{Luigi~Vanfretti, Eldrich~Rebello,~\IEEEmembership{Non-Member,~IEEE,}
+\author{Luigi~Vanfretti~\IEEEmembership{Senior~Member,~IEEE}, Eldrich~Rebello,~\IEEEmembership{Non-Member,~IEEE,}
         Muhammad~Shoaib~Almas,~\IEEEmembership{Fellow,~OSA,}
         and~Luigi~Vanfretti,~\IEEEmembership{Senior~Member,~IEEE}% <-this % stops a space
 \thanks{Eldrich Rebello has completed his Master's degree the School of Electrical Engineering, Aalto University, Helsinki, Finland
@@ -470,7 +470,11 @@ Energy Research through the STRON$g^{2}$rid project.}}
 
 \begin{abstract}
 %\boldmath
-The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed. The increasing penetration levels of variable energy sources such as wind present significant grid stability issues. One of these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping algorithm and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in real-time using a Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system and is demonstrated to have applications independent of the controlled device.
+The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed, giving rise to grid stability issues. One of these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the advantages of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). This work takes a Phasor-based oscliiation damping algorithm and deploys it on a National Instruments real-time controller. The developed prototype is tested in a real-time Hardware-in-the-loop approach (RT-HIL) using OPAL-RT\rq{s} e\textsc{megasim} real-time simulation platform and synchrophasor data from real PMU\rq{s}. It is demonstrated to have applications independent of the controlled device. Challenges faced, the solutions implemented together with the present prototype\rq{s} limitations are also discussed.
+
+%Version 0.32 Abstract
+
+%The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed, giving rise to grid stability issues. One of these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the potential of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal based, Power System Stabilizers (PSS). \iffalse Also, the adoption of synchrophasor measurement data from Phasor Measurement Units (PMU's) is rising annually.\fi This paper takes an established Phasor-based oscillation damping algorithm and combines it with modern PMU technology to implement a hardware prototype of a real-time oscillation damping control system using remote PMU signals sent over a communications network. The developed prototype is tested in real-time using a Hardware-in-the-loop approach in conjunction with the Klein-Rogers-Kundur two-area four-machine test system and is demonstrated to have applications independent of the controlled device.
 
 %The developed hardware prototype has been tested using Real-Time hardware-in-the-loop (HIL) approach and the simulations are performed on Klien-Roger-Kundur two area four machine test system. 
 
@@ -520,19 +524,31 @@ WAPOD, WAMPAC, synchrophasor, PMU, damping control, Wide Area measurement and co
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{he} goal of this paper is to demonstrate both the potential and flexibility in oscillation damping controller design that is possible by using synchrophasors (C37.118). The Phasor Power Oscillation Damping (Phasor POD) algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A slightly modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is run on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. This allows interfacing an externally generated control signal with the simulated model in real-time. This HIL\footnote{Hardware-in-the-loop} test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrophasor input and using each as a damping input to the controller. That the controller can have multiple applications is demonstrated by testing it with two different controlled devices; a generator AVR system and a FACTS-device excitation system. A brief analysis of the performance of each input is also presented.\\
+\IEEEPARstart{T}{he} goal of this paper is to demonstrate both the potential and flexibility in oscillation damping controller design that is possible by using synchrophasors (C37.118). The Phasor Power Oscillation Damping (Phasor POD) algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is implemented and run on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is executed in real-time on the eMEGASIM \cite{eMEGASIM} platform from OPAL RT. \iffalse This allows interfacing an externally generated control signal with the simulated model in real-time.\fi A Hardware-in-the-loop (HIL) test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrophasor input and using each as a damping input to the controller. This paper also illustrates that the controller can have multiple applications is demonstrated by testing it with two different controlled devices; a generator AVR system and a FACTS-device excitation system. A brief analysis of the performance of each input is also presented.\\
+
+\subsection{Motivation}
+
+Although the purpose of system interconnection was to increase stability, the present situation of the power system incorporates renewable energy sources and power trading corridors, both of which impact system stability. More modern solutions to the problems of inter area and intra oscillations use Power System Stabilizers (PSS) \cite{Dmello}. While a PSS provides excellent damping to intra area modes with good local observability, its performance with inter-area modes may not be satisfactory \cite{localREMcomparison}.\\
+
+
+\subsection{Literature Review}
+Analytical studies and tests. One test from China and one from Norway.
+
+\subsection{Paper Contributions}
+
+\subsection{Paper Organisation}
 
 This paper is organised as follows:\\
 
 Section \ref{Background} presents a brief background of the work together with the hardware and software architectures implemented. An outline of the two-area model, the hardware used and finally, an outline of the whole HIL test setup is also presented.\\
 
-Section \ref{SetupPreparation} covers the preparation of the \textsc{Simulink} models for real-time simulation and the modifications made for this. Two test cases are examined, one with the WAPOD input fed to the excitation system of an SVC and the other with the WAPOD modulating the input of a generator AVR.\\
+Section \ref{SetupPreparation} covers the preparation of the \textsc{Simulink} models for real-time simulation and the modifications made for their execution on a real-time target. Two test cases are examined, one with the WAPOD input fed to the excitation system of a Static VAR Compensator (SVC) and the other with the WAPOD modulating the input of a generator\rq{s} Automatic Voltage Regulator (AVR).\\
 
-The results obtained from the two tests are presented and examined in Section \ref{Results}.\\
+The results obtained from the two tests are presented and analysed in Section \ref{Results}.\\
 
-Section \ref{Challenges} outlines some of the major challenges and problems faced in the development, implementation and testing of this WAPOD controller including software challenges and the difficulties faced when dealing with real-world, analogue signals compared to pure simulations.\\
+Section \ref{Challenges} examines some of the major challenges and problems faced in the development, implementation and testing of this WAPOD controller including software challenges and the difficulties faced when dealing with real-world, analogue signals compared to pure simulations.\\
 
-No experimental implementation is ever field-ready and there is always room for tremendous improvement. This is outlined in Section \ref{Future} and finally conclusions are drawn in Section \ref{Conclusion}.
+No experimental implementation is ever ready for the field and there is always room for improvement. This is outlined in Section \ref{Future} and finally conclusions are drawn in Section \ref{Conclusion}.
 
 
 
@@ -545,18 +561,19 @@ No experimental implementation is ever field-ready and there is always room for 
 %\hfill January 11, 2007
 
 \section{Background}\label{Background}
-As modern power systems grow in size, both in terms of power transfer capacity and geographic spread, they are increasingly being used for purposes that the power system was not designed for. Examples of these \textquoteleft new\textquoteright ~uses include conditions of increasing stress such as power trading between countries. These interconnections, which link synchronous generators, often separated by vast physical distances, create conditions where small disturbances can excite oscillations that may or may not settle. When the generators of one area oscillate at a low frequency (typically 0.2\textendash 2.5Hz) against the generators of another interconnected, but distinct area, \textquoteleft inter-area\textquoteright ~oscillations may start.\\
+As modern power systems grow in size, both in terms of power transfer capacity and geographic spread, they are increasingly being used for purposes that they were not designed for. Examples of these \textquoteleft new\textquoteright ~uses include conditions of increasing stress such as power trading between countries. These interconnections, which link synchronous generators, often separated by vast physical distances, create conditions where small disturbances can excite oscillations that may or may not settle. When the generators of one area oscillate at a low frequency (typically 0.2\textendash 2.5Hz) against the generators of another interconnected, but distinct area, \textquoteleft inter-area\textquoteright ~oscillations may be excited.\\
 
-Although the purpose of system interconnection was to increase stability, the present situation of the power system incorporates renewable energy sources and power trading corridors, both of which impact system stability. More modern solutions to the problems of inter area and intra oscillations use Power System Stabilizers (PSS) \cite{Dmello}. While a PSS provides excellent damping to intra area modes with good local observability, its performance with intra-area modes may not be satisfactory \cite{localREMcomparison}.\\
+%Although the purpose of system interconnection was to increase stability, the present situation of the power system incorporates renewable energy sources and power trading corridors, both of which impact system stability. More modern solutions to the problems of inter area and intra oscillations use Power System Stabilizers (PSS) \cite{Dmello}. While a PSS provides excellent damping to intra area modes with good local observability, its performance with inter-area modes may not be satisfactory \cite{localREMcomparison}.\\
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol
 
-\subsection{Previous Experiences}
+%\subsection{Previous Experiences}
+\subsection{Controller Choice}  %one word missing between controller and choice. could be topology or design?
 
-One important reason for choosing the Phasor-POD algorithm for real-time implementation was the fact that the algorithm uses few inputs and is independent of network configuration and topology. The only algorithm parameter that is network-dependent is the oscillation frequency and this is usually known from system studies. Compared to conventional, linearisation-based controllers, the adoption of phasor-based controllers has not been high mainly due to the fact that such controllers tend to be highly non-linear and thus difficult to model in simulation studies \cite{Chaudhuri}.
+One important reason for choosing the Phasor-POD algorithm for real-time implementation was the fact that the algorithm uses few inputs and is independent of network configuration and topology. The only algorithm parameter that is network-dependent is the oscillation frequency and this is usually known from system studies or can be determined directly from synchrophasor measurements (\textbf{citation} here). Compared to conventional, linearisation-based controllers, the adoption of phasor-based controllers has not been high mainly due to the fact that such controllers tend to be highly non-linear and thus difficult to model in simulation studies \cite{Chaudhuri}.
 
-\subsection{Hardware Architecture}
+\section{Software Architecture and Hardware Configuration}
 
 The Wide Area Power Oscillation Damper (WAPOD)\footnote{Historically, damping stabilizers have been termed WAPOD where the P represents a measurement of active power through the line. Active power here would be used as a controller input signal. Although this term is not accurate when other quantities are used as control inputs or feedback signals, the term is used here to maintain consistency with existing literature.} prototype developed here uses commercially available micro-controller hardware and is based entirely on PMU measurements received over a TCP/IP network. The Phasor-POD algorithm \cite{PhasorPOD} will be implemented on a general purpose micro-controller and will be run in real-time. The inputs to the controller will come from one or multiple PMU's, each monitoring data at different points in the power system. The power system model used in this paper is the two-area four-machine model, originally proposed by Klein, Rogers and Kundur \cite{KundurTwoArea}. To prove the real-world applicability of the developed controller, all tests are carried out in real-time, with conditions such as noise and network transport delay present.\\
 
