@@ -226,8 +226,8 @@
 % http://www.ctan.org/tex-archive/macros/latex/required/tools/
 
 
-%\usepackage{mdwmath}
-%\usepackage{mdwtab}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
 % Also highly recommended is Mark Wooding's extremely powerful MDW tools,
 % especially mdwmath.sty and mdwtab.sty which are used to format equations
 % and tables, respectively. The MDWtools set is already installed on most
@@ -408,8 +408,8 @@
 %%Fix Later : Move Luigi as first author.
 
 \author{Luigi~Vanfretti~\IEEEmembership{Senior~Member,~IEEE}, Eldrich~Rebello,~\IEEEmembership{Non-Member,~IEEE,}
-        Muhammad~Shoaib~Almas,~\IEEEmembership{Fellow,~OSA,}
-        and~Luigi~Vanfretti,~\IEEEmembership{Senior~Member,~IEEE}% <-this % stops a space
+        Muhammad~Shoaib~Almas,~\IEEEmembership{Member, IEEE}
+        % <-this % stops a space
 \thanks{Eldrich Rebello has completed his Master's degree the School of Electrical Engineering, Aalto University, Helsinki, Finland
 e-mail: eldrich.rebello@aalto.fi}% <-this % stops a space
 \thanks{M. Shoaib Almas and L. Vanfretti are with KTH Royal Institute of Technology, Stockholm, Sweden. Email: msalmas@kth.se luigiv@kth.se}% <-this % stops a space
@@ -571,7 +571,28 @@ As modern power systems grow in size, both in terms of power transfer capacity a
 %\subsection{Previous Experiences}
 \subsection{Controller Choice}  %one word missing between controller and choice. could be topology or design?
 
-One important reason for choosing the Phasor-POD algorithm for real-time implementation was the fact that the algorithm uses few inputs and is independent of network configuration and topology. The only algorithm parameter that is network-dependent is the oscillation frequency and this is usually known from system studies or can be determined directly from synchrophasor measurements (\textbf{citation} here). Compared to conventional, linearisation-based controllers, the adoption of phasor-based controllers has not been high mainly due to the fact that such controllers tend to be highly non-linear and thus difficult to model in simulation studies \cite{Chaudhuri}.
+Traditional controllers for FACTS devices depend on accurate systems models at the operating condition. Large systems also tend to be dynamic changing their topology often and data about the present condition may not always be available. POD design is based on small signal and linear analysis techniques of power system models. These models are often difficult to derive accurately for large and inter-connected power systems \cite{WAMTCSC}. Linearised models are also only valid for small deviations from the linearisation point.\\
+
+One important reason for choosing the Phasor-POD algorithm for real-time implementation was the fact that the algorithm uses few inputs and is independent of network configuration and topology. The only algorithm parameter that is network-dependent is the oscillation frequency and this is usually known from system studies or can be determined directly from synchrophasor measurements (\textbf{citation} here). Compared to conventional controllers designed using linearisation-based methods, the adoption of phasor-based controllers has not been high mainly due to the fact that such controllers tend to be highly non-linear and thus difficult to, both, model in simulation studies \cite{Chaudhuri} and implement in real-time applications (\textbf{citation} here).
+
+\subsection{Phasor POD Algorithm}
+
+Some of the problems of the model linearisation approach are addressed by phasor-based oscillation damping algorithms. The algorithm chosen for implementation here is the Phasor-POD algorithm, developed by \"{A}ngquist and Gama\cite{PhasorPOD}. The measured signal can be represented as a space-phasor \cite{Chaudhuri}: 
+
+\begin{equation}
+s(t)={s}_{avg}+\mathrm{Re}\left\{{\stackrel{\to }{s}}_{ph}\cdot {e}^{{j}^{wt}}\right\}
+\end{equation}
+
+
+%equation goes here!!
+
+This presents an average value and the associated oscillatory part, in a stationary reference frame. The oscillating part can then be used to generate a control signal for the FACTS (or other controllable device) using a control algorithm. This method is independent of the system state or configuration and is not computationally intensive. Controllers based on this approach also incorporate a degree of error checking and phasor estimation.\\
+
+%\begin{equation} \label{phasoreqn}
+%\left(t\right)={s}_{avg}+\mathrm{Re}\left\{{\stackrel{\to }{s}}_{ph}\cdot {e}^{{j}^{wt}}\right\} \cite{Chaudhuri}
+%\end{equation}
+
+The real-time implementation of the Phasor-POD algorithm was based on the \textsc{Simulink} implementation by Almas \& Vanfretti \cite{PhasorPODImplement} and its goal was the replicate the behaviour of the \textsc{Simulink} implementation as closely as possible. The algorithm accepts three inputs; the search frequency, $\omega_{cs1}$, the sampling time $T_{s}$, the phase correction $alpha$ and a signal scaling factor. It takes advantage of the fact that the oscillation frequency for a given network configuration is usually known, which in this case is the 0.64Hz inter-area mode. Using this known frequency value, a  co-ordinate system, rotating at this known frequency, is set up where the oscillating component is continuously extracted as a phasor \cite{PhasorPOD}.
 
 \section{Software Architecture and Hardware Configuration}
 
@@ -589,13 +610,20 @@ All real-time simulations here are performed on OPAL RT's e\textsc{Megasim} \cit
 Vanfretti et. al. describe the details of the equipment used here in \cite{SmarTSLab}. An image of the physical setup is included for clarity in Appendix \ref{SetupImage}. It is important to note that the data flow in Figure~\ref{Hardware_Outline} involves both D/A and A/D conversions. Also, since no synchronisation is used for these conversions, it is important that the sample rates or loop rates of each section be integer multiples of each other. This will prevent data value errors. The issue of different loop rates is covered in Section \ref{looprate}.\\
 
 \subsection{Software Architecture}
-The two-area four-machine model used here is available in \textsc{Simulink}'s SimPowerSystems and can be accessed by typing \texttt{power\_PSS} as a \textsc{Matlab} command. The \textsc{Simulink} implementation of the Phasor-POD algorithm was developed by Almas and Vanfretti \cite{PhasorPODImplement}. The Phasor-POD algorithm essentially separates an input signal into an average valued and an oscillating component. The oscillating component when suitably phase-shifted can be used as a supplementary damping input to a generator's AVR or the excitation system of a FACTS device.\\
+The two-area four-machine model used here is available in \textsc{Simulink}'s SimPowerSystems. The \textsc{Simulink} implementation of the Phasor-POD algorithm was developed by Almas and Vanfretti \cite{PhasorPODImplement}. The Phasor-POD algorithm essentially separates an input signal into an average valued and an oscillating component. The oscillating component when suitably phase-shifted can be used as a supplementary damping input to a generator's AVR or the excitation system of a FACTS device.\\
 
 LabVIEW's Real Time and FPGA modules were used to write the code for the respective sections of the cRIO. Also,  since no synchrophasor data-extraction software was capable of running independently on the RT controller, the process of extracting raw measurement data from the synchrophasor data stream was performed on a desktop computer. The software used for this was identical to that in \cite{SDK} and would run on a workstation computer, extract data from the PMU stream and send this extracted data to a LabVIEW program running on the same computer \cite{SDK}. \\
 
 \subsection{Real-Time Implementation of Phasor-POD Algorithm}
 
-The hardware implementation of the POD was based on the Compact Reconfigurable Input / Output (cRIO) 9081 \cite{cRIO9081} from National Instruments. This controller is equipped with an on-board Field Programmable Gate Array (FPGA) running at 400MHz in addition to an independent real-time controller. The real-time implementation of the Phasor-POD algorithm was based on the \textsc{Simulink} implementation by Almas \& Vanfretti \cite{PhasorPODImplement} and its goal was the replicate the behaviour of the \textsc{Simulink} implementation as closely as possible. The algorithm accepts three inputs; the search frequency, $\omega_{cs1}$, the sampling time $T_{s}$, the phase correction $alpha$ and a signal scaling factor. It takes advantage of the fact that the oscillation frequency for a given network configuration is usually known, which in this case is the 0.64Hz inter-area mode. Using this known frequency value, a  co-ordinate system, rotating at this known frequency, is set up where the oscillating component is continuously extracted as a phasor \cite{PhasorPOD}.\\
+\begin{figure}[!th]
+\centering
+\includegraphics[width=3.5in]{FPGA_Block_Diagram.png} 
+\caption{Software Architecture of RT Controller}
+\label{RTSoftware}
+\end{figure}
+
+The hardware implementation of the POD was based on the Compact Reconfigurable Input / Output (cRIO) 9081 \cite{cRIO9081} from National Instruments. This controller is equipped with an on-board Field Programmable Gate Array (FPGA) running at 400MHz in addition to an independent real-time controller. \\
 %update figure to show that Local control function was NOT implemented. Future work!-----------------------------------------------------------------------------
 \begin{figure}[!t]
 \centering
@@ -626,7 +654,7 @@ The remote interface runs in LabVIEW on a conventional Windows\textregistered~ba
 
 %Include equation if needed---------------------------------
 
-%$\left(t\right)={s}_{avg}+\mathrm{Re}\left\{{\stackrel{\to }{s}}_{ph}\cdot %{e}^{{j}^{wt}}\right\}$ \cite{Chaudhuri}
+%$s\left(t\right)={s}_{avg}+\mathrm{Re}\left\{{\stackrel{\to }{s}}_{ph}\cdot {e}^{{j}^{wt}}\right\}$ \cite{Chaudhuri}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -732,7 +760,7 @@ The nature of the Phasor-POD algorithm is generic enough to allow it to be used 
 
 The two-area network \cite{KundurTwoArea} is known to be unstable without external damping control. The difference between the rotational inertias of two of the machines, in an otherwise symmetric network gives rise to the 0.64Hz inter-area mode. The \textsc{Simulink} model used here implements damping control using a supplementary signal generated from a PSS and applied to the excitation system of each of the machines to achieve steady-state stability and also to damp out the inter-area mode. This model was modified to have a damping control system only at Machine M1 in Area-1 (see~Figure~\ref{NetworkOutline}). All other machines have their PSS's disconnected. This configuration was  verified to be able to both achieve stability and to be able to restore the system to stability after the application (and subsequent clearing) of an 8 cycle, three-phase to ground fault. The original model uses a PSS tuned to achieve maximum damping, given the operating conditions. To demonstrate a potential application scenario for the developed POD prototype, the performance of the PSS is degraded so that it is still able to provide damping but takes substantially longer (Figure \ref{PSS_Degrade}). This figure shows the system response to a 200ms perturbation in the voltage reference of machine M1. Note that under the action of the sole PSS at machine M1, the inter-area mode is damped and the system is restored to stability. This mimics a real-world situation where an already installed PSS whose performance has degraded over time due to changing network conditions or poor tuning.\\
 
-Details of the two-area model parameters are listed in Appendix \ref{LiiteC}.\\
+%Details of the two-area model parameters are listed in Appendix \ref{LiiteC}.\\
 
 
 \subsection{Two-Area Model Preparation - FACTS Device}
@@ -828,6 +856,12 @@ The most significant challenge in the real-time implementation of the Phasor-POD
 
 An alternative solution would be to implement a sample and hold algorithm on the FPGA. As data was extracted every 20ms, the RT controller would receive this data and send it to the FPGA. This value would then be held constant till the next data point arrives. This was implemented and found to work satisfactorily. In essence, the only difference between the Phasor-POD algorithm running the SIMULINK simulation and that on the cRIO was the data rates of their input data. The simulated POD received new data every 50$\mu$s while the cRIO-based POD received data every 20ms.
 
+\subsection{FPGA Numeric Data Formats and Accuracy}
+
+While the FPGA is a fast, deterministic and reliable computational device, it brings with it some limitations. Most of these arise from the fact that an FPGA has no operating system as such and all circuit logic is directly implemented in hardware. All computation is performed at the bit level and can hence become very complex. This limits the amount and complexity of computations that can be performed with the FPGA. Functions such as division or multiplication consume significant space on the FPGA\cite{LabVIEWCourse}. The FPGA used on the cRIO9081 implements a unique numeric representation called Fixed Point\cite{LabViewManuals}. Here, the number of bits assigned to represent the integer and fractional part of a number is fixed before code execution\cite{LabVIEWCourse}. For example, if four bits are used to represent the integer part of a number, then the maximum binary number that can be represented is \texttt{[1111]} or 15 in decimal. This representation is similar to binary in the sense that increasing and decreasing powers of 2 are used to represent the integer and fractional parts of a number respectively. Floating point calculations, although possible, consume significant space on the FPGA and are typically slower than corresponding fixed-point calculations\cite{LabVIEWCourse}. Trigonometric functions such as a sine or cosine can be implemented using specifically designed code that takes several clock cycles to execute. A trade-off has to be made between code execution speed and accuracy.\\
+
+The Phasor POD algorithm implemented in this thesis uses floating point calculations, multiplication, division operations and  trigonometric operations. Due to the FPGA design, not all these calculations can be performed in the same data format. The FPGA-specific data format, the Fixed Point representation, is used to optimise complex computations such as those required in trigonometric functions. The drawback of this representation is that a trade-off must be made between the accuracy achieved and the range of values that can be represented. Keeping in mind the fact that the input values to the POD algorithm are not necessarily limited in magnitude, the POD algorithm is implemented using Floating-point numbers. Certain functions used in the algorithm, in particular the trigonometric functions, use FPGA-optimised code and require input and output in the fixed-point representation. Conversion between these two formats (Fixed and Floating point) sometimes results in errors. The floating-point format includes a representation for calculations that result in infinite or complex values, called \textbf{NaN} (Not a Number)\cite{LabVIEWCourse}. This representation is not available in the fixed-point format and conversion results in errors. The most common result is that a conversion from a floating-point NaN results in a fixed-point number where all the bits are \texttt{1}. This produces a finite number and is incorrect.\\ 
+
 %A significant problem here was the fact that the synchrophasor data-extraction software running the on the workstation computer was not running in real-time. This, together with the TCP/IP sections, introduced stochastic delay in the control loop. 
 
 \section{Further Work}\label{Future}
@@ -858,59 +892,59 @@ This work has demonstrated the feasibility of using wide-area power system data 
 
 \appendices
 %\section{Proof of the First Zonklar Equation}
-\section{Two Area Four-Machine Model Parameters\label{LiiteC}}
-
-Two-area model parameters (Similar to those used in \cite{KundurTwoArea})\\
-%\renewcommand{\theequation}{C\arabic{equation}}
-%\setcounter{equation}{0}  
-%\renewcommand{\thefigure}{C\arabic{figure}}
-%\setcounter{figure}{0}
-%\renewcommand{\thetable}{C\arabic{table}}
-%\setcounter{table}{0}
-
-\begin{table}[!ht]
-\caption{Common Generator Parameters used in Simulink Two Area Model}
-\begin{center}
-%\bigskip
-\begin{tabular}{|c|c|c|c|c|c|}
-
-\hline $ X_{d} $ & 1.8  &$ {X}_{d}^{\prime } $  & 1.8  & $ {X}_{d}^{\prime \prime } $ & 0.25  \\ 
-\hline $ X_{q} $ & 1.7  &$ {X}_{q}^{\prime } $  & 0.55 & $ {X}_{q}^{\prime \prime } $ & 0.25 \\ 
-\hline $ X_{l} $ & 0.2  & $ R_{a} $ & 0.0025  & $ K_{d} $  & 0 \\ 
-\hline $ {T}_{d0}^{\prime } $ &8s  & $ {T}_{q0}^{\prime } $ & 0.4s & - & - \\ 
-\hline $ {T}_{d}^{\prime \prime } $ & 0.03s & $ {T}_{q}^{\prime \prime } $ & 0.05s  &- &-  \\ 
-\hline $ A_{SAT} $& 0.015 & $ B_{SAT} $ & 9.6 & $ \psi_{T1} $  & 0.9 \\ 
-\hline 
-\end{tabular}
-\end{center}
-\end{table}
-\emph{N.B. All Parameters in p.u., on Generator Base}\\
-
-Step Up Transformer Impedance : $0+j0.15$\\
-
-\begin{table}[!ht]
-\caption{Transmission line parameters}
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline $r=0.0001$ pu/km & $x_{l}=0.001$ pu/km \\
-\hline $b_{c}=0.00175$ pu/km &  Nominal Voltage : 230kV\\ 
-\hline 
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}[!ht]
-\caption{Self-excited DC exciter Parameters (common to all generators)}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline  $ K_{A} = 20 $& $ T_{A} = 0.055 $ & $ T_{E} = 0.36 $ & $ K_{F} = 0.125 $ \\ 
-\hline $ T_{F} = 1.8 $ & $ A_{ex} = 0.0053 $ & $ B_{ex} = 1.075 $ & $ T_{R} = 0.05 $ \\ 
-\hline 
-\end{tabular} 
-\end{center}
-\end{table}
-% you can choose not to have a title for an appendix
-% if you want by leaving the argument blank
+%\section{Two Area Four-Machine Model Parameters\label{LiiteC}}
+%
+%Two-area model parameters (Similar to those used in \cite{KundurTwoArea})\\
+%%\renewcommand{\theequation}{C\arabic{equation}}
+%%\setcounter{equation}{0}  
+%%\renewcommand{\thefigure}{C\arabic{figure}}
+%%\setcounter{figure}{0}
+%%\renewcommand{\thetable}{C\arabic{table}}
+%%\setcounter{table}{0}
+%
+%\begin{table}[!ht]
+%\caption{Common Generator Parameters used in Simulink Two Area Model}
+%\begin{center}
+%%\bigskip
+%\begin{tabular}{|c|c|c|c|c|c|}
+%
+%\hline $ X_{d} $ & 1.8  &$ {X}_{d}^{\prime } $  & 1.8  & $ {X}_{d}^{\prime \prime } $ & 0.25  \\ 
+%\hline $ X_{q} $ & 1.7  &$ {X}_{q}^{\prime } $  & 0.55 & $ {X}_{q}^{\prime \prime } $ & 0.25 \\ 
+%\hline $ X_{l} $ & 0.2  & $ R_{a} $ & 0.0025  & $ K_{d} $  & 0 \\ 
+%\hline $ {T}_{d0}^{\prime } $ &8s  & $ {T}_{q0}^{\prime } $ & 0.4s & - & - \\ 
+%\hline $ {T}_{d}^{\prime \prime } $ & 0.03s & $ {T}_{q}^{\prime \prime } $ & 0.05s  &- &-  \\ 
+%\hline $ A_{SAT} $& 0.015 & $ B_{SAT} $ & 9.6 & $ \psi_{T1} $  & 0.9 \\ 
+%\hline 
+%\end{tabular}
+%\end{center}
+%\end{table}
+%\emph{N.B. All Parameters in p.u., on Generator Base}\\
+%
+%Step Up Transformer Impedance : $0+j0.15$\\
+%
+%\begin{table}[!ht]
+%\caption{Transmission line parameters}
+%\begin{center}
+%\begin{tabular}{|c|c|}
+%\hline $r=0.0001$ pu/km & $x_{l}=0.001$ pu/km \\
+%\hline $b_{c}=0.00175$ pu/km &  Nominal Voltage : 230kV\\ 
+%\hline 
+%\end{tabular}
+%\end{center}
+%\end{table}
+%
+%\begin{table}[!ht]
+%\caption{Self-excited DC exciter Parameters (common to all generators)}
+%\begin{center}
+%\begin{tabular}{|c|c|c|c|}
+%\hline  $ K_{A} = 20 $& $ T_{A} = 0.055 $ & $ T_{E} = 0.36 $ & $ K_{F} = 0.125 $ \\ 
+%\hline $ T_{F} = 1.8 $ & $ A_{ex} = 0.0053 $ & $ B_{ex} = 1.075 $ & $ T_{R} = 0.05 $ \\ 
+%\hline 
+%\end{tabular} 
+%\end{center}
+%\end{table}
+%% you can choose not to have a title for an appendix
+%% if you want by leaving the argument blank
 \section{Modifications Made to PSS Model}
 
 The default simulation model supplied with the \texttt{power\_PSS} example in \textsc{Matlab} has three types of PSS models \cite{MATLABexample} : an MB-PSS, a $\Delta\omega $-PSS and a $\Delta P_{a}$ PSS. The comparison of the three as presented in \cite{MATLABexample} concludes that the performance of the MB-PSS is the best. This model is thus, not used when modulating the PSS output with the Phasor-POD algorithm. Instead, the $\delta P_{a}$ PSS is used. The PSS model here is the generic PSS model available with SimPowerSystems \cite{PSSDocumentation}.\\
@@ -1004,6 +1038,11 @@ M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area osc
   \emph{Concepts of Synchronous Machine Stability as Affected by Excitation Control} IEEE TRANSACTIONS ON POWER APPARATUS AND SYSTEMS, vol. PAS 88, no. 4, 1969. 
   
 \bibitem{localREMcomparison}  M. E.~Aboul-Ela, A. A.~Sallam, J. D.~McCalley and A. A.~Fouad, \emph{Damping Controller Design for Power System Oscillations Using Global Signals}, IEEE trans. on Power Systems, Vol. 11, No. 2, May 1996, pp. 767-773
+
+\bibitem{WAMTCSC} J.C~Agee , S~Patterson, R~Beaulieu, Coultes \ M.,Grondin \ R. , Kamwa \ I.,
+Trudel \ G., Godhwani \ A. , Bérubé \ R. , Hajagos \ L. , Malik \ O. , Murdoch \ A.,Boukarim \ G. , Taborda \ J. , and Thornton-Jones \ R. \emph{IEEE tutorial course
+power system stabilization via excitation control.} Technical report, June
+2007.
   
 \bibitem{PhasorPODImplement} M.~Shoaib Almas and L.~Vanfretti, \emph{Implementation of Conventional PSS and Phasor Based POD for Power Stabilizing Controls for Real-Time Simulation}, IEEE IES IECON14, 29 Oct-1 Nov, 2014, Dallas, USA.
 
@@ -1030,6 +1069,10 @@ M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area osc
 \bibitem{MATLABexample} I~Kamwa \emph{Performance of Three PSS for Interarea Oscillations} SimPowerSystems Examples, \textsc{Matlab} R2011a
 
 \bibitem{PSSDocumentation} \emph{Generic Power System Stabilizer} Documentation distributed with \textsc{Matlab} R2014a Available online at \url{http://www.mathworks.se/help/physmod/sps/powersys/ref/genericpowersystemstabilizer.html}
+
+\bibitem{LabViewManuals} \emph{LabVIEW Online Help System Available Online at} \url{http://sine.ni.com/psp/app/doc/p/id/psp-357}
+
+\bibitem{LabVIEWCourse} \emph{LabVIEW Course Manuals - Core 1, Real Time, FPGA, August 2012 Editions}, Copyright 2012 National Instruments
 
 \end{thebibliography}
 
