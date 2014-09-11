@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.10)  11 SEP 2014 22:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.10)  11 SEP 2014 22:54
 entering extended mode
  %&-line parsing enabled.
 **bare_jrnl.tex
@@ -221,11 +221,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-) (./bare_jrnl.aux
-
-LaTeX Warning: Label `Chaudhuri' multiply defined.
-
-)
+) (./bare_jrnl.aux)
 \openout1 = `bare_jrnl.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 392.
@@ -240,7 +236,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 392.
 LaTeX Font Info:    ... okay on input line 392.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 392.
 LaTeX Font Info:    ... okay on input line 392.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen130
@@ -474,181 +471,192 @@ Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
 [4 <./PSS_degraded_performance.png (PNG copy)> <./Kundur2Area_outline_multi.png
  (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
 <SVC_ResponseComparison_Labelled_NoVMag.png, id=37, 631.961pt x 472.967pt>
 File: SVC_ResponseComparison_Labelled_NoVMag.png Graphic file (type png)
 
 <use SVC_ResponseComparison_Labelled_NoVMag.png>
-<VoltageAngleDiff.png, id=38, 596.2275pt x 459.96844pt>
-File: VoltageAngleDiff.png Graphic file (type png)
-
-<use VoltageAngleDiff.png> <Best_sample.png, id=39, 321.2pt x 240.9pt>
+<Best_sample.png, id=38, 321.2pt x 240.9pt>
 File: Best_sample.png Graphic file (type png)
-
-<use Best_sample.png>
-<Wide_Area_ResponseComparison_SamePlot.png, id=40, 626.34pt x 470.558pt>
+ <use Best_sample.png> [5 <./SVC_ResponseComparison_Labelled_NoVMag.png (PNG co
+py)> <./Best_sample.png (PNG copy)>] <Wide_Area_ResponseComparison_SamePlot.png
+, id=42, 626.34pt x 470.558pt>
 File: Wide_Area_ResponseComparison_SamePlot.png Graphic file (type png)
 
 <use Wide_Area_ResponseComparison_SamePlot.png>
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+
+LaTeX Warning: Reference `GENResponseTable' on page 6 undefined on input line 8
+33.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
- [5 <./SVC_ResponseComparison_Labelled_NoVMag.png (PNG copy)> <./VoltageAngleDi
-ff.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 []\OT1/ptm/m/n/10 The orig-i-nal POD (Pha-sor Os-cil-la-tion Damper)
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 825--826
+Underfull \hbox (badness 1721) in paragraph at lines 862--863
 \OT1/ptm/m/n/10 no lim-its are im-posed on the mag-ni-tude of ei-ther the
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 825--826
+Underfull \hbox (badness 2205) in paragraph at lines 862--863
 \OT1/ptm/m/n/10 con-troller's in-puts or out-puts when it is sim-u-lated. In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--837
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
-[6 <./Best_sample.png (PNG copy)> <./Wide_Area_ResponseComparison_SamePlot.png 
-(PNG copy)>]
-Underfull \hbox (badness 1502) in paragraph at lines 855--856
+[6 <./Wide_Area_ResponseComparison_SamePlot.png (PNG copy)>]
+Underfull \hbox (badness 1502) in paragraph at lines 892--893
 \OT1/ptm/m/n/10 syn-chropha-sor data, in-ter-po-late be-tween con-sec-u-tive da
 ta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
+Underfull \hbox (badness 10000) in paragraph at lines 892--893
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 861.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 898.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 863--864
+Underfull \hbox (badness 1701) in paragraph at lines 900--901
 \OT1/ptm/m/n/10 the POD al-go-rithm is im-ple-mented us-ing Floating-point
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 863--864
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
 []\OT1/ptm/m/n/10 The de-fault sim-u-la-tion model sup-plied with the
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 950--951
+Underfull \hbox (badness 3000) in paragraph at lines 987--988
 \OT1/pcr/m/n/10 power_PSS \OT1/ptm/m/n/10 ex-am-ple in \OT1/ptm/m/sc/10 Mat-lab
  \OT1/ptm/m/n/10 has three types of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
 
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 958--959
+Underfull \hbox (badness 1389) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 de-vel-op-ing wide area mon-i-tor-ing, pro-tec-tion and con-tro
 l
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 958--959
+Underfull \hbox (badness 1708) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 (WAMPAC) schemes for the power grid. Much of the
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 958--959
+Underfull \hbox (badness 2359) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 in-fras-truc-ture and ac-tiv-i-ties in-volve PMU data and the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 960--961
+Underfull \hbox (badness 1661) in paragraph at lines 997--998
 []\OT1/ptm/m/n/10 The core of the setup is the eMEGASIM Real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--961
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--972
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
 []\OT1/ptm/m/n/10 The WAMPAC plat-form in-cludes a Pha-sor Data
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 971--972
+Underfull \hbox (badness 5862) in paragraph at lines 1008--1009
 \OT1/ptm/m/n/10 Con-cen-tra-tor (PDC) and its as-so-ci-ated soft-ware from
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 971--972
+Underfull \hbox (badness 1917) in paragraph at lines 1008--1009
 \OT1/ptm/m/n/10 em-bed-ded PMU func-tion-al-ity, line dif-fer-en-tial pro-tec-t
 ion
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 971--972
+Underfull \hbox (badness 2326) in paragraph at lines 1008--1009
 \OT1/ptm/m/n/10 re-lays (ABB), Com-pact RIO micro-controllers (Na-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--972
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
 
  []
 
-<./LabView_Numbered.jpg, id=52, 2219.29124pt x 2583.6525pt>
+<./LabView_Numbered.jpg, id=51, 2219.29124pt x 2583.6525pt>
 File: ./LabView_Numbered.jpg Graphic file (type jpg)
 
 <use ./LabView_Numbered.jpg>
 
-LaTeX Warning: Float too large for page by 1.03647pt on input line 978.
+LaTeX Warning: Float too large for page by 1.03647pt on input line 1015.
 
-<./SmarTSlabOutline.jpg, id=53, 755.82375pt x 551.05875pt>
+<./SmarTSlabOutline.jpg, id=52, 755.82375pt x 551.05875pt>
 File: ./SmarTSlabOutline.jpg Graphic file (type jpg)
 
 <use ./SmarTSlabOutline.jpg>
@@ -663,34 +671,35 @@ Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ” in font ptmri7t!
  [8]
-Underfull \hbox (badness 1616) in paragraph at lines 1071--1072
+Underfull \hbox (badness 1616) in paragraph at lines 1106--1107
 []\OT1/ptm/m/it/8 Generic Power Sys-tem Sta-bi-lizer \OT1/ptm/m/n/8 Doc-u-men-t
 a-tion dis-tributed with
  []
 
-<lvanfretti.PNG, id=59, 97.86563pt x 97.86563pt>
+<lvanfretti.PNG, id=58, 97.86563pt x 97.86563pt>
 File: lvanfretti.PNG Graphic file (type png)
  <use lvanfretti.PNG>
 File: lvanfretti.PNG Graphic file (type png)
 
-<use lvanfretti.PNG> <msalmas.PNG, id=62, 150.5625pt x 150.5625pt>
+<use lvanfretti.PNG> <msalmas.PNG, id=61, 150.5625pt x 150.5625pt>
 File: msalmas.PNG Graphic file (type png)
 
 <use msalmas.PNG>
 File: msalmas.PNG Graphic file (type png)
- <use msalmas.PNG> [9
-
- <./lvanfretti.PNG> <./msalmas.PNG>]
+ <use msalmas.PNG> [9 <./lvanfretti.PNG> <./msalmas.PNG>]
 [10 <./LabView_Numbered.jpg>] [11 <./SmarTSlabOutline.jpg>] (./bare_jrnl.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2695 strings out of 494799
- 41121 string characters out of 1177748
- 101765 words of memory out of 3000000
- 5829 multiletter control sequences out of 15000+50000
+ 2691 strings out of 494799
+ 41024 string characters out of 1177748
+ 101725 words of memory out of 3000000
+ 5826 multiletter control sequences out of 15000+50000
  50314 words of font info for 86 fonts, out of 3000000 for 9000
  215 hyphenation exceptions out of 8191
  41i,10n,37p,1624b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -709,9 +718,9 @@ re/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times
 /utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/s
 hare/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_jrnl.pdf (11 pages, 5887824 bytes).
+Output written on bare_jrnl.pdf (11 pages, 5871625 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

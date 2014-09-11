@@ -775,7 +775,27 @@ The modified network in each case was grouped into sub-systems and prepared for 
 Testing the operation of the hardware prototype involved using the HIL\footnote{Hardware in the Loop} setup outlined in Figure~\ref{Hardware_Outline} and verifying whether steady state stability could be maintained in the simulated two-area network. Once this was demonstrated, the inter-area mode was excited by changing the voltage reference $V_{ref}$ of Machine M1. The oscillations caused by this disturbance would then be damped out by the PSS in tandem with the Phasor POD algorithm. The POD algorithm implemented in \textsc{Simulink} uses the locally available active power measurements as input. In the case of the Generator PSS, this is the active power measured at the terminals of the generator. In the case of the SVC, the active power at the mid-point of the interconnecting line (also the point of connection of the SVC) is used as an input. The WAPOD prototype is also able to use this same signal as input in each case but can also exploit other data contained in the synchrophasor data stream.
 
 \subsection{SVC Excitation Supplementary Input}
-Figure \ref{SVC_Plots} illustrates the response of the hardware controller to a small disturbance at machine M1. This disturbance is a 5\% change for 200ms in the reference voltage of the AVR. This is sufficient to excite the inter-area mode. The best damping performance is achieved using voltage angle difference as a damping input to the Phasor-POD algorithm. This supports the theoretical results predicted by Chompoobutrgool and Vanfretti in \cite{Yuwa}. A frequency analysis of each of these responses shows that the dominant mode in each response is the 0.64Hz inter-area mode. This is evident in Figure \ref{FourierAngle}, which presents the magnitude spectrum of the controller response with voltage angle as input.
+Figure \ref{SVC_Plots} illustrates the response of the hardware controller to a small disturbance at machine M1. This disturbance is a 5\% change for 200ms in the reference voltage of the AVR. This is sufficient to excite the inter-area mode. The best damping performance is achieved using voltage angle difference as a damping input to the Phasor-POD algorithm. This supports the theoretical results predicted by Chompoobutrgool and Vanfretti in \cite{Yuwa}. A frequency analysis of each of these responses shows that the dominant mode in each response is the 0.64Hz inter-area mode.\\
+
+Response parameters such as settling times and overshoot were calculated based on the response in Figure \ref{SVC_Plots} and are presented in Table \ref{SVCResponseTable}.\\
+
+\begin{table}[!ht]
+\caption{Response Parameters : SVC Excitation Supplementary Input}\label{SVCResponseTable}
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline \textbf{Element} & \textbf{Loop Rate} & \textbf{Mode} \\
+\hline OPAL RT Simulator & 50$\mu$s & Real Time \\ 
+\hline PMU (cRIO) & 20msec & Real Time \\ 
+\hline Workstation Computer& 20msec & Not Real Time \\ 
+\hline POD - RT Section & 20msec & Real Time \\ 
+\hline POD - FPGA & 50$\mu$s & Real Time \\ 
+\hline 
+\end{tabular}
+\end{center}
+\end{table}  
+
+%This is evident in Figure \ref{FourierAngle}, which presents the magnitude spectrum of the controller response with voltage angle as input.
+
 \begin{figure}[!th]
 \centering
 \includegraphics[width=3.5in]{SVC_ResponseComparison_Labelled_NoVMag.png}
@@ -783,12 +803,12 @@ Figure \ref{SVC_Plots} illustrates the response of the hardware controller to a 
 \label{SVC_Plots}
 \end{figure}
 
-\begin{figure}[!th]
-\centering
-\includegraphics[width=3.5in]{VoltageAngleDiff.png}
-\caption{Controller Response Comparison : Supplementary SVC Excitation Input}
-\label{FourierAngle}
-\end{figure}
+%\begin{figure}[!th]
+%\centering
+%\includegraphics[width=3.5in]{VoltageAngleDiff.png}
+%\caption{Controller Response Comparison : Supplementary SVC Excitation Input}
+%\label{FourierAngle}
+%\end{figure}
 
 All data presented in Figure \ref{SVC_Plots} was captured in the real-time simulator. Data was also recorded at other points such as at the PDC but these have a lower resolution and are not presented here. As further proof of the results presented in this work, the output of the hardware controller is captured directly and presented on an oscilloscope (Figure \ref{ScopeCapture}).
 
@@ -809,6 +829,23 @@ The controller response to a small disturbance when operating in tandem with a d
 \caption{Controller Response Comparison : Supplementary Generator Excitation Input}
 \label{Generator_Plots}
 \end{figure}
+
+As in the previous case, response parameters such as settling times and overshoot were calculated based on the response in Figure \ref{Generator_Plots} and are presented in Table \ref{GENResponseTable}.\\
+
+\begin{table}[!ht]
+\caption{Response Parameters : Supplementary Generator Excitation Input}\label{GENResponseTable}
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline \textbf{Element} & \textbf{Loop Rate} & \textbf{Mode} \\
+\hline OPAL RT Simulator & 50$\mu$s & Real Time \\ 
+\hline PMU (cRIO) & 20msec & Real Time \\ 
+\hline Workstation Computer& 20msec & Not Real Time \\ 
+\hline POD - RT Section & 20msec & Real Time \\ 
+\hline POD - FPGA & 50$\mu$s & Real Time \\ 
+\hline 
+\end{tabular}
+\end{center}
+\end{table}  
 %\includegraphics{Wide_Area_ResponseComparison_SamePlot.png} 
 
 %\section{Additional Inputs}
@@ -836,7 +873,7 @@ These are low level outputs and can be directly connected to the PMU inputs. How
 The output of the simulated POD can vary over several orders of magnitude, ranging from $10^{5}$ at times of peak damping to as small as $10^{-3}$ once the oscillation magnitude  becomes small. It is difficult to accurately recreate analogue signals with such vast dynamic ranges. The voltage output module used with the cRIO here had a 24-bit resolution and was limited to 10V in magnitude. Any values generated by the POD algorithm that were greater in magnitude that 10V would cause output saturation. All these issues meant that signal magnitudes had to be amplified in certain cases to use the full measurement ranges or had to be limited in other cases, so as to capture variations without saturation.\\
 
 \subsection{Loop Rates and FPGA Resources}\label{looprate}
-The most significant challenge in the real-time implementation of the Phasor-POD algorithm was the fact that different sections of the hardware control loop run at different loop rates or step sizes. Added to this was the fact that the real-time simulator generated data every 50$\mu$s and thus expected data from the HIL setup at the same rate while the rest of the HIL setup did not support such a high data rate. The PMU\rq{s} used supported a maximum data reporting rate of 50 samples/second. Table~\ref{ex:LoopRates} lists the different components of the HIL setup together with their respective loop rates.
+The most significant challenge in the real-time implementation of the Phasor-POD algorithm was the fact that different sections of the hardware control loop run at different loop rates or step sizes (see Figure \ref{RTSoftware}). Added to this was the fact that the real-time simulator generated data every 50$\mu$s and thus expected data from the HIL setup at the same rate while the rest of the HIL setup did not support such a high data rate. The PMU\rq{s} used supported a maximum data reporting rate of 50 samples/second. Table~\ref{ex:LoopRates} lists the different components of the HIL setup together with their respective loop rates.
 \begin{table}[!ht]
 \caption{Comparison of Loop Rates of Different Components}\label{ex:LoopRates}
 \begin{center}
@@ -1063,8 +1100,6 @@ power system stabilization via excitation control.} Technical report, June
 \bibitem{LabviewTemplate} \emph{FPGA Control on Compact RIO Sample Project Documentation}, National Instruments, Available Online at \url{http://www.ni.com/white-paper/14137/en/}
 
 \bibitem{SDK} Vanfretti, Luigi and Aarstrand, Vemund H. and Almas, M. Shoaib and Peri\'c, Vedran S. and Gjerde, Jan O. , \emph{A Software Development Toolkit for Real-Time Synchrophasor Applications},  IEEE PES Grenoble PowerTech, 2013
-
-\bibitem{Chaudhuri} N.S~Chaudhuri, R~Majumder and B~Chaudhuri , \emph{Interaction between conventional and adaptive phasor power oscillation damping controllers} in Power and Energy Society General Meeting, 2010 IEEE Minneapolis, MN, 2012 pp. 1-7
 
 \bibitem{MATLABexample} I~Kamwa \emph{Performance of Three PSS for Interarea Oscillations} SimPowerSystems Examples, \textsc{Matlab} R2011a
 
