@@ -13,7 +13,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="ArchitectureDevelopment.svg"
    inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
    inkscape:export-xdpi="150"
@@ -23,15 +23,16 @@
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Lstart"
        style="overflow:visible">
       <path
          id="path4384"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
-         transform="scale(0.8) translate(12.5,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Lend"
@@ -516,15 +517,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1174.5298"
-     inkscape:cy="-10.61618"
+     inkscape:cx="723.36833"
+     inkscape:cy="-226.34649"
      inkscape:document-units="px"
-     inkscape:current-layer="g5072"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1123"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -543,32 +544,32 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:1;fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4736-7"
        width="745.58392"
        height="143.44167"
-       x="772.20801"
-       y="2076.3557"
+       x="1446.4938"
+       y="2467.7842"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150" />
     <rect
-       style="opacity:1;fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4736-1"
        width="744.15533"
        height="196.2988"
-       x="772.9223"
-       y="1869.2155"
+       x="1447.208"
+       y="2260.644"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150" />
     <rect
-       style="opacity:1;fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4736"
        width="555.58392"
        height="143.44167"
-       x="96.974648"
-       y="1869.2155"
+       x="771.26038"
+       y="2260.644"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150" />
@@ -875,12 +876,12 @@
        inkscape:export-ydpi="150"
        inkscape:export-xdpi="150"
        inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-       style="fill:none;stroke:#000000;stroke-width:2.34638071;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:2.28200006;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:54.768, 2.282;stroke-dashoffset:0"
        id="rect7370-5"
-       width="1005.0055"
+       width="950.27649"
        height="407.74252"
-       x="724.81232"
-       y="1306.4198" />
+       x="3129.1243"
+       y="1234.0532" />
     <rect
        style="fill:#d7e3f4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
        id="rect7320-5"
@@ -917,15 +918,15 @@
            width="127.14286"
            id="rect3759-29-1" /></flowRegion><flowPara
          id="flowPara3761-09-5">RTDM</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,-161.94469,1248.148)"
-       style="font-size:45.74202728px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="matrix(0.64435146,0,0,0.58151701,-523.37326,1242.4337)"
+       style="font-size:65.3457537px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3755-3-6-2"
        xml:space="preserve"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Final.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150"><flowRegion
          id="flowRegion3757-9-4-7"><rect
-           style="font-size:45.74202728px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+           style="font-size:65.3457537px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
            y="258.79074"
            x="96.428574"
            height="48.668655"
@@ -1024,7 +1025,7 @@
          id="tspan4145-0-3"
          sodipodi:role="line">Non-RT OS</tspan></text>
     <g
-       transform="translate(105.21203,-89.258701)"
+       transform="translate(779.49774,302.16987)"
        id="g6905">
       <rect
          inkscape:export-ydpi="150"
@@ -1055,7 +1056,7 @@
            id="flowPara5987">Proposal</flowPara></flowRoot>    </g>
     <g
        style="stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="translate(152.35489,-87.830131)"
+       transform="translate(826.6406,303.59844)"
        id="g6870">
       <rect
          inkscape:export-ydpi="150"
@@ -1094,8 +1095,8 @@
        id="rect2985-2-9-3-6"
        width="175.35565"
        height="94.704201"
-       x="2208.835"
-       y="1449.8486" />
+       x="2477.4065"
+       y="806.99152" />
     <flowRoot
        inkscape:export-ydpi="150"
        inkscape:export-xdpi="150"
@@ -1103,7 +1104,7 @@
        xml:space="preserve"
        id="flowRoot3755-42-3-4-0"
        style="font-size:58.81118011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       transform="matrix(0.64435146,0,0,0.58151701,2128.0484,1304.9152)"><flowRegion
+       transform="matrix(0.64435146,0,0,0.58151701,2396.6198,662.05806)"><flowRegion
          id="flowRegion3757-6-8-5-2"><rect
            id="rect3759-73-7-5-4"
            width="364.8363"
@@ -1121,26 +1122,18 @@
        id="path4376-5-3-9"
        d="m 3300.5215,738.08506 63.2421,0"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
-    <path
-       inkscape:export-ydpi="150"
-       inkscape:export-xdpi="150"
-       inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-       inkscape:connector-curvature="0"
-       id="path4376-5-5-0"
-       d="m 563.14985,1405.9156 195.45498,0"
-       style="fill:#ff0000;stroke:#000000;stroke-width:3.42727232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker3189);marker-mid:none;marker-end:url(#Arrow1Lend)" />
     <text
        inkscape:export-ydpi="150"
        inkscape:export-xdpi="150"
-       inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
        sodipodi:linespacing="125%"
        id="text4143-8-0"
-       y="1298.8567"
-       x="752.67291"
-       style="font-size:36px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       y="1498.8567"
+       x="1076.9586"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
        xml:space="preserve"><tspan
-         y="1298.8567"
-         x="752.67291"
+         y="1498.8567"
+         x="1076.9586"
          id="tspan4145-01-6"
          sodipodi:role="line">RT Controller on cRIO</tspan></text>
     <path
@@ -1160,7 +1153,7 @@
        d="m 3167.5464,807.03426 74.2857,0 0,-53.5715"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96)" />
     <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,42.53007,1756.0594)"
+       transform="matrix(0.64435146,0,0,0.58151701,716.81578,2147.488)"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3755-30-7-0-9"
        xml:space="preserve"
@@ -1175,7 +1168,7 @@
            width="291.20593"
            id="rect3759-29-1-9-2" /></flowRegion><flowPara
          id="flowPara5987-5">Specifications</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,397.68002,1766.9104)"
+       transform="matrix(0.64435146,0,0,0.58151701,1071.9657,2158.339)"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3755-30-7-0-9-3"
        xml:space="preserve"
@@ -1192,7 +1185,7 @@
          id="flowPara5987-5-7">Initial</flowPara><flowPara
          id="flowPara6112">Requirements</flowPara></flowRoot>    <g
        style="stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="translate(105.21203,-76.291261)"
+       transform="translate(779.49774,315.13731)"
        id="g6921">
       <path
          sodipodi:type="arc"
@@ -1231,7 +1224,7 @@
     </g>
     <g
        style="stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="translate(130.57942,-89.830131)"
+       transform="translate(804.86513,301.59844)"
        id="g6854">
       <rect
          inkscape:export-ydpi="150"
@@ -1263,7 +1256,7 @@
            style="font-size:42.47473907px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
            id="flowPara6190">Limitations</flowPara></flowRoot>    </g>
     <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,1023.2049,1852.6308)"
+       transform="matrix(0.64435146,0,0,0.58151701,1697.4906,2244.0594)"
        style="font-size:40.84109497px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3755-30-7-0-9-3-9"
        xml:space="preserve"
@@ -1279,7 +1272,7 @@
            id="rect3759-29-1-9-2-3-2" /></flowRegion><flowPara
          id="flowPara6112-8">Hardware</flowPara></flowRoot>    <g
        style="stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="translate(152.35489,-89.830131)"
+       transform="translate(826.6406,301.59844)"
        id="g6862">
       <rect
          inkscape:export-ydpi="150"
@@ -1310,7 +1303,7 @@
            style="text-align:center;text-anchor:middle"
            id="flowPara6227">Limitations</flowPara></flowRoot>    </g>
     <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,1261.8935,1851.4867)"
+       transform="matrix(0.64435146,0,0,0.58151701,1936.1792,2242.9153)"
        style="font-size:42.47473907px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3755-30-7-0-9-3-9-2"
        xml:space="preserve"
@@ -1327,7 +1320,7 @@
          id="flowPara6288">Hardware &amp;</flowPara><flowPara
          id="flowPara6290">Software</flowPara></flowRoot>    <g
        style="stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="translate(118.43659,-89.258701)"
+       transform="translate(792.7223,302.16987)"
        id="g6913">
       <rect
          inkscape:export-ydpi="150"
@@ -1359,7 +1352,7 @@
            style="font-size:42.47473907px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
            id="flowPara6789">Design</flowPara></flowRoot>    </g>
     <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,1240.9782,1970.6207)"
+       transform="matrix(0.64435146,0,0,0.58151701,1915.2639,2362.0493)"
        style="font-size:42.47473907px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3755-30-7-0-9-3-9-1"
        xml:space="preserve"
@@ -1375,7 +1368,7 @@
            id="rect3759-29-1-9-2-3-2-4" /></flowRegion><flowPara
          id="flowPara6112-8-2">Changed</flowPara><flowPara
          id="flowPara6818">Requirements</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,747.68365,1972.6335)"
+       transform="matrix(0.64435146,0,0,0.58151701,1421.9694,2364.0621)"
        style="font-size:42.47473907px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3755-30-7-0-9-3-9-1-5"
        xml:space="preserve"
@@ -1393,45 +1386,45 @@
          id="flowPara6852">Design</flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
        id="path6929"
-       d="m 733.19883,1944.4422 c 74.75129,0 74.75129,0 74.75129,0"
+       d="m 1407.4845,2335.8708 c 74.7513,0 74.7513,0 74.7513,0"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96)" />
     <path
        inkscape:connector-curvature="0"
        id="path6929-9"
-       d="m 1003.8392,1944.4785 c 41.6247,0 41.6247,0 41.6247,0"
+       d="m 1678.1249,2335.9071 c 41.6247,0 41.6247,0 41.6247,0"
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96)" />
     <path
        inkscape:connector-curvature="0"
        id="path6929-9-6"
-       d="m 1244.1596,1946.4889 c 50.3134,0 50.3134,0 50.3134,0"
+       d="m 1918.4453,2337.9175 c 50.3134,0 50.3134,0 50.3134,0"
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96)" />
     <path
        inkscape:connector-curvature="0"
        id="path7232"
-       d="m 1491.8031,1947.4727 c 103.0356,0 103.0356,0 103.0356,0"
+       d="m 2166.0888,2338.9013 c 103.0356,0 103.0356,0 103.0356,0"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96-2)" />
     <path
        inkscape:connector-curvature="0"
        id="path7468"
-       d="m 1530.3695,1948.4474 c 0,198.9585 0,198.9585 0,198.9585 l -283.8067,0"
+       d="m 2204.6552,2339.876 c 0,198.9585 0,198.9585 0,198.9585 l -283.8067,0"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96-2)" />
     <path
        inkscape:connector-curvature="0"
        id="path7704"
-       d="m 1046.3258,2149.5032 -341.43155,0 0,-174.7564"
+       d="m 1720.6115,2540.9318 -341.4315,0 0,-174.7564"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96-2)" />
     <path
        inkscape:connector-curvature="0"
        id="path7940"
-       d="m 465.01401,1943.4321 208.54006,0"
+       d="m 1139.2997,2334.8607 208.5401,0"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96-2)" />
     <path
        inkscape:connector-curvature="0"
        id="path7940-2"
-       d="m 109.66597,1945.952 176.00674,0"
+       d="m 783.95168,2337.3806 176.00674,0"
        style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-96-2)" />
     <flowRoot
-       transform="matrix(0.64435146,0,0,0.58151701,1485.3982,1771.6374)"
+       transform="matrix(0.64435146,0,0,0.58151701,2159.6839,2163.066)"
        style="font-size:42.47473907px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3755-30-7-0-9-3-9-1-5-1"
        xml:space="preserve"
@@ -1827,8 +1820,8 @@
          id="flowPara3761-4-7-1">Selection</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="107.14286"
-       y="1998.0765"
+       x="781.42859"
+       y="2389.5051"
        id="text4780"
        sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
@@ -1836,14 +1829,14 @@
        inkscape:export-ydpi="150"><tspan
          sodipodi:role="line"
          id="tspan4782"
-         x="107.14286"
-         y="1998.0765"
+         x="781.42859"
+         y="2389.5051"
          style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="789.8739"
-       y="2046.755"
+       x="1464.1597"
+       y="2438.1836"
        id="text4780-4"
        sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
@@ -1851,14 +1844,14 @@
        inkscape:export-ydpi="150"><tspan
          sodipodi:role="line"
          id="tspan4782-0"
-         x="789.8739"
-         y="2046.755"
+         x="1464.1597"
+         y="2438.1836"
          style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="785.5882"
-       y="2212.4692"
+       x="1459.8739"
+       y="2603.8977"
        id="text4780-4-9"
        sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\RevisionFlow2.png"
@@ -1866,8 +1859,8 @@
        inkscape:export-ydpi="150"><tspan
          sodipodi:role="line"
          id="tspan4782-0-4"
-         x="785.5882"
-         y="2212.4692"
+         x="1459.8739"
+         y="2603.8977"
          style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">3</tspan></text>
     <g
        id="g4543">
@@ -2078,274 +2071,530 @@
         </g>
       </g>
     </g>
+    <rect
+       y="1663.814"
+       x="2089.1331"
+       height="100.04937"
+       width="202.84367"
+       id="rect2985-2-9-3-1"
+       style="fill:none;stroke:#000000;stroke-width:3.86911345;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <flowRoot
+       transform="matrix(0.64435146,0,0,0.58151701,2029.4457,1521.2202)"
+       style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       id="flowRoot3755-42-3-4-4"
+       xml:space="preserve"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3757-6-8-5-5"><rect
+           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+           y="258.79074"
+           x="96.428574"
+           height="227.79181"
+           width="310.05103"
+           id="rect3759-73-7-5-9" /></flowRegion><flowPara
+         id="flowPara4055-2-7">Analogue</flowPara><flowPara
+         id="flowPara3586">Data Out</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       style="fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4070-9-8"
+       width="608.47723"
+       height="387.73935"
+       x="1412.9004"
+       y="1515.9486" />
+    <text
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="1431.7915"
+       y="1550.4945"
+       id="text4143-7-9-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4145-2-4-4"
+         x="1431.7915"
+         y="1550.4945">FPGA</tspan></text>
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:connector-curvature="0"
+       id="path4376-5-0"
+       d="m 1377.7113,1618.1065 64.4481,0"
+       style="fill:none;stroke:#000000;stroke-width:1.99205279;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
     <g
-       id="g3546-8"
-       transform="translate(-120.20891,499.42054)"
-       inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
+       id="g7571"
+       transform="translate(300,200)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150">
       <rect
          inkscape:export-ydpi="150"
          inkscape:export-xdpi="150"
          inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-         style="fill:#d7e3f4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.07221723;stroke-opacity:1"
+         y="1364.076"
+         x="1146.3145"
+         height="107.9787"
+         width="356.26498"
+         id="rect2985-4-8-7"
+         style="fill:none;stroke:#000000;stroke-width:3.89835858;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.64458143,0,0,0.58151701,1102.0546,1225.4544)"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-9-9-51"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-1-0-4"><rect
+             y="258.79074"
+             x="96.428574"
+             height="156.54958"
+             width="498.45795"
+             id="rect3759-7-9-9"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+           style="font-size:65.33409882px;text-align:center;text-anchor:middle"
+           id="flowPara3761-0-9-8">Wide Area </flowPara><flowPara
+           style="font-size:65.33409882px;text-align:center;text-anchor:middle"
+           id="flowPara3939-6-8">Control Function</flowPara></flowRoot>    </g>
+    <g
+       id="g3590"
+       transform="translate(253.54478,20)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g3600"
+         transform="translate(74.285714,-40)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:5.02295971;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect2985-4-2-5-3"
+           width="278.26886"
+           height="229.51041"
+           x="772.35706"
+           y="1539.7949"
+           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3755-9-1-0-9"
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           transform="matrix(0.64458143,0,0,0.58151701,723.90526,1404.8555)"
+           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><flowRegion
+             id="flowRegion3757-1-7-5-8"><rect
+               style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+               id="rect3759-7-3-2-8"
+               width="586.00098"
+               height="340.79666"
+               x="96.428574"
+               y="258.79074" /></flowRegion><flowPara
+             style="font-size:65.33409882px"
+             id="flowPara3567">Extract</flowPara><flowPara
+             id="flowPara3598"
+             style="font-size:65.33409882px">Algorithm Parameters,</flowPara><flowPara
+             style="font-size:65.33409882px"
+             id="flowPara3571">Input Data</flowPara></flowRoot>      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76026094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 1803.857,1813.3623 117.663,0 0,-52.0302"
+       id="path4374-2-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:connector-curvature="0"
+       id="path4376-5-3-1"
+       d="m 2019.8925,1711.8414 63.2421,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:3.77396107;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985-2-3-1"
+       width="203.88182"
+       height="94.704201"
+       x="1813.3214"
+       y="1662.153"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3755-9-9-5-7"
+       style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="matrix(0.64458143,0,0,0.58151701,1784.4404,1537.1056)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3757-1-0-1-8"><rect
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+           id="rect3759-7-9-1-5"
+           width="375.45456"
+           height="145.49475"
+           x="96.428574"
+           y="258.79074" /></flowRegion><flowPara
+         id="flowPara3939-6-7-0"
+         style="font-size:65.33409882px">Scaling</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1.77643323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+       d="m 1803.6758,1617.4486 118.3051,0 0,39.8947"
+       id="path4372-9-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-6)"
+       d="m 1055.6684,1507.7347 -1.0983,407.469 978.2714,0 0,-409.9688 -969.7847,1.4285"
+       id="path5684"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-6)"
+       d="m 1412.54,1515.2312 0,388.5477 611.0196,0 0,-388.5477 -593.5202,0"
+       id="path6696"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3755-9-9-51-1"
+       style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       transform="matrix(0.64458143,0,0,0.58151701,1023.0195,1722.6084)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3757-1-0-4-7"><rect
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="rect3759-7-9-9-4"
+           width="498.45795"
+           height="156.54958"
+           x="96.428574"
+           y="258.79074" /></flowRegion><flowPara
+         id="flowPara3939-6-8-9"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">20 ms.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3755-9-9-51-1-4"
+       style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       transform="matrix(0.64458143,0,0,0.58151701,1362.9732,1712.1239)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3757-1-0-4-7-8"><rect
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="rect3759-7-9-9-4-8"
+           width="498.45795"
+           height="156.54958"
+           x="96.428574"
+           y="258.79074" /></flowRegion><flowPara
+         id="flowPara3939-6-8-9-2"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">50 µs.</flowPara></flowRoot>    <g
+       id="g7661"
+       transform="translate(355.71429,205.71429)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g7590">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:2.84006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lstart)"
+           d="m -620.72444,1388.1974 c 68.94534,0 67.03021,0 67.03021,0"
+           id="path4366-7-7-3"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3755-30-1-3"
+           style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           transform="matrix(0.97474131,0,0,0.87968863,-859.35773,1142.0764)"
+           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"><flowRegion
+             id="flowRegion3757-4-0-5"><rect
+               id="rect3759-29-6-8"
+               width="195.54057"
+               height="77.405602"
+               x="96.428574"
+               y="258.79074"
+               style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'" /></flowRegion><flowPara
+             id="flowPara3761-09-7-0">C37.118</flowPara></flowRoot>      </g>
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.64458143,0,0,0.58151701,-486.00136,1347.8227)"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         id="flowRoot3755-9-1-0-9-3"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-1-7-5-8-5"><rect
+             y="258.79074"
+             x="96.428574"
+             height="154.09293"
+             width="747.78925"
+             id="rect3759-7-3-2-8-6"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'" /></flowRegion><flowPara
+           id="flowPara3421-5-9"
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">Desktop Computer running</flowPara><flowPara
+           id="flowPara3556"
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">S<flowSpan
+   id="flowSpan3558"
+   style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;baseline-shift:super;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">3</flowSpan>DK</flowPara></flowRoot>      <rect
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         style="fill:#d7e3f4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="rect7320-9"
          width="747.27234"
          height="187.14285"
-         x="-69.967743"
-         y="806.36218" />
+         x="-551.60522"
+         y="1300.0685" />
       <text
          inkscape:export-ydpi="150"
          inkscape:export-xdpi="150"
          inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
          sodipodi:linespacing="125%"
          id="text4143-72-7"
-         y="977.2337"
-         x="-60.079437"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         y="1475.2257"
+         x="-23.145491"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
          xml:space="preserve"><tspan
-           y="977.2337"
-           x="-60.079437"
+           y="1475.2257"
+           x="-23.145491"
            id="tspan4145-0-6"
            sodipodi:role="line">Non-RT OS</tspan></text>
-      <g
-         transform="translate(11.428571,-7.8571428)"
-         id="g3500-3">
-        <flowRoot
-           xml:space="preserve"
-           id="flowRoot3755-4-9-0"
-           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-           transform="matrix(0.64435146,0,0,0.58151701,357.38725,700.73385)"
-           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-           inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150"><flowRegion
-             id="flowRegion3757-7-5-22"><rect
-               id="rect3759-9-0-0"
-               width="362.70642"
-               height="231.47675"
-               x="96.428574"
-               y="258.79074"
-               style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
-             id="flowPara3761-7-2-1"
-             style="font-size:65.34575653px">Signal</flowPara><flowPara
-             id="flowPara3874-6-4"
-             style="font-size:65.34575653px">Processing</flowPara></flowRoot>        <rect
-           style="fill:none;stroke:#000000;stroke-width:4.08413458;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           id="rect2985-6-6-4-6"
-           width="238.7722"
-           height="94.704201"
-           x="412.11752"
-           y="855.01007"
-           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-           inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150" />
-      </g>
-      <g
-         transform="translate(0,-3.0628923)"
-         id="g3519-2">
-        <g
-           id="g3475-0"
-           transform="translate(0,-3.8662792)">
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             inkscape:connector-curvature="0"
-             id="path4368-5-0"
-             d="m 143.11033,901.46943 35.35534,0"
-             style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
-          <g
-             transform="translate(0,-2.3565602)"
-             id="g3437-2">
-            <g
-               id="g3423-2"
-               transform="translate(0,3.1651289)">
-              <path
-                 inkscape:export-ydpi="150"
-                 inkscape:export-xdpi="150"
-                 inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-                 inkscape:connector-curvature="0"
-                 id="path4366-7-7-3"
-                 d="m -139.08696,900.62563 c 68.945344,0 67.030207,0 67.030207,0"
-                 style="fill:none;stroke:#000000;stroke-width:2.84006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lstart)" />
-              <flowRoot
-                 inkscape:export-ydpi="150"
-                 inkscape:export-xdpi="150"
-                 inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-                 transform="matrix(0.97474131,0,0,0.87968863,-408.5299,648.93497)"
-                 style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-                 id="flowRoot3755-30-1-3"
-                 xml:space="preserve"><flowRegion
-                   id="flowRegion3757-4-0-5"><rect
-                     style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-                     y="258.79074"
-                     x="96.428574"
-                     height="77.405602"
-                     width="195.54057"
-                     id="rect3759-29-6-8" /></flowRegion><flowPara
-                   id="flowPara3761-09-7-0">C37.118</flowPara></flowRoot>            </g>
-            <g
-               id="g3430-8">
-              <flowRoot
-                 inkscape:export-ydpi="150"
-                 inkscape:export-xdpi="150"
-                 inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-                 transform="matrix(0.97474131,0,0,0.87968863,-114.36398,652.11865)"
-                 style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-                 id="flowRoot3755-30-3"
-                 xml:space="preserve"><flowRegion
-                   id="flowRegion3757-4-3"><rect
-                     style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-                     y="258.79074"
-                     x="96.428574"
-                     height="52.142853"
-                     width="127.14286"
-                     id="rect3759-29-65" /></flowRegion><flowPara
-                   id="flowPara3761-09-0">RTDM</flowPara></flowRoot>              <rect
-                 inkscape:export-ydpi="150"
-                 inkscape:export-xdpi="150"
-                 inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-                 y="856.43866"
-                 x="-62.168186"
-                 height="94.704201"
-                 width="204.33638"
-                 id="rect2985-6-6-8-2"
-                 style="fill:none;stroke:#000000;stroke-width:3.77816582;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(6,0)"
-           id="g3508-9">
-          <g
-             id="g3491-2">
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:3.77816582;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-               id="rect2985-6-6-18"
-               width="204.33638"
-               height="94.704201"
-               x="175.63655"
-               y="850.21582"
-               inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-               inkscape:export-xdpi="150"
-               inkscape:export-ydpi="150" />
-            <flowRoot
-               xml:space="preserve"
-               id="flowRoot3755-0-1-2"
-               style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-               transform="matrix(0.64435146,0,0,0.58151701,119.04623,699.62267)"
-               inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-               inkscape:export-xdpi="150"
-               inkscape:export-ydpi="150"><flowRegion
-                 id="flowRegion3757-2-4-9"><rect
-                   id="rect3759-4-0-1"
-                   width="306.19818"
-                   height="193.48318"
-                   x="96.428574"
-                   y="258.79074"
-                   style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
-                 id="flowPara3761-3-1-2"
-                 style="font-size:65.34575653px">Signal</flowPara><flowPara
-                 id="flowPara3870-6-2"
-                 style="font-size:65.34575653px">Selection</flowPara><flowPara
-                 id="flowPara3872-7-6"
-                 style="font-size:65.34575653px" /></flowRoot>          </g>
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             inkscape:connector-curvature="0"
-             id="path4368-5-37-2"
-             d="m 380.06574,897.60315 35.35534,0"
-             style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
-        </g>
-      </g>
-    </g>
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.64435146,0,0,0.58151701,-92.015554,1192.0134)"
+         style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         id="flowRoot3755-4-9-0"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-7-5-22"><rect
+             style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+             y="258.79074"
+             x="96.428574"
+             height="231.47675"
+             width="362.70642"
+             id="rect3759-9-0-0" /></flowRegion><flowPara
+           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="flowPara3761-7-2-1">Signal</flowPara><flowPara
+           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="flowPara3874-6-4">Processing</flowPara></flowRoot>      <rect
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         y="1340.8591"
+         x="-58.091389"
+         height="94.704201"
+         width="238.7722"
+         id="rect2985-6-6-4-6"
+         style="fill:none;stroke:#000000;stroke-width:4.08413458;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         inkscape:connector-curvature="0"
+         id="path4368-5-0"
+         d="m -338.52715,1388.2465 35.35534,0"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.97474131,0,0,0.87968863,-596.42293,1142.0902)"
+         style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         id="flowRoot3755-30-3"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-4-3"><rect
+             style="font-size:43.19672394px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+             y="258.79074"
+             x="96.428574"
+             height="52.142853"
+             width="127.14286"
+             id="rect3759-29-65" /></flowRegion><flowPara
+           id="flowPara3761-09-0">RTDM</flowPara></flowRoot>      <rect
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         y="1340.8591"
+         x="-543.80566"
+         height="94.704201"
+         width="204.33638"
+         id="rect2985-6-6-8-2"
+         style="fill:none;stroke:#000000;stroke-width:3.77816582;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         y="1340.8591"
+         x="-300.00092"
+         height="94.704201"
+         width="204.33638"
+         id="rect2985-6-6-18"
+         style="fill:none;stroke:#000000;stroke-width:3.77816582;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.64435146,0,0,0.58151701,-339.48581,1195.8264)"
+         style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         id="flowRoot3755-0-1-2"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-2-4-9"><rect
+             style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+             y="258.79074"
+             x="96.428574"
+             height="193.48318"
+             width="306.19818"
+             id="rect3759-4-0-1" /></flowRegion><flowPara
+           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="flowPara3761-3-1-2">Signal</flowPara><flowPara
+           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="flowPara3870-6-2">Selection</flowPara><flowPara
+           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="flowPara3872-7-6" /></flowRoot>      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         inkscape:connector-curvature="0"
+         id="path4368-5-37-2"
+         d="m -95.57174,1388.2465 35.35534,0"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7126"
+         d="m -551.42857,1300.9336 0,184.2857 747.14286,0 0,-187.1428 -734.28572,0"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-6)" />
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.64458143,0,0,0.58151701,-605.00234,1291.654)"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         id="flowRoot3755-9-9-51-1-45"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-1-0-4-7-5"><rect
+             y="258.79074"
+             x="96.428574"
+             height="156.54958"
+             width="498.45795"
+             id="rect3759-7-9-9-4-1"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'" /></flowRegion><flowPara
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="flowPara3939-6-8-9-7">20 ms.</flowPara></flowRoot>    </g>
     <g
-       id="g4572-1"
-       transform="translate(58.754394,503.40389)"
-       inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
+       id="g7558"
+       transform="translate(300,200)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         y="1554.0872"
+         x="1146.3145"
+         height="107.9787"
+         width="356.26498"
+         id="rect2985-4-8-7-1"
+         style="fill:none;stroke:#000000;stroke-width:3.89835858;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
+         transform="matrix(0.64458143,0,0,0.58151701,1099.916,1415.7067)"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-9-9-51-5"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-1-0-4-2"><rect
+             y="258.79074"
+             x="96.428574"
+             height="156.54958"
+             width="498.45795"
+             id="rect3759-7-9-9-7"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+           style="font-size:65.33409882px;text-align:center;text-anchor:middle"
+           id="flowPara3939-6-8-1">Future Control Function</flowPara></flowRoot>    </g>
+    <g
+       id="g7463-4"
+       transform="translate(-390.04035,286.50414)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150">
       <g
-         id="g4581-8">
+         id="g7503">
         <rect
-           y="958.38971"
-           x="1716.2367"
-           height="100.04937"
-           width="202.84367"
-           id="rect2985-2-9-3-1"
-           style="fill:none;stroke:#000000;stroke-width:3.86911345;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;stroke:#000000;stroke-width:4.40801907;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect2985-2-3-1-2"
+           width="280.01935"
+           height="94.070145"
+           x="1489.3527"
+           y="1480.4678"
            inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
            inkscape:export-xdpi="150"
            inkscape:export-ydpi="150" />
         <flowRoot
-           transform="matrix(0.64435146,0,0,0.58151701,1654.0821,810.13517)"
-           style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-           id="flowRoot3755-42-3-4-4"
            xml:space="preserve"
+           id="flowRoot3755-9-9-5-7-3"
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           transform="matrix(0.64458143,0,0,0.58151701,1468.6418,1354.8716)"
            inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
            inkscape:export-xdpi="150"
            inkscape:export-ydpi="150"><flowRegion
-             id="flowRegion3757-6-8-5-5"><rect
-               style="font-size:65.34575653px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-               y="258.79074"
+             id="flowRegion3757-1-0-1-8-2"><rect
+               style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+               id="rect3759-7-9-1-5-2"
+               width="344.11166"
+               height="72.536598"
                x="96.428574"
-               height="227.79181"
-               width="310.05103"
-               id="rect3759-73-7-5-9" /></flowRegion><flowPara
-             id="flowPara4051-4-5">Data Out</flowPara><flowPara
-             id="flowPara4057-6-1">Wired</flowPara><flowPara
-             id="flowPara4055-2-7" /></flowRoot>      </g>
+               y="258.79074" /></flowRegion><flowPara
+             id="flowPara3939-6-7-0-1"
+             style="font-size:65.33409882px">Monitoring</flowPara></flowRoot>      </g>
     </g>
     <g
-       id="g5099">
-      <rect
-         y="1317.9486"
-         x="1121.4718"
-         height="387.73935"
-         width="597.04871"
-         id="rect4070-9-8"
-         style="fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:1.23318064;stroke-opacity:1"
-         inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4143-7-9-2"
-         y="1350.4945"
-         x="1131.7915"
-         style="font-size:36px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"
-         inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150"><tspan
-           y="1350.4945"
-           x="1131.7915"
-           id="tspan4145-2-4-4"
-           sodipodi:role="line">FPGA</tspan></text>
+       id="g13542"
+       transform="translate(300,200)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
       <g
-         transform="translate(-42.426407,-9.0913728)"
-         id="g5030"
-         inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
+         style="fill-rule:evenodd"
+         id="g7711">
         <rect
            inkscape:export-ydpi="150"
            inkscape:export-xdpi="150"
            inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Final.png"
-           y="1356.615"
-           x="807.3855"
+           y="1327.6846"
+           x="359.03372"
            height="139.35529"
            width="318.68253"
            id="rect2985-4-8-1"
-           style="fill:none;stroke:#000000;stroke-width:4.18858147;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.18858147;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
         <flowRoot
            inkscape:export-ydpi="150"
            inkscape:export-xdpi="150"
            inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Final.png"
-           transform="matrix(0.64458143,0,0,0.58151701,723.51857,1233.101)"
-           style="font-size:58.80068588px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           transform="matrix(0.64458143,0,0,0.58151701,273.93405,1204.9848)"
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
            id="flowRoot3755-9-9-1"
            xml:space="preserve"><flowRegion
              id="flowRegion3757-1-0-3"><rect
@@ -2354,161 +2603,126 @@
                height="190.65932"
                width="563.51196"
                id="rect3759-7-9-8"
-               style="font-size:58.80068588px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+               style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'" /></flowRegion><flowPara
              id="flowPara3939-6-4">Network</flowPara><flowPara
-             id="flowPara3450">Communication</flowPara></flowRoot>      </g>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.26084065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-         d="m 1084.8286,1417.2411 121.4396,0"
-         id="path4376-5-0"
-         inkscape:connector-curvature="0"
-         inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150" />
-      <path
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-         inkscape:connector-curvature="0"
-         id="path6923-4-7"
-         d="m 1138.7869,1416.1991 c 0,213.9656 0,216.0429 0,216.0429 l 66.3825,0"
-         style="fill:none;stroke:#000000;stroke-width:2.75565052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)" />
-      <g
-         id="g5072">
-        <g
-           transform="translate(362.55367,502.45691)"
-           id="g4526-2"
-           inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
+             id="flowPara3450">Communication</flowPara></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3755-9-1-0-9-3-6"
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           transform="matrix(0.64458143,0,0,0.58151701,271.8316,1353.537)"
+           inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
            inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150">
-          <rect
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             y="858.3894"
-             x="847.78094"
-             height="112.66277"
-             width="275.23477"
-             id="rect2985-4-8-7"
-             style="fill:none;stroke:#000000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-          <flowRoot
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             transform="matrix(0.64458143,0,0,0.58151701,814.82806,716.78401)"
-             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-             id="flowRoot3755-9-9-51"
-             xml:space="preserve"><flowRegion
-               id="flowRegion3757-1-0-4"><rect
-                 y="258.79074"
-                 x="96.428574"
-                 height="156.54958"
-                 width="498.45795"
-                 id="rect3759-7-9-9"
-                 style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
-               style="font-size:65.33409882px"
-               id="flowPara3761-0-9-8">Wide Area </flowPara><flowPara
-               style="font-size:65.33409882px"
-               id="flowPara3939-6-8">Control Function</flowPara></flowRoot>        </g>
-        <g
-           transform="translate(362.55367,502.45691)"
-           id="g4534-6"
-           inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-           inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150">
-          <rect
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             y="1053.3674"
-             x="847.78094"
-             height="141.42699"
-             width="275.23477"
-             id="rect2985-4-2-5-3"
-             style="fill:none;stroke:#000000;stroke-width:3.92142558;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-          <flowRoot
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             transform="matrix(0.64458143,0,0,0.58151701,834.20874,902.39858)"
-             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-             id="flowRoot3755-9-1-0-9"
-             xml:space="preserve"><flowRegion
-               id="flowRegion3757-1-7-5-8"><rect
-                 y="258.79074"
-                 x="96.428574"
-                 height="286.75092"
-                 width="599.29865"
-                 id="rect3759-7-3-2-8"
-                 style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
-               style="font-size:65.33409882px"
-               id="flowPara3761-0-4-2-2">Local</flowPara><flowPara
-               style="font-size:65.33409882px"
-               id="flowPara3939-2-4-4">Control</flowPara><flowPara
-               id="flowPara3421-5"
-               style="font-size:65.33409882px">Function</flowPara></flowRoot>        </g>
-        <path
-           style="fill:none;stroke:#000000;stroke-width:2.07681656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-           d="m 1486.589,1636.2877 113.6568,0 0,-69.5352"
-           id="path4374-2-0"
-           inkscape:connector-curvature="0"
-           inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-           inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150" />
-        <g
-           id="g5063"
-           inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-           inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150">
-          <path
-             style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-             d="m 1704.2797,1515.6673 63.2421,0"
-             id="path4376-5-3-1"
-             inkscape:connector-curvature="0"
-             inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-             inkscape:export-xdpi="150"
-             inkscape:export-ydpi="150"
-             transform="translate(0,-0.23340805)" />
-          <g
-             id="g4543-7"
-             transform="translate(362.55367,502.45691)">
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:3.77396107;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-               id="rect2985-2-3-1"
-               width="203.88182"
-               height="94.704201"
-               x="1136.5835"
-               y="965.57202"
-               inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-               inkscape:export-xdpi="150"
-               inkscape:export-ydpi="150" />
-            <flowRoot
-               xml:space="preserve"
-               id="flowRoot3755-9-9-5-7"
-               style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-               transform="matrix(0.64458143,0,0,0.58151701,1079.7265,838.7329)"
-               inkscape:export-filename="D:\Eldrich\Data_Plots\Report - Controller Testing\Figures\Revision.png"
-               inkscape:export-xdpi="150"
-               inkscape:export-ydpi="150"><flowRegion
-                 id="flowRegion3757-1-0-1-8"><rect
-                   style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-                   id="rect3759-7-9-1-5"
-                   width="375.45456"
-                   height="145.49475"
-                   x="96.428574"
-                   y="258.79074" /></flowRegion><flowPara
-                 id="flowPara3939-6-7-0"
-                 style="font-size:65.33409882px">Selection</flowPara></flowRoot>          </g>
-        </g>
-        <path
-           style="fill:none;stroke:#000000;stroke-width:1.96234274;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-           d="m 1486.7313,1410.7344 110.9803,0 0,53.9058"
-           id="path4372-9-9"
-           inkscape:connector-curvature="0"
-           inkscape:export-filename="/u/59/rebelle1/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/RawImages/Arch.jpg.png"
-           inkscape:export-xdpi="150"
-           inkscape:export-ydpi="150" />
-      </g>
+           inkscape:export-ydpi="150"><flowRegion
+             id="flowRegion3757-1-7-5-8-5-8"><rect
+               style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+               id="rect3759-7-3-2-8-6-5"
+               width="570.41718"
+               height="408.91391"
+               x="96.428574"
+               y="258.79074" /></flowRegion><flowPara
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+             id="flowPara7545">LabVIEW Network</flowPara><flowPara
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+             id="flowPara7549">Published Shared</flowPara><flowPara
+             id="flowPara7726"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">Variable</flowPara><flowPara
+             id="flowPara7732"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">Asynchronous</flowPara><flowPara
+             id="flowPara7728"
+             style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill-rule:evenodd;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'" /></flowRoot>      </g>
     </g>
-  </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.9003222;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend-35)"
+       d="m 1397.0931,1618.0267 0,200.0959 43.8295,0"
+       id="path7734"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 657.14286,1597.3622 c -102.85715,0 -104.28572,0 -104.28572,0"
+       id="path11038"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.03309989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-6)"
+       d="m 1098.1809,1597.3622 -119.5761,0"
+       id="path11040"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend-35)"
+       d="m 1021.2489,1596.8242 c 0,218.193 0,218.193 0,218.193 l 74.7513,0"
+       id="path13559"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-206.45682"
+       y="1756.9984"
+       id="text14061"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan14063"
+         x="-206.45682"
+         y="1756.9984"
+         style="font-family:Franklin Gothic Book;-inkscape-font-specification:Franklin Gothic Book">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1955.4595"
+       y="1891.0212"
+       id="text14061-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan14063-9"
+         x="1955.4595"
+         y="1891.0212"
+         style="font-family:Franklin Gothic Book;-inkscape-font-specification:Franklin Gothic Book">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1001.8755"
+       y="1915.2649"
+       id="text14061-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan14063-7"
+         x="1001.8755"
+         y="1915.2649"
+         style="font-family:Franklin Gothic Book;-inkscape-font-specification:Franklin Gothic Book">2</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3755-9-9-51-1-4-9"
+       style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       transform="matrix(0.64458143,0,0,0.58151701,2076.9751,1627.0449)"
+       inkscape:export-filename="Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\Final_RT_Arch.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion3757-1-0-4-7-8-5"><rect
+           style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           id="rect3759-7-9-9-4-8-4"
+           width="498.45795"
+           height="156.54958"
+           x="96.428574"
+           y="258.79074" /></flowRegion><flowPara
+         id="flowPara3939-6-8-9-2-3"
+         style="font-size:65.33409882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'">50 µs.</flowPara></flowRoot>  </g>
 </svg>
