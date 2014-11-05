@@ -1,19 +1,12 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.28)  29 OCT 2014 19:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.27)  5 NOV 2014 15:37
 entering extended mode
+ %&-line parsing enabled.
 **bare_jrnl.tex
-("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\bare_jrnl.tex"
+(./bare_jrnl.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\IEEEtran.cls"
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, bulgarian, ukrainian, russian, finnish, swedish, loaded.
+(./IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -26,7 +19,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\ot1ptm.fd
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -99,221 +92,226 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\cite\cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+) (/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\graphicx.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\keyval.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\graphics.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pdftex-def\pdftex.def
-File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\epstopdf.sty
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\grfext.sty
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\kvoptions.sty
-Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\kvsetkeys.sty
-Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\etexcmds.sty
-Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\pdftexcmds.sty
-Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
 
-
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 436.
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen119
 ))
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\mdwtools\mdwmath.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks17
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks18
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/mdwtools/mdwmath.sty
 Package: mdwmath 1996/04/11 1.1 Nice mathematical things
-\sq@sqrt=\count92
+\sq@sqrt=\count104
 LaTeX Info: Redefining \sqrt on input line 84.
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\mdwtools\mdwtab.sty
+(/usr/share/texmf-texlive/tex/latex/mdwtools/mdwtab.sty
 Package: mdwtab 1998/04/28 1.9 Table typesetting with style
-\tab@state=\count93
-\tab@columns=\count94
-\tab@preamble=\toks16
-\tab@shortline=\toks17
-\extrarowheight=\dimen119
-\tabextrasep=\dimen120
-\arrayextrasep=\dimen121
-\smarraycolsep=\dimen122
-\smarrayextrasep=\dimen123
-\tab@width=\dimen124
-\col@sep=\dimen125
-\tab@endheight=\dimen126
-\tab@leftskip=\skip44
-\tab@rightskip=\skip45
-\fn@notes=\box27
-\fn@width=\dimen127
+\tab@state=\count105
+\tab@columns=\count106
+\tab@preamble=\toks21
+\tab@shortline=\toks22
+\extrarowheight=\dimen128
+\tabextrasep=\dimen129
+\arrayextrasep=\dimen130
+\smarraycolsep=\dimen131
+\smarrayextrasep=\dimen132
+\tab@width=\dimen133
+\col@sep=\dimen134
+\tab@endheight=\dimen135
+\tab@leftskip=\skip47
+\tab@rightskip=\skip48
+\fn@notes=\box29
+\fn@width=\dimen136
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\subfigure\subfigure.sty
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip46
-\subfigcapskip=\skip47
-\subfigcaptopadj=\dimen128
-\subfigbottomskip=\skip48
-\subfigcapmargin=\dimen129
-\subfiglabelskip=\skip49
-\c@subfigure=\count95
-\c@lofdepth=\count96
-\c@subtable=\count97
-\c@lotdepth=\count98
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen137
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen138
+\subfiglabelskip=\skip52
+\c@subfigure=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@lotdepth=\count110
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\subfigure\subfigure.cfg)
-\subfig@top=\skip50
-\subfig@bottom=\skip51
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip53
+\subfig@bottom=\skip54
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ltxmisc\url.sty
-\Urlmuskip=\muskip10
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\color.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\color.cfg
+(/etc/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\mh\mathtools.sty
-Package: mathtools 2011/02/12 v1.10 mathematical typesetting tools
+(/usr/share/texmf-texlive/tex/latex/mh/mathtools.sty
+Package: mathtools 2008/08/01 v1.06 mathematical typesetting tools (MH)
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\tools\calc.sty
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count99
-\calc@Bcount=\count100
-\calc@Adimen=\dimen130
-\calc@Bdimen=\dimen131
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count101
-\calc@Cskip=\skip54
+\calc@Ccount=\count113
+\calc@Cskip=\skip57
 )
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\mh\mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
-)
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip55
-
-For additional information on amsmath, use the `?' option.
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen132
-))
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen133
-)
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count102
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count103
-\leftroot@=\count104
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count105
-\DOTSCASE@=\count106
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen134
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count107
-\c@MaxMatrixCols=\count108
-\dotsspace@=\muskip11
-\c@parentequation=\count109
-\dspbrk@lvl=\count110
-\tag@help=\toks19
-\row@=\count111
-\column@=\count112
-\maxfields@=\count113
-\andhelp@=\toks20
-\eqnshift@=\dimen135
-\alignsep@=\dimen136
-\tagshift@=\dimen137
-\tagwidth@=\dimen138
-\totwidth@=\dimen139
-\lineht@=\dimen140
-\@envbody=\toks21
-\multlinegap=\skip56
-\multlinetaggap=\skip57
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+(/usr/share/texmf-texlive/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2007/12/03 v1.2 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count114
 \l_MT_multwidth_dim=\dimen141
-\origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen142
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen143
-)
-("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\bare_jrnl.aux")
+) (./bare_jrnl.aux)
+\openout1 = `bare_jrnl.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 394.
 LaTeX Font Info:    ... okay on input line 394.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 394.
@@ -327,16 +325,16 @@ LaTeX Font Info:    ... okay on input line 394.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 394.
 LaTeX Font Info:    ... okay on input line 394.
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\context\base\supp-pdf.mkii
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
-\scratchdimen=\dimen144
+\scratchdimen=\dimen142
 \scratchbox=\box30
 \nofMPsegments=\count116
 \nofMParguments=\count117
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count118
-\MPscratchDim=\dimen145
+\MPscratchDim=\dimen143
 \MPnumerator=\count119
 \everyMPtoPDFconversion=\toks24
 )
@@ -353,100 +351,36 @@ n-land e-mail:
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 474.
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 530.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 530.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 1715) in paragraph at lines 531--532
-\OT1/ptm/m/n/10 of power trans-fer ca-pac-ity and ge-o-graphic spread, they
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 541--542
-[]\OT1/ptm/m/n/10 Traditional con-trollers for FACTS de-vices de-pend on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
-
- []
-
 
 LaTeX Warning: Citation `TaskForce' on page 2 undefined on input line 543.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-
- []
 
 <PhasorPODAlgorithm.png, id=9, 279.6849pt x 198.7425pt>
 File: PhasorPODAlgorithm.png Graphic file (type png)
 
 <use PhasorPODAlgorithm.png>
-Underfull \hbox (badness 10000) in paragraph at lines 569--571
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 573.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 573.
 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 7362) in paragraph at lines 573--574
-\OT1/ptm/m/n/10 pro-to-type de-vel-oped here uses com-mer-cially avail-able
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-
- []
-
-
-Underfull \vbox (badness 4699) has occurred while \output is active []
-
- [2 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/PhasorPODAlgori
-thm.png (PNG copy)>]
-Underfull \hbox (badness 3343) in paragraph at lines 576--577
-[]\OT1/ptm/m/n/10 As il-lus-trated in Fig-ure 2[], all real-time sim-u-la-tions
-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 576--577
-\OT1/ptm/m/n/10 sim-u-la-tion plat-form. \OT1/ptm/m/sc/10 Simulink \OT1/ptm/m/n
-/10 mod-els are ex-e-cuted in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-
- []
-
-<DataFlow.png, id=22, 469.2732pt x 247.1634pt>
+ [2 <./PhasorPODAlgorithm.png (PNG copy)>] <DataFlow.png, id=22, 469.2732pt x 2
+47.1634pt>
 File: DataFlow.png Graphic file (type png)
- <use DataFlow.png>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--593
-
- []
-
-<Final_RT_Arch.png, id=24, 2169.5454pt x 357.9774pt>
+<use DataFlow.png> <Final_RT_Arch.png, id=24, 2169.5454pt x 357.9774pt>
 File: Final_RT_Arch.png Graphic file (type png)
- <use Final_RT_Arch.png>
-Underfull \hbox (badness 10000) in paragraph at lines 603--611
 
- []
-
-[3 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/DataFlow.png>]
+<use Final_RT_Arch.png>
 Underfull \hbox (badness 2368) in paragraph at lines 623--624
 \OT1/ptm/m/n/10 the Phasor-POD al-go-rithm run-ning on the FPGA. The
  []
@@ -456,24 +390,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 623--624
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
-
- []
-
+[3 <./DataFlow.png>]
 <PSS_degraded_performance.png, id=29, 348.55219pt x 267.24844pt>
 File: PSS_degraded_performance.png Graphic file (type png)
 
 <use PSS_degraded_performance.png>
-Underfull \hbox (badness 2970) in paragraph at lines 740--741
-[]\OT1/ptm/m/n/10 The orig-i-nal Klein-Rogers-Kundur model in [2] was
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-
- []
-
 <Kundur2Area_outline_multi.png, id=30, 674.52pt x 246.9225pt>
 File: Kundur2Area_outline_multi.png Graphic file (type png)
 
@@ -486,27 +407,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
-[4 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/Final_RT_Arch.pn
-g> <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/PSS_degraded_per
-formance.png (PNG copy)>]
+[4 <./Final_RT_Arch.png> <./PSS_degraded_performance.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 774--775
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
-
- []
-
-[5 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/Kundur2Area_outl
-ine_multi.png (PNG copy)>]
-<SVC_ResponseComparison_Labelled_NoVMag.png, id=38, 600.74437pt x 454.69875pt>
+<SVC_ResponseComparison_Labelled_NoVMag.png, id=35, 600.74437pt x 454.69875pt>
 File: SVC_ResponseComparison_Labelled_NoVMag.png Graphic file (type png)
 
 <use SVC_ResponseComparison_Labelled_NoVMag.png>
-<Best_sample.png, id=39, 321.2pt x 240.9pt>
+<Best_sample.png, id=36, 321.2pt x 240.9pt>
 File: Best_sample.png Graphic file (type png)
- <use Best_sample.png>
+ <use Best_sample.png> [5 <./Kundur2Area_outline_multi.png (PNG copy)>]
 <Wide_Area_ResponseComparison_SamePlot.png, id=40, 593.96906pt x 450.18187pt>
 File: Wide_Area_ResponseComparison_SamePlot.png Graphic file (type png)
 
@@ -515,156 +428,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 834--835
 
  []
 
-
-Underfull \hbox (badness 1577) in paragraph at lines 861--862
-\OT1/ptm/m/n/10 and the con-troller re-sponse. The same al-go-rithm, when
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/SVC_ResponseCom
-parison_Labelled_NoVMag.png (PNG copy)> <Z:/Class Work/Thesis - KTH/Extra Work/
-Papers/Journal Paper/Best_sample.png (PNG copy)> <Z:/Class Work/Thesis - KTH/Ex
-tra Work/Papers/Journal Paper/Wide_Area_ResponseComparison_SamePlot.png (PNG co
-py)>]
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
-[]\OT1/ptm/m/n/10 The orig-i-nal POD (Pha-sor Os-cil-la-tion Damper)
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 884--885
-\OT1/ptm/m/n/10 no lim-its are im-posed on the mag-ni-tude of ei-ther the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
-
+[6 <./SVC_ResponseComparison_Labelled_NoVMag.png (PNG copy)> <./Best_sample.png
+ (PNG copy)> <./Wide_Area_ResponseComparison_SamePlot.png (PNG copy)>]
+Underfull \hbox (badness 2103) in paragraph at lines 884--885
+[]\OT1/ptm/m/n/10 The orig-i-nal POD (Pha-sor Os-cil-la-tion Damper) al-go-
  []
 
 <Scaling.png, id=44, 572.6193pt x 132.2541pt>
 File: Scaling.png Graphic file (type png)
  <use Scaling.png>
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
-
- []
-
-[7 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/Scaling.png (PNG
- copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 922--923
 
  []
 
-
+[7 <./Scaling.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 930.
 
-(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\ot1pcr.fd
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1701) in paragraph at lines 930--931
-\OT1/ptm/m/n/10 the POD al-go-rithm is im-ple-mented us-ing Floating-point
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 930--931
-
- []
-
-
-Underfull \hbox (badness 6725) in paragraph at lines 936--938
-\OT1/ptm/m/n/10 se-lec-tion and al-go-rithm pa-ram-e-ter val-ues. These two
- []
-
-
-Underfull \hbox (badness 3590) in paragraph at lines 936--938
-\OT1/ptm/m/n/10 se-lec-tion among sev-eral mea-sure-ment lo-ca-tions on the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 936--938
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 939--939
 [][][]$\OT1/ptm/m/n/8 http : / / www . riverbed . com / products / performance-
-[]management-[]control /$
+[]management-[]control /
  []
 
-[8]
-Underfull \hbox (badness 1389) in paragraph at lines 1024--1025
-\OT1/ptm/m/n/10 de-vel-op-ing wide area mon-i-tor-ing, pro-tec-tion and con-tro
-l
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 1024--1025
-\OT1/ptm/m/n/10 (WAMPAC) schemes for the power grid. Much of the
- []
-
-
-Underfull \hbox (badness 2359) in paragraph at lines 1024--1025
-\OT1/ptm/m/n/10 in-fras-truc-ture and ac-tiv-i-ties in-volve PMU data and the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
-[]\OT1/ptm/m/n/10 The WAMPAC plat-form in-cludes a Pha-sor Data
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 1037--1038
-\OT1/ptm/m/n/10 Con-cen-tra-tor (PDC) and its as-so-ci-ated soft-ware from
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 1037--1038
-\OT1/ptm/m/n/10 em-bed-ded PMU func-tion-al-ity, line dif-fer-en-tial pro-tec-t
-ion
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 1037--1038
-\OT1/ptm/m/n/10 re-lays (ABB), Com-pact RIO micro-controllers (Na-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
-
- []
-
-<./SmarTSlabOutline.png, id=54, 566.8377pt x 408.0846pt>
+[8] <./SmarTSlabOutline.png, id=54, 566.8377pt x 408.0846pt>
 File: ./SmarTSlabOutline.png Graphic file (type png)
 
 <use ./SmarTSlabOutline.png>
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1061
-
- []
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -675,42 +470,41 @@ Missing character: There is no ” in font ptmr7t!
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ” in font ptmri7t!
-[9]
+
 Underfull \hbox (badness 1616) in paragraph at lines 1140--1141
 []\OT1/ptm/m/it/8 Generic Power Sys-tem Sta-bi-lizer \OT1/ptm/m/n/8 Doc-u-men-t
 a-tion dis-tributed with
  []
 
-[10 <Z:/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/SmarTSlabOutlin
-e.png (PNG copy)>]
-("Z:\Class Work\Thesis - KTH\Extra Work\Papers\Journal Paper\bare_jrnl.aux")
+[9] [10
+
+ <./SmarTSlabOutline.png (PNG copy)>] (./bare_jrnl.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3931 strings out of 494053
- 58560 string characters out of 3147730
- 130850 words of memory out of 3000000
- 7144 multiletter control sequences out of 15000+200000
- 51218 words of font info for 90 fonts, out of 3000000 for 9000
- 718 hyphenation exceptions out of 8191
- 41i,11n,24p,1744b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/fontname/8r.enc}<C:/PROGRAMS/M
-iKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/PROGRAMS/MiKTeX/
-MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX
-_2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/PROGR
-AMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/times/utmb8a.pfb><C:/PROGRAMS/MiKTeX/MiKT
-eX_2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/times/
+ 3728 strings out of 494799
+ 54767 string characters out of 1177748
+ 124849 words of memory out of 3000000
+ 6838 multiletter control sequences out of 15000+50000
+ 50314 words of font info for 86 fonts, out of 3000000 for 9000
+ 215 hyphenation exceptions out of 8191
+ 41i,11n,24p,1742b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/
+ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
+re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
+nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on bare_jrnl.pdf (10 pages, 6462614 bytes).
+Output written on bare_jrnl.pdf (10 pages, 6462200 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

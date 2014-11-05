@@ -44,9 +44,9 @@
 \@writefile{toc}{\contentsline {section}{\numberline {III}Software Architecture and Hardware Configuration}{3}}
 \newlabel{softhardware}{{III}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Hardware Configuration}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Software Architecture}{3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Harware Outline showing complete data path}}{3}}
 \newlabel{Hardware_Outline}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Software Architecture}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Real-Time Implementation of Phasor-POD Algorithm}{3}}
 \citation{SDK}
 \citation{KundurTwoArea}
@@ -56,14 +56,14 @@
 \newlabel{RTArchitecture}{{3}{4}}
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Experimental Setup Preparation}{4}}
 \newlabel{SetupPreparation}{{IV}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Two-Area Model Preparation - Generator AVR}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Damping performance of the base case PSS only at Machine M1}}{4}}
 \newlabel{PSS_Degrade}{{4}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Two-Area Model Preparation - Generator AVR}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Two-Area Model Preparation - FACTS Device}{4}}
 \citation{OPALemegasim}
 \citation{Yuwa}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Modified Two-Area Four-Machine network outline showing PMU data sources and scenarios with SVC and generator excitation supplementary input. Note that only one scenario is implemented at a time i.e. either generator or SVC modulation. Network details are left incomplete for illustration purposes.}}{5}}
 \newlabel{NetworkOutline}{{5}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Two-Area Model Preparation - FACTS Device}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Real-Time Simulation}{5}}
 \@writefile{toc}{\contentsline {section}{\numberline {V}Testing \& Results}{5}}
 \newlabel{Results}{{V}{5}}
@@ -73,18 +73,18 @@
 \newlabel{SVCResponseTable}{{I}{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Controller Response Comparison : Supplementary SVC Excitation Input}}{6}}
 \newlabel{SVC_Plots}{{6}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Generator Excitation Supplementary Input}{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Controller Response with Voltage Angle Difference input Captured using an Oscilloscope}}{6}}
 \newlabel{ScopeCapture}{{7}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Generator Excitation Supplementary Input}{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Controller Response Comparison : Supplementary Generator Excitation Input}}{6}}
 \newlabel{Generator_Plots}{{8}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Response Parameters : Supplementary Generator Excitation Input}}{6}}
+\newlabel{GENResponseTable}{{II}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Challenges}{6}}
+\newlabel{Challenges}{{VI}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Time Delays}{6}}
 \citation{PhasorPOD}
 \citation{OPALemegasim}
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Response Parameters : Supplementary Generator Excitation Input}}{7}}
-\newlabel{GENResponseTable}{{II}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Challenges}{7}}
-\newlabel{Challenges}{{VI}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Time Delays}{7}}
 \@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Signal Propagation Delay Calculation}}{7}}
 \newlabel{DelayData}{{III}{7}}
 \newlabel{ex:DelayData}{{III}{7}}
@@ -93,6 +93,8 @@
 \newlabel{ScalingProblem}{{9}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-C}}Loop Rates and FPGA Resources}{7}}
 \newlabel{looprate}{{\unhbox \voidb@x \hbox {VI-C}}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Comparison of Loop Rates of Different Components}}{7}}
+\newlabel{ex:LoopRates}{{IV}{7}}
 \citation{LabVIEWCourse}
 \citation{LabViewManuals}
 \citation{LabVIEWCourse}
@@ -100,12 +102,12 @@
 \citation{LabVIEWCourse}
 \citation{Yuwa}
 \citation{Yuwa}
-\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Comparison of Loop Rates of Different Components}}{8}}
-\newlabel{ex:LoopRates}{{IV}{8}}
+\citation{Yuwa}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-D}}FPGA Numeric Data Formats and Accuracy}{8}}
 \@writefile{toc}{\contentsline {section}{\numberline {VII}Further Work}{8}}
 \newlabel{Future}{{VII}{8}}
-\citation{Yuwa}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion}{8}}
+\newlabel{Conclusion}{{VIII}{8}}
 \citation{SmarTSLab}
 \citation{PhasorPODImplement}
 \citation{SmarTSLab}
@@ -124,10 +126,6 @@
 \bibcite{SmarTSLab}{13}
 \bibcite{sVARdamp}{14}
 \bibcite{Yuwa}{15}
-\@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion}{9}}
-\newlabel{Conclusion}{{VIII}{9}}
-\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  {}A: SmarTS Lab Outline \& Experimental Setup Images}{9}}
-\@writefile{toc}{\contentsline {section}{References}{9}}
 \bibcite{TaskForce }{16}
 \bibcite{cRIO9081}{17}
 \bibcite{cRIO9076}{18}
@@ -137,6 +135,8 @@
 \bibcite{PSSDocumentation}{22}
 \bibcite{LabViewManuals}{23}
 \bibcite{LabVIEWCourse}{24}
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  {}A: SmarTS Lab Outline \& Experimental Setup Images}{9}}
+\@writefile{toc}{\contentsline {section}{References}{9}}
 \bibcite{NISharedVar}{25}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Outline of SmarTS Lab at KTH}}{10}}
 \newlabel{fig:SmarTSlabOutline}{{10}{10}}
