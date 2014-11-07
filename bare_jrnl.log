@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.27)  5 NOV 2014 15:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.27)  7 NOV 2014 14:29
 entering extended mode
  %&-line parsing enabled.
 **bare_jrnl.tex
@@ -359,154 +359,104 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-
-LaTeX Warning: Citation `TaskForce' on page 2 undefined on input line 543.
-
-<PhasorPODAlgorithm.png, id=9, 279.6849pt x 198.7425pt>
-File: PhasorPODAlgorithm.png Graphic file (type png)
-
-<use PhasorPODAlgorithm.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 573.
+(Font)              <8> on input line 564.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 573.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./PhasorPODAlgorithm.png (PNG copy)>] <DataFlow.png, id=22, 469.2732pt x 2
-47.1634pt>
+(Font)              <6> on input line 564.
+ [2]
+<DataFlow.png, id=19, 469.2732pt x 247.1634pt>
 File: DataFlow.png Graphic file (type png)
-
-<use DataFlow.png> <Final_RT_Arch.png, id=24, 2169.5454pt x 357.9774pt>
+ <use DataFlow.png>
+<Final_RT_Arch.png, id=21, 2169.5454pt x 357.9774pt>
 File: Final_RT_Arch.png Graphic file (type png)
-
-<use Final_RT_Arch.png>
-Underfull \hbox (badness 2368) in paragraph at lines 623--624
+ <use Final_RT_Arch.png>
+Underfull \hbox (badness 2368) in paragraph at lines 614--615
 \OT1/ptm/m/n/10 the Phasor-POD al-go-rithm run-ning on the FPGA. The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
 
  []
 
 [3 <./DataFlow.png>]
-<PSS_degraded_performance.png, id=29, 348.55219pt x 267.24844pt>
+<PSS_degraded_performance.png, id=26, 348.55219pt x 267.24844pt>
 File: PSS_degraded_performance.png Graphic file (type png)
 
 <use PSS_degraded_performance.png>
-<Kundur2Area_outline_multi.png, id=30, 674.52pt x 246.9225pt>
+<Kundur2Area_outline_multi.png, id=27, 674.52pt x 246.9225pt>
 File: Kundur2Area_outline_multi.png Graphic file (type png)
 
 <use Kundur2Area_outline_multi.png>
 
-LaTeX Warning: Reference `SVC_Model' on page 4 undefined on input line 758.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
-
- []
+LaTeX Warning: Reference `SVC_Model' on page 4 undefined on input line 749.
 
 [4 <./Final_RT_Arch.png> <./PSS_degraded_performance.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 774--775
-
- []
-
-
-<SVC_ResponseComparison_Labelled_NoVMag.png, id=35, 600.74437pt x 454.69875pt>
+<SVC_ResponseComparison_Labelled_NoVMag.png, id=32, 600.74437pt x 454.69875pt>
 File: SVC_ResponseComparison_Labelled_NoVMag.png Graphic file (type png)
 
 <use SVC_ResponseComparison_Labelled_NoVMag.png>
-<Best_sample.png, id=36, 321.2pt x 240.9pt>
+<Best_sample.png, id=33, 321.2pt x 240.9pt>
 File: Best_sample.png Graphic file (type png)
- <use Best_sample.png> [5 <./Kundur2Area_outline_multi.png (PNG copy)>]
-<Wide_Area_ResponseComparison_SamePlot.png, id=40, 593.96906pt x 450.18187pt>
+ <use Best_sample.png> [5 <./Kundur2Area_outline_multi.png (PNG copy)> <./SVC_R
+esponseComparison_Labelled_NoVMag.png (PNG copy)>]
+<Wide_Area_ResponseComparison_SamePlot.png, id=37, 593.96906pt x 450.18187pt>
 File: Wide_Area_ResponseComparison_SamePlot.png Graphic file (type png)
 
 <use Wide_Area_ResponseComparison_SamePlot.png>
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
-[6 <./SVC_ResponseComparison_Labelled_NoVMag.png (PNG copy)> <./Best_sample.png
- (PNG copy)> <./Wide_Area_ResponseComparison_SamePlot.png (PNG copy)>]
-Underfull \hbox (badness 2103) in paragraph at lines 884--885
-[]\OT1/ptm/m/n/10 The orig-i-nal POD (Pha-sor Os-cil-la-tion Damper) al-go-
- []
-
-<Scaling.png, id=44, 572.6193pt x 132.2541pt>
+[6 <./Best_sample.png (PNG copy)> <./Wide_Area_ResponseComparison_SamePlot.png 
+(PNG copy)>] <Scaling.png, id=41, 572.6193pt x 132.2541pt>
 File: Scaling.png Graphic file (type png)
  <use Scaling.png>
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 907.
 
- []
-
-[7 <./Scaling.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 928--929
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 930.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 939--939
-[][][]$\OT1/ptm/m/n/8 http : / / www . riverbed . com / products / performance-
-[]management-[]control /
- []
-
-[8] <./SmarTSlabOutline.png, id=54, 566.8377pt x 408.0846pt>
-File: ./SmarTSlabOutline.png Graphic file (type png)
-
-<use ./SmarTSlabOutline.png>
+) [7 <./Scaling.png (PNG copy)>]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-Missing character: There is no â in font ptmri7t!
-Missing character: There is no € in font ptmri7t!
-Missing character: There is no ” in font ptmri7t!
 
-Underfull \hbox (badness 1616) in paragraph at lines 1140--1141
+Underfull \hbox (badness 1616) in paragraph at lines 1113--1114
 []\OT1/ptm/m/it/8 Generic Power Sys-tem Sta-bi-lizer \OT1/ptm/m/n/8 Doc-u-men-t
 a-tion dis-tributed with
  []
 
-[9] [10
-
- <./SmarTSlabOutline.png (PNG copy)>] (./bare_jrnl.aux)
+[8] (./bare_jrnl.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3728 strings out of 494799
- 54767 string characters out of 1177748
- 124849 words of memory out of 3000000
- 6838 multiletter control sequences out of 15000+50000
- 50314 words of font info for 86 fonts, out of 3000000 for 9000
+ 3709 strings out of 494799
+ 54393 string characters out of 1177748
+ 121811 words of memory out of 3000000
+ 6822 multiletter control sequences out of 15000+50000
+ 49207 words of font info for 85 fonts, out of 3000000 for 9000
  215 hyphenation exceptions out of 8191
- 41i,11n,24p,1742b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,24p,2624b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/
-ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
-re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
-nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on bare_jrnl.pdf (10 pages, 6462200 bytes).
+amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/u
+crr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/shar
+e/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fon
+ts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on bare_jrnl.pdf (8 pages, 5306619 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
