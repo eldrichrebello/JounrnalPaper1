@@ -1,0 +1,78 @@
+
+Paper TPWRS-00202-2015, by Mr. Shoaib Almas, Real-Time Implementation of a Flexible, Synchrophasor-based Wide-Area Damping Control System
+Eldrich Rebello
+Muhammad Shoaib Almas
+Sun 22/03/2015 9:52 PM
+To:
+Eldrich Rebello;
+Cc:
+Luigi Vanfretti;
+Flag for follow up. Start by 24 March 2015. Due by 24 March 2015.
+You forwarded this message on 24/03/2015 9:39 AM.
+________________________________________
+From: onbehalfof+conejonavarro.1+osu.edu@manuscriptcentral.com <onbehalfof+conejonavarro.1+osu.edu@manuscriptcentral.com> on behalf of conejonavarro.1@osu.edu <conejonavarro.1@osu.edu>
+Sent: Sunday, March 22, 2015 7:19 PM
+To: Muhammad Shoaib Almas
+Cc: conejonavarro.1@osu.edu
+Subject: Paper TPWRS-00202-2015,  by Mr. Shoaib Almas, Real-Time Implementation of a Flexible, Synchrophasor-based Wide-Area Damping Control System
+
+We regret to advise you that the Reviewing Committee is unable
+to accept the subject paper for publication as a PES
+Transactions paper.
+
+Enclosed please find the comments of the reviewers which should
+serve to explain the recommendation of the reviewing committee.
+I hope you will find the explanations satisfactory.
+
+Prof. Antonio Conejo, Editor in Chief,
+Transactions on Power Systems
+
+COMMENTS TO THE AUTHORS:
+Editor's Comments:
+
+Editor
+Comments to the Author:
+Please see reviewers' critical views.
+
+Reviewers' Comments:
+
+Reviewer: 1
+
+Comments to the Author
+No comments.
+
+Reviewer: 2
+
+Comments to the Author
+The authors proposed wide area based damping control for power systems and its implementation. The topic is of high interest to power system community as smartgrid solution needs WAMs based damping control complex power network. The contribution of the proposed research is not significant and thus, not suitable for further consideration in its present form. However, the following points may be considered for further improvement.
+1.      The introduction is not focussed and the motivation behind the proposed research is missing. The authors must establish the motivation which normally is derived from the state of the art references.
+2.      The referencing on WAMs based damping control is very poor and most of the papers are from conferences.
+3.      The mathematical back ground is just mentioned with eq. (1) which shows minimal efforts are given to frame the paper with respect to damping control issue.
+4.      The paper is only based on Emegasim application and HIL testing for the same. However the innovation on the proposed methodology is missing which should be the strength of the paper.
+5.       The results and analysis is poor and just embedded with some graphical representations.
+
+General comments:
+1.      Fig.1  .... Harware....
+2.       Figures are not legible..
+
+
+Reviewer: 3
+
+Comments to the Author
+The paper proposes a Real-Time Implementation of a Flexible, Synchrophasor-based Wide-Area Damping Control System however; some critical improvements are requested:
+1 the lack of contribution in POD Algorithm
+2 the theory POD is incomplete (section II)
+3 The paper requires substantial reworking by the authors, some examples are
+-The references [18] and [19] are not included in the work
+- Is not clear the number of the figure (section IV.B line 24 )
+- Section VI.D  may require rewriting (reference [20] is repeated five times in the section)
+- The sentence is incomplete in Section II line 17
+-Replace linearisation by linearization and co-ordinate by coordinate
+-Figure 2 is not clear
+In my opinion the paper don´t have any contribution technical o methodology and, the studies of this paper could be obtained by any other software
+
+
+Reviewer: 4
+
+Comments to the Author
+See attachment.
