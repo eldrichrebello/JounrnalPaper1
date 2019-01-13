@@ -409,9 +409,8 @@
 
 %%Fix Later : Move Luigi as first author.
 
-\author{Luigi~Vanfretti~\IEEEmembership{Senior~Member,~IEEE}, Eldrich~Rebello,
-        Muhammad~Shoaib~Almas,~\IEEEmembership{Member, IEEE}
-        % <-this % stops a space
+\author{Eldrich~Rebello, Muhammad~Shoaib~Almas,~\IEEEmembership{Member, IEEE}, Luigi~Vanfretti~\IEEEmembership{Senior~Member,~IEEE}
+                % <-this % stops a space
 \thanks{Eldrich Rebello is currently with the Wind Energy Institute of Canada
 e-mail:  \mbox{eldrich.rebello@alumni.aalto.fi}}% <-this % stops a space
 \thanks{M. Shoaib Almas is with KTH Royal Institute of Technology, Stockholm, Sweden. email: msalmas@kth.se}% <-this % stops a space
@@ -857,7 +856,15 @@ As in the previous case, response parameters such as settling times and overshoo
 
 \subsection{Time Delays}
 
-The Phasor POD algorithm implemented in \textsc{Simulink} has close to zero time delay between the power system changing and the controller responding. The same algorithm, when run on the cRIO, receives input data with a stochastic delay. It is evident from Figure~\ref{Hardware_Outline} that several sources of stochastic time delay exist. Sections such as the analogue amplifiers, the FPGA (50$\mu$s) and the real-time section of the cRIO all represent fixed, non-zero time delays. Elements such as the D/A and A/D conversion in the real-time simulator also add a deterministic time delay. However, elements in the data path such as TCP/IP network communication and the PC used to extract raw measurement data from the PDC synchrophasor stream all represent variable delays. The total delay allows for a network disturbance to grow slightly before the controller begins to respond. This delay also changes the phase compensation required in the Phasor-POD algorithm. The phase compensation needed can be changed from the remote interface, depending on the measured delay. The experimentally measured end-to-end delay over the complete data path in Figure \ref{Hardware_Outline} averaged 283.1 ms. This was calculated by logging data in the real-time simulator and measuring the delay between the power system response and the controller response. Presently, the phase compensation required is determined iteratively however, this can be automated using time-stamped data together with an adaptive controller.
+The Phasor POD algorithm implemented in \textsc{Simulink} has close to zero time delay between the power system changing and the controller responding. The same algorithm, when run on the cRIO, receives input data with a stochastic delay. It is evident from Figure~\ref{Hardware_Outline} that several sources of stochastic time delay exist. Sections such as the analogue amplifiers, the FPGA (50$\mu$s) and the real-time section of the cRIO all represent fixed, non-zero time delays. Elements such as the D/A and A/D conversion in the real-time simulator also add a deterministic time delay. However, elements in the data path such as TCP/IP network communication and the PC used to extract raw measurement data from the PDC synchrophasor stream all represent variable delays. The total delay allows for a network disturbance to grow slightly before the controller begins to respond. This delay also changes the phase compensation required in the Phasor-POD algorithm. The phase compensation needed can be changed from the remote interface, depending on the measured delay. The experimentally measured end-to-end delay over the complete data path in Figure \ref{Hardware_Outline} averaged 344 ms. This was calculated by logging data in the real-time simulator and measuring the delay between the power system response and the controller response (Fig. \ref{varying_time_delay}). Presently, the phase compensation required is determined iteratively however, this can be automated using time-stamped data together with an adaptive controller.
+
+\begin{figure}[thpb]
+\centering
+\includegraphics[width=3in]{delay_bar_chart.pdf}
+\caption{Net observed time delay}
+\label{varying_time_delay}
+\vspace{-1em}
+\end{figure}
 
 %\begin{table}[h]
 %\caption{Signal Propagation Delay Calculation}\label{DelayData}
