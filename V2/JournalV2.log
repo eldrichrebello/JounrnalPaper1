@@ -1,10 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.15)  14 OCT 2018 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.15)  20 JAN 2019 22:54
 entering extended mode
-**./JournalV2.tex
-(JournalV2.tex
+**"E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V
+2/JournalV2.tex"
+
+("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
+/JournalV2.tex"
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(IEEEtran.cls
+
+("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
+\ieeeaccess.cls"
+("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
+\IEEEtran.cls"
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -90,28 +97,38 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+\XKV@depth=\count91
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)){C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+pdfTeX warning: pdflatex.EXE (file t1-times.map): cannot open font map file
+
+
+pdfTeX warning: pdflatex.EXE (file t1-formata.map): cannot open font map file
+
+
+pdfTeX warning: pdflatex.EXE (file t1-giovannistd.map): cannot open font map fi
+le
+\@draftversionrule=\dimen117
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package color Info: Driver file: pdftex.def on input line 147.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
@@ -122,10 +139,49 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count92
 ))
-\Gin@req@height=\dimen117
-\Gin@req@width=\dimen118
+("C:\Program Files\MiKTeX 2.9\tex\latex\spotcolor\spotcolor.sty"
+Package: spotcolor 2006/11/15 v1.2 Package for adding Spot Color support to pdf
+LaTeX.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\thecolorprofile=\count93
+\thecolor=\count94
+)
+\PANTONE=\toks17
+Package color Info: Redefining color black on input line 134.
+\figbox=\box27
+\titlewidth=\skip44
+\abstractwidth=\skip45
+\c@addrCtr=\count95
+\abstractbox=\box28
+\indexbox=\box29
+\absht=\dimen118
+\kwdht=\dimen119
+\@tempcntc=\count96
+\titlepgskip=\skip46
+\maketitlebox=\box30
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -160,10 +216,6 @@ Package etexcmds Info: Could not find \expanded.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -178,7 +230,7 @@ G,.JBIG2,.JB2,.eps]
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -186,125 +238,117 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen119
+\@emptytoks=\toks18
+\ex@=\dimen122
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen120
+\pmbraise@=\dimen123
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count97
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count98
+\leftroot@=\count99
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count100
+\DOTSCASE@=\count101
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen121
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen124
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks18
-\eqnshift@=\dimen122
-\alignsep@=\dimen123
-\tagshift@=\dimen124
-\tagwidth@=\dimen125
-\totwidth@=\dimen126
-\lineht@=\dimen127
-\@envbody=\toks19
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks20
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks19
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks20
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\mdwmath.sty"
 Package: mdwmath 1996/04/11 1.1 Nice mathematical things
-\sq@sqrt=\count104
+\sq@sqrt=\count109
 LaTeX Info: Redefining \sqrt on input line 84.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\mdwtab.sty"
 Package: mdwtab 1998/04/28 1.9 Table typesetting with style
-\tab@state=\count105
-\tab@columns=\count106
-\tab@preamble=\toks21
-\tab@shortline=\toks22
-\extrarowheight=\dimen128
-\tabextrasep=\dimen129
-\arrayextrasep=\dimen130
-\smarraycolsep=\dimen131
-\smarrayextrasep=\dimen132
-\tab@width=\dimen133
-\col@sep=\dimen134
-\tab@endheight=\dimen135
-\tab@leftskip=\skip47
-\tab@rightskip=\skip48
-\fn@notes=\box29
-\fn@width=\dimen136
+\tab@state=\count110
+\tab@columns=\count111
+\tab@preamble=\toks23
+\tab@shortline=\toks24
+\extrarowheight=\dimen131
+\tabextrasep=\dimen132
+\arrayextrasep=\dimen133
+\smarraycolsep=\dimen134
+\smarrayextrasep=\dimen135
+\tab@width=\dimen136
+\col@sep=\dimen137
+\tab@endheight=\dimen138
+\tab@leftskip=\skip50
+\tab@rightskip=\skip51
+\fn@notes=\box33
+\fn@width=\dimen139
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip49
-\subfigcapskip=\skip50
-\subfigcaptopadj=\dimen137
-\subfigbottomskip=\skip51
-\subfigcapmargin=\dimen138
-\subfiglabelskip=\skip52
-\c@subfigure=\count107
-\c@lofdepth=\count108
-\c@subtable=\count109
-\c@lotdepth=\count110
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen140
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen141
+\subfiglabelskip=\skip55
+\c@subfigure=\count112
+\c@lofdepth=\count113
+\c@subtable=\count114
+\c@lotdepth=\count115
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip53
-\subfig@bottom=\skip54
+\subfig@top=\skip56
+\subfig@bottom=\skip57
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
 Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count111
-\calc@Bcount=\count112
-\calc@Adimen=\dimen139
-\calc@Bdimen=\dimen140
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Acount=\count116
+\calc@Bcount=\count117
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count113
-\calc@Cskip=\skip57
+\calc@Ccount=\count118
+\calc@Cskip=\skip60
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -313,105 +357,457 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count114
-\l_MT_multwidth_dim=\dimen141
-\origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen142
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen143
-\l_MT_above_intertext_sep=\dimen144
-\l_MT_below_intertext_sep=\dimen145
-\l_MT_above_shortintertext_sep=\dimen146
-\l_MT_below_shortintertext_sep=\dimen147
-) (JournalV2.aux)
+\g_MT_multlinerow_int=\count119
+\l_MT_multwidth_dim=\dimen144
+\origjot=\skip61
+\l_MT_shortvdotswithinadjustabove_dim=\dimen145
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen146
+\l_MT_above_intertext_sep=\dimen147
+\l_MT_below_intertext_sep=\dimen148
+\l_MT_above_shortintertext_sep=\dimen149
+\l_MT_below_shortintertext_sep=\dimen150
+)
+("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
+\JournalV2.aux")
 \openout1 = `JournalV2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen148
-\scratchbox=\box30
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen149
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks24
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 395.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 474.
+
+LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
+(Font)              using `T1/ptm/m/n' instead on input line 395.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen151
+\scratchbox=\box34
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen152
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    Try loading font information for T1+phv on input line 469.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+
+LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
+(Font)              using `T1/phv/m/n' instead on input line 469.
+
+! Undefined control sequence.
+\@maketitle ...ital Object Identifier\space \@doi 
+                                                  \vss }\vspace *{7.4mm}\par...
+l.469 \maketitle
+                
+? 
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 469.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 507.
+(Font)              <9.9> on input line 469.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 507.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              <6.92996> on input line 469.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.95> on input line 469.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 469.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 469.
+
+LaTeX Warning: File `bullet.png' not found on input line 472.
+
+
+! Package pdftex.def Error: File `bullet.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472 \begin{abstract}
+                      
+? 
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 472.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Font Warning: Font shape `T1/pcr/n/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 472.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/n/sc' undefined
+(Font)              using `T1/ptm/n/n' instead on input line 474.
+
+
+LaTeX Warning: File `bullet.png' not found on input line 485.
+
+
+! Package pdftex.def Error: File `bullet.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.485 \begin{IEEEkeywords}
+                          
+? 
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 507.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Logo.png' not found on input line 524.
+
+
+! Package pdftex.def Error: File `Logo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 
+      
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[1
 
 
 ]
+
+LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
+(Font)              using `T1/ptm/n/n' instead on input line 525.
+
+
+LaTeX Warning: File `notaglineLogo.png' not found on input line 567.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.567 \section
+              {Software Architecture and Hardware Configuration}\label{softh...
+
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[2]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 569.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 569.
- [2]
-<DataFlow.png, id=19, 469.2732pt x 247.1634pt>
+ <DataFlow.png, id=25, 469.2732pt x 247.1634pt>
 File: DataFlow.png Graphic file (type png)
  <use DataFlow.png>
 Package pdftex.def Info: DataFlow.png used on input line 576.
 (pdftex.def)             Requested size: 252.94499pt x 133.22487pt.
 
-<Final_RT_Arch.png, id=21, 2169.5454pt x 357.9774pt>
+Overfull \hbox (10.27144pt too wide) in paragraph at lines 576--577
+ [][] 
+ []
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.577 ...ature at each point and sources of delay}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.577 ...ature at each point and sources of delay}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.577 ...ature at each point and sources of delay}
+                                                  
+? 
+<Final_RT_Arch.png, id=27, 2169.5454pt x 357.9774pt>
 File: Final_RT_Arch.png Graphic file (type png)
  <use Final_RT_Arch.png>
 Package pdftex.def Info: Final_RT_Arch.png used on input line 605.
 (pdftex.def)             Requested size: 361.34999pt x 59.62086pt.
 
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.606 ...roller. Loop rates are indicated in red.}
+                                                   %showing future expandabi...
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.606 ...roller. Loop rates are indicated in red.}
+                                                   %showing future expandabi...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.606 ...roller. Loop rates are indicated in red.}
+                                                   %showing future expandabi...
+
+? 
+
+LaTeX Warning: File `notaglineLogo.png' not found on input line 618.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.618 \item C
+             ore FPGA Software : Interacts with hardware terminals for I/O a...
+
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[3 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
+V2/DataFlow.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 622--623
 
  []
 
-[3 <./DataFlow.png>]
-<PSS_degraded_response.pdf, id=26, 498.41205pt x 316.45099pt>
+<PSS_degraded_response.pdf, id=32, 498.41205pt x 316.45099pt>
 File: PSS_degraded_response.pdf Graphic file (type pdf)
 
 <use PSS_degraded_response.pdf>
 Package pdftex.def Info: PSS_degraded_response.pdf used on input line 733.
 (pdftex.def)             Requested size: 252.94499pt x 160.6008pt.
 
-<Kundur2Area_outline_multi.png, id=27, 674.52pt x 246.9225pt>
+Overfull \hbox (10.27144pt too wide) in paragraph at lines 733--734
+ [][] 
+ []
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.734 ...l active power is used as the PSS input.}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.734 ...l active power is used as the PSS input.}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.734 ...l active power is used as the PSS input.}
+                                                  
+? 
+
+LaTeX Warning: File `notaglineLogo.png' not found on input line 742.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.742 
+      
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
+V2/Final_RT_Arch.png> <E:/University/data/Class Work/Thesis - KTH/Extra Work/Pa
+pers/Journal Paper/V2/PSS_degraded_response.pdf>]
+<Kundur2Area_outline_multi.png, id=77, 674.52pt x 246.9225pt>
 File: Kundur2Area_outline_multi.png Graphic file (type png)
 
 <use Kundur2Area_outline_multi.png>
 Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 745.
 (pdftex.def)             Requested size: 361.34999pt x 132.28119pt.
- [4 <./Final_RT_Arch.png> <./PSS_degraded_response.pdf>]
-<Controller_Response_SVC_input.pdf, id=72, 498.48569pt x 316.45099pt>
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.746 ...ft incomplete for illustration purposes.}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.746 ...ft incomplete for illustration purposes.}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.746 ...ft incomplete for illustration purposes.}
+                                                  
+? 
+<Controller_Response_SVC_input.pdf, id=78, 498.48569pt x 316.45099pt>
 File: Controller_Response_SVC_input.pdf Graphic file (type pdf)
 
 <use Controller_Response_SVC_input.pdf>
 Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 7
 97.
 (pdftex.def)             Requested size: 252.94499pt x 160.57182pt.
- [5 <./Kundur2Area_outline_multi.png>]
-<Best_sample.png, id=76, 321.2pt x 240.9pt>
+
+Overfull \hbox (10.27144pt too wide) in paragraph at lines 797--798
+ [][] 
+ []
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.798 ...son : Supplementary SVC Excitation Input}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.798 ...son : Supplementary SVC Excitation Input}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.798 ...son : Supplementary SVC Excitation Input}
+                                                  
+? 
+<Best_sample.png, id=79, 321.2pt x 240.9pt>
 File: Best_sample.png Graphic file (type png)
  <use Best_sample.png>
 Package pdftex.def Info: Best_sample.png used on input line 814.
 (pdftex.def)             Requested size: 180.67499pt x 135.50958pt.
 
-<Controller_Response_Generator_input.pdf, id=77, 498.48569pt x 316.45099pt>
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.815 ...nce input Captured using an Oscilloscope}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.815 ...nce input Captured using an Oscilloscope}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.815 ...nce input Captured using an Oscilloscope}
+                                                  
+? 
+
+LaTeX Warning: File `notaglineLogo.png' not found on input line 822.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.822 
+      
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[5]
+<Controller_Response_Generator_input.pdf, id=83, 498.48569pt x 316.45099pt>
 File: Controller_Response_Generator_input.pdf Graphic file (type pdf)
 
 <use Controller_Response_Generator_input.pdf>
@@ -419,82 +815,306 @@ Package pdftex.def Info: Controller_Response_Generator_input.pdf used on input
 line 825.
 (pdftex.def)             Requested size: 252.94499pt x 160.57182pt.
 
+Overfull \hbox (10.27144pt too wide) in paragraph at lines 825--826
+ [][] 
+ []
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.826 ...Supplementary Generator Excitation Input}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.826 ...Supplementary Generator Excitation Input}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.826 ...Supplementary Generator Excitation Input}
+                                                  
+? 
+
 Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `varying_time_delay' on page 6 undefined on input line
+ 860.
 
-[6 <./Controller_Response_SVC_input.pdf> <./Best_sample.png (PNG copy)> <./Cont
-roller_Response_Generator_input.pdf
 
-pdfTeX warning: miktex-pdftex.exe (file ./Controller_Response_Generator_input.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
->] <Scaling.png, id=210, 572.6193pt x 132.2541pt>
+LaTeX Warning: File `notaglineLogo.png' not found on input line 861.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.861 
+      
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[6 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
+V2/Kundur2Area_outline_multi.png> <E:/University/data/Class Work/Thesis - KTH/E
+xtra Work/Papers/Journal Paper/V2/Controller_Response_SVC_input.pdf> <E:/Univer
+sity/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2/Best_sampl
+e.png (PNG copy)> <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers
+/Journal Paper/V2/Controller_Response_Generator_input.pdf
+
+pdfTeX warning: pdflatex.EXE (file E:/University/data/Class Work/Thesis - KTH/E
+xtra Work/Papers/Journal Paper/V2/Controller_Response_Generator_input.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] <delay_bar_chart.pdf, id=216, 433.62pt x 213.91919pt>
+File: delay_bar_chart.pdf Graphic file (type pdf)
+
+<use delay_bar_chart.pdf>
+Package pdftex.def Info: delay_bar_chart.pdf used on input line 864.
+(pdftex.def)             Requested size: 216.81pt x 106.95932pt.
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.865 \caption{Net observed time delay}
+                                       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.865 \caption{Net observed time delay}
+                                       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.865 \caption{Net observed time delay}
+                                       
+? 
+<Scaling.png, id=217, 572.6193pt x 132.2541pt>
 File: Scaling.png Graphic file (type png)
  <use Scaling.png>
-Package pdftex.def Info: Scaling.png used on input line 895.
+Package pdftex.def Info: Scaling.png used on input line 903.
 (pdftex.def)             Requested size: 252.94499pt x 58.42001pt.
- [7 <./Scaling.png>]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
-[]\OT1/ptm/m/n/8 I Kamwa \OT1/ptm/m/it/8 Per-for-mance of Three PSS for In-ter-
-area
+Overfull \hbox (10.27144pt too wide) in paragraph at lines 903--905
+ [][] 
+ []
+
+! Undefined control sequence.
+\@makecaption ...capfont #2\strut }\ifdim \xfigwd 
+                                                  >\columnwidth \setbox \@te...
+l.905 ...ignal Scaling at each step of simulation}
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.905 ...ignal Scaling at each step of simulation}
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   >
+l.905 ...ignal Scaling at each step of simulation}
+                                                  
+? 
+
+LaTeX Warning: File `notaglineLogo.png' not found on input line 939.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 F
+       ixing the number of bits used for fractions in the fixed-point repres...
+
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
-\OT1/ptm/m/it/8 Os-cil-la-tions \OT1/ptm/m/n/8 Sim-Pow-er-Sys-tems Ex-am-ples, 
-\OT1/ptm/m/sc/8 Mat-lab \OT1/ptm/m/n/8 R2011a
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
-\OT1/ptm/m/n/8 https : / / www . mathworks . com / help / physmod / sps / examp
-les /
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[7 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
+V2/delay_bar_chart.pdf> <E:/University/data/Class Work/Thesis - KTH/Extra Work/
+Papers/Journal Paper/V2/Scaling.png>]
+Underfull \vbox (badness 3849) has occurred while \output is active []
+
+LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 1125.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.805> not available
+(Font)              size <5> substituted on input line 1125.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.805> not available
+(Font)              size <5> substituted on input line 1125.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.805> not available
+(Font)              size <5> substituted on input line 1125.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.61> on input line 1125.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.32697> on input line 1125.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <3.805> on input line 1125.
+
+Underfull \hbox (badness 2707) in paragraph at lines 1143--1144
+[]\T1/ptm/n/it/7.61 Operating In-struc-tions and Spec-i-fi-ca-tions Com-pact RI
+O NI cRIO-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1158--1159
-[]\OT1/ptm/m/it/8 Generic Power Sys-tem Sta-bi-lizer \OT1/ptm/m/n/8 Doc-u-men-t
-a-tion dis-tributed with
+LaTeX Warning: File `notaglineLogo.png' not found on input line 1167.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1167 
+       
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
  []
 
-Missing character: There is no â in font ptmri7t!
-Missing character: There is no € in font ptmri7t!
-Missing character: There is no “ in font ptmri7t!
-[8] [9
 
-] (JournalV2.aux) ) 
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[8]
+Underfull \hbox (badness 1990) in paragraph at lines 1172--1173
+[]\T1/ptm/m/n/7.61 Muhammad Shoaib Al-mas, Luigi Van-fretti, Maxime Baudette, B
+a-
+ []
+
+
+! Class ieeeaccess Error: You have not used the command \EOD at the end of 
+(ieeeaccess)              last para in the document. I have reached end of the 
+document searching for it.
+
+See the ieeeaccess class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1230 \end{document}
+                     
+? 
+
+LaTeX Warning: File `notaglineLogo.png' not found on input line 1230.
+
+
+! Package pdftex.def Error: File `notaglineLogo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1230 \end{document}
+                     
+? 
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[9
+
+] (JournalV2.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.195pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4066 strings out of 493333
- 60900 string characters out of 3139188
- 140128 words of memory out of 3000000
- 7526 multiletter control sequences out of 15000+200000
- 46507 words of font info for 81 fonts, out of 3000000 for 9000
+ 4628 strings out of 493333
+ 69109 string characters out of 3139188
+ 149427 words of memory out of 3000000
+ 8040 multiletter control sequences out of 15000+200000
+ 87367 words of font info for 106 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 42i,11n,24p,1850b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on JournalV2.pdf (9 pages, 738044 bytes).
+ 42i,12n,50p,1930b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvet
+ic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on JournalV2.pdf (9 pages, 771230 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 314 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 

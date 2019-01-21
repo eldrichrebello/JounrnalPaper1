@@ -64,6 +64,7 @@
 % draft mode.
 %
 \documentclass[journal]{IEEEtran}
+%\documentclass{ieeeaccess}
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
@@ -395,7 +396,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Real-Time Implementation of a Flexible, Synchrophasor-based Wide-Area Damping Control System}
+\title{Experimental Testing of a Real-Time Implementation of a PMU-based Wide-Area Damping Control System}
 %
 %
 % author names and IEEE memberships
@@ -409,7 +410,7 @@
 
 %%Fix Later : Move Luigi as first author.
 
-\author{Eldrich~Rebello, Muhammad~Shoaib~Almas,~\IEEEmembership{Member, IEEE}, Luigi~Vanfretti~\IEEEmembership{Senior~Member,~IEEE}
+\author{Eldrich~Rebello, Luigi~Vanfretti~\IEEEmembership{Senior~Member,~IEEE}, Muhammad~Shoaib~Almas,~\IEEEmembership{Member, IEEE}
                 % <-this % stops a space
 \thanks{Eldrich Rebello is currently with the Wind Energy Institute of Canada
 e-mail:  \mbox{eldrich.rebello@alumni.aalto.fi}}% <-this % stops a space
@@ -470,7 +471,7 @@ e-mail:  \mbox{eldrich.rebello@alumni.aalto.fi}}% <-this % stops a space
 
 \begin{abstract}
 %\boldmath
-The modern power grid is increasingly being used under operating conditions of increasing stress for which it was not designed, giving rise to grid stability issues. One of these stability issues is the phenomenon of low frequency, electro-mechanically induced, inter-area oscillations. Simulations have demonstrated the advantages of Wide Area Measurement Signals (WAMS)-based Power Oscillation Damping (POD) in achieving improved electromechanical mode damping compared to traditional, local signal-based, Power System Stabilizers (PSS). This work takes an existing Phasor-based oscillation damping (POD) algorithm and uses it to implement a proof-of-concept, real-time controller on National Instruments hardware. The developed prototype is tested in a real-time Hardware-in-the-loop approach (RT-HIL) using OPAL-RT\rq{s} e\textsc{megasim} real-time simulation platform and synchrophasor data from actual Phasor Measurement Units (PMUs). The demonstration provides empirical evidence of the feasibility and real-world limitations of the POD algorithm. Further, the implementation is demonstrated to have applications independent of the controlled device. Challenges faced, the solutions implemented together with the present prototype\rq{s} limitations are also discussed.
+The modern power grid is increasingly being used under operating conditions of increasing stress, giving rise to grid stability issues. One of these stability issues is the phenomenon of inter-area oscillations. Simulations have demonstrated the advantages of Wide-area Measurement Signals (WAMS)-based Oscillation Damping Controls in achieving improved electromechanical mode damping compared to traditional, local signal-based Power System Stabilizers (PSS). This work takes an existing Phasor-based oscillation damping (POD) algorithm and uses it to implement a proof-of-concept, real-time controller on National Instruments hardware. The developed prototype is tested in a real-time Hardware-in-the-loop setup (RT-HIL) using OPAL-RT\rq{s} e\textsc{megasim} real-time simulation platform and synchrophasor data from actual Phasor Measurement Units (PMUs). The prototype and experiments provide insight into the feasibility and real-world limitations of wide-area controls. Further, it is demonstrated how the proposed control architecture has applications independent of the controlled device. Challenges faced, the solutions implemented together with the present prototype\rq{s} limitations are also discussed.
 
 %Version 0.32 Abstract
 
@@ -514,9 +515,9 @@ WAPOD, WAMPAC, synchrophasor, PMU, damping control, Wide Area measurement and co
 It has been shown in \cite{Yuwa} that wide-area signals are preferable to local signals, such as active power and frequency, \cite{localREMcomparison} for the purpose of damping inter-area oscillations. Studies such as \cite{Yuwa} have analysed damping performance when using signals such as voltage angle difference, which can easily be computed using data from multiple PMUs.
 
 \subsubsection*{Field Tests}
-Successful field trials of wide-area oscillation damping controllers are reported in \cite{WAPODNorway} and \cite{WAPODChina} indicating the potential that PMU-based wide area controllers have to offer. These results are not without certain limitations. In \cite{WAPODNorway} it is reported that the limited set of tests conducted with the Wide Area Power Oscillation Damper (WAPOD) are insufficient to compare the performance of a WAPOD to a local-measurement based controller. Co-Coordinating field experiments is often difficult and requires the participation of several entities. This work attempts to approximate real-world conditions as closely as possible but avoids several of the limitations of working with an operational power system.
+Successful field trials of wide-area oscillation damping controllers are reported in \cite{WAPODNorway} and \cite{WAPODChina} indicating the potential that PMU-based wide area controllers have to offer. These results are not without certain limitations. In \cite{WAPODNorway} it is reported that the limited set of tests conducted with the Wide Area Power Oscillation Damper (WAPOD) are insufficient to compare the performance of a WAPOD to a local-measurement based controller. Coordinating field experiments is often difficult and requires the participation of several entities. This work attempts to approximate real-world conditions as closely as possible but avoids several of the limitations of working with an operational power system.
 
-\subsubsection*{Delay Studies} The damping performance of a controller that depends on TCP network-transmitted data for input is constrained by the network transport delay. Beyond a certain value of time delay, damping will cease to be effective. These effects are explored in more detail in \cite{CommDelay} and \cite{YuwaDelay}.\vspace{-1em}
+\subsubsection*{Delay Studies} The damping performance of a controller that depends on TCP network-transmitted data for input is constrained by the network transport delay. Beyond a certain value of time delay, damping will cease to be effective. These effects are explored in more detail in \cite{China_paper} and \cite{Biplab}.\vspace{-1em}
 
 \subsection{Paper Contributions}
 The goal of this paper is to demonstrate experimentally the potential and flexibility in oscillation damping controller design that is possible by using synchrophasor data (IEEE C37.118). The Phasor Power Oscillation Damping (Phasor-POD) algorithm originally developed by \"{A}ngquist and Gama\cite{PhasorPOD} is implemented and deployed on a National Instruments Compact Reconfigurable Input / Output (cRIO) real-time controller. A modified, \textsc{Simulink} model of the four-machine, two-area network developed by Klein-Rogers and Kundur \cite{KundurTwoArea} is executed in real-time on the eMEGASIM \cite{eMEGASIM} platform from OPAL-RT. \iffalse This allows interfacing an externally generated control signal with the simulated model in real-time.\fi A Hardware-in-the-loop (HIL) test is set up to verify the performance of the hardware implementation of the Phasor POD algorithm. The flexibility of the developed controller is also demonstrated by extracting various data from the synchrophasor data-set and using each as a damping input to the controller. This paper also illustrates that the controller can have multiple applications by testing it with two different controllable devices; a generator automatic voltage regulator (AVR) system and a Flexible AC Transmission System (FACTS)-device excitation system. A brief analysis of the performance of each synchrophasor input to the hardware POD is also presented.\\\vspace{-1em}
@@ -1114,9 +1115,13 @@ M.~Klein, J. G.~Rogers and P.~Kundur \emph{A fundamental study of inter-area osc
 
 \bibitem{WAPODChina} Li Peng and Wu Xiaochen and Lu Chao and Shi Jinghai and Hu Jiong and He Jingbo and Zhao Yong and Aidong Xu \emph{Implementation of CSG's Wide-Area Damping Control System: Overview and experience} in Power Systems Conference and Exposition, 2009. PSCE '09. IEEE/PES pp. 1-9
 
-\bibitem{CommDelay} CFM Danielson, Luigi Vanfretti, Muhammad Shoaib Almas, Y Choompoobutrgool, JO Gjerde \emph{Analysis of communication network challenges for synchrophasor-based wide-area applications} Bulk Power System Dynamics and Control - IX Optimization, Security and Control of the Emerging Power Grid (IREP), 2013 IREP Symposium pp 1-13
+\bibitem{China_paper} Zhang, F., Sun, Y., Cheng, L., Li, X., Chow, J. H., \& Zhao, W. (2015) \emph{Measurement and modeling of delays in wide-area closed-loop control systems} IEEE Transactions on Power Systems, 30(5), 2426-2433.
 
-\bibitem{YuwaDelay} Yuwa Chompoobutrgool, Luigi Vanfretti \emph{Analysis of time delay effects for wide-area damping control design using dominant path signals}, PES General Meeting| Conference \& Exposition, 2014 IEEE, pp 1-5
+\bibitem{Biplab} Pal, S., Sikdar, B. and Chow, J.H., 2018. \emph{An online mechanism for detection of gray-hole attacks on PMU data} IEEE Transactions on Smart Grid, 9(4), pp.2498-2507.
+
+%\bibitem{CommDelay} CFM Danielson, Luigi Vanfretti, Muhammad Shoaib Almas, Y Choompoobutrgool, JO Gjerde \emph{Analysis of communication network challenges for synchrophasor-based wide-area applications} Bulk Power System Dynamics and Control - IX Optimization, Security and Control of the Emerging Power Grid (IREP), 2013 IREP Symposium pp 1-13
+
+%\bibitem{YuwaDelay} Yuwa Chompoobutrgool, Luigi Vanfretti \emph{Analysis of time delay effects for wide-area damping control design using dominant path signals}, PES General Meeting| Conference \& Exposition, 2014 IEEE, pp 1-5
 
 \bibitem{PhasorPOD} 
 L.~\"{A}ngquist and C.~Gama  \emph{Damping Algorithm based on Phasor Estimation} in Power Engineering Society Winter Meeting, 2001. IEEE, Volume 3, pp. 1160 - 1165  
@@ -1160,7 +1165,7 @@ Trudel \ G., Godhwani \ A. , Bérubé \ R. , Hajagos \ L. , Malik \ O. , Murdoch
 \bibitem{LabviewTemplate} \emph{FPGA Control on Compact RIO Sample Project Documentation}, National Instruments, Available Online at \url{http://www.ni.com/white-paper/14137/en/}
 
 
-\bibitem{MATLABexample} I~Kamwa \emph{Performance of Three PSS for Interarea Oscillations} SimPowerSystems Examples, \textsc{Matlab} R2011a \url{https://www.mathworks.com/help/physmod/sps/examples/performance-of-three-pss-for-interarea-oscillations.html}
+\bibitem{MATLABexample} Grondin, R., Kamwa, I., Trudel, G., Gerin-Lajoie, L. and Taborda, J., 2003, July. \emph{Modeling and closed-loop validation of a new PSS concept, the multi-band PSS} In Power Engineering Society General Meeting, 2003, IEEE (Vol. 3, pp. 1804-1809). IEEE.
 
 \bibitem{PSSDocumentation} \emph{Generic Power System Stabilizer} Documentation distributed with \textsc{Matlab} R2014a Available online at \url{http://www.mathworks.se/help/physmod/sps/powersys/ref/genericpowersystemstabilizer.html}
 
@@ -1171,6 +1176,7 @@ Trudel \ G., Godhwani \ A. , Bérubé \ R. , Hajagos \ L. , Malik \ O. , Murdoch
 \bibitem{BabelFish} Muhammad Shoaib Almas, Luigi Vanfretti, Maxime Baudette, \emph{BabelFish\textendash Tools for IEEE C37. 118.2-compliant real-time synchrophasor data mediation}, SoftwareX Volume 6, 2017, Pages 209-216 \url{https://doi.org/10.1016/j.softx.2017.08.002}
 
 \bibitem{Audur} L Vanfretti, GM J\'{o}nsd\'{o}ttir, MS Almas, E Rebello, SR Firouzi, M Baudette \emph{Audur\textendash A platform for synchrophasor-based power system wide-area control system implementation}, SoftwareX Volume 7, January\textendash June 2018, Pages 294-301 \url{ttps://doi.org/10.1016/j.softx.2018.08.003}
+
 
 %\bibitem{LabVIEWCourse} \emph{LabVIEW Course Manuals - Core 1, Real Time, FPGA, August 2012 Editions}, Copyright 2012 National Instruments
 
