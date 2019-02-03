@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.15)  2 FEB 2019 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.15)  3 FEB 2019 18:10
 entering extended mode
 **"E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V
 2/IEEE_Access/Journal_Paper_IEEE_Access.tex"
@@ -367,41 +367,6 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen140
-\captionmargin@=\dimen141
-\captionwidth=\dimen142
-\caption@tempdima=\dimen143
-\caption@indent=\dimen144
-\caption@parindent=\dimen145
-\caption@hangindent=\dimen146
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
-blestring \begin {flushleft} \vspace *{5pt} {\vss \color {accessblue}\tablecaph
-eadfont #1. \ }{\raggedright \tablecapfont #2\vss }\end {flushleft} \@IEEEtable
-captionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\st
-rut {\color {accessblue}\figcapheadfont #1. \ }\raggedright \figcapfont #2\stru
-t }\ifdim \xfigwd >\columnwidth \setbox \@tempboxa \hbox {{\color {accessblue}\
-figcapheadfont #1. \ }}\mbox {}\hfill \begin {tabular}{@{}l@{}}\noindent \ragge
-dright \unhbox \@tempboxa \figcapfont #2\end {tabular}\hfill \mbox {}\else \set
-box \@tempboxa \hbox {{\color {accessblue}\figcapheadfont #1. \ }}{\vss \ragged
-right \noindent \unhbox \@tempboxa \figcapfont #2\vss }\fi \fi \vskip 1pt plus 
-1pt minus 1pt.
-\c@caption@flags=\count116
-\c@ContinuedFloat=\count117
-)
 No file Journal_Paper_IEEE_Access.aux.
 \openout1 = `Journal_Paper_IEEE_Access.aux'.
 
@@ -435,16 +400,16 @@ LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen147
+\scratchcounter=\count116
+\scratchdimen=\dimen140
 \scratchbox=\box34
-\nofMPsegments=\count119
-\nofMParguments=\count120
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen148
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen141
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -488,9 +453,6 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-
 <bullet.png, id=3, 12.045pt x 35.38219pt>
 File: bullet.png Graphic file (type png)
  <use bullet.png>
@@ -504,10 +466,6 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
 (Font)              using `T1/phv/m/n' instead on input line 34.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/n/sc' undefined
-(Font)              using `T1/ptm/n/n' instead on input line 35.
 
 File: bullet.png Graphic file (type png)
 <use bullet.png>
@@ -535,57 +493,43 @@ Overfull \hbox (9.2679pt too wide) in paragraph at lines 44--44
 []  
  []
 
+
+Overfull \hbox (21.57088pt too wide) in paragraph at lines 50--70
+[] 
+ []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 73.
 
-LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 48.
+LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 48.
+LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `WAPODNorway' on page 1 undefined on input line 48.
+LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `localREMcomparison' on page 1 undefined on input line 
-48.
-
-
-LaTeX Warning: Citation `Yuwa' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `Rogers_book' on page 1 undefined on input line 48.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Citation `Yuwa' on page 1 undefined on input line 55.
+LaTeX Warning: Citation `WAPODNorway' on page 1 undefined on input line 73.
 
 
 LaTeX Warning: Citation `localREMcomparison' on page 1 undefined on input line 
-55.
+73.
 
 
-LaTeX Warning: Citation `Yuwa' on page 1 undefined on input line 55.
+LaTeX Warning: Citation `Yuwa' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `WAPODNorway' on page 1 undefined on input line 58.
+LaTeX Warning: Citation `Rogers_book' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `WAPODChina' on page 1 undefined on input line 58.
+Underfull \vbox (badness 2486) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `WAPODNorway' on page 1 undefined on input line 58.
 
 <Logo.png, id=4, 206.27063pt x 53.44969pt>
 File: Logo.png Graphic file (type png)
  <use Logo.png>
-Package pdftex.def Info: Logo.png used on input line 59.
+Package pdftex.def Info: Logo.png used on input line 74.
 (pdftex.def)             Requested size: 91.32pt x 23.66309pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -614,83 +558,94 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 /IEEE_Access/Logo.png> <E:/University/data/Class Work/Thesis - KTH/Extra Work/P
 apers/Journal Paper/V2/IEEE_Access/bullet.png>]
 
-LaTeX Warning: Citation `China_paper' on page 2 undefined on input line 60.
+LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 80.
 
 
-LaTeX Warning: Citation `Biplab' on page 2 undefined on input line 60.
+LaTeX Warning: Citation `localREMcomparison' on page 2 undefined on input line 
+80.
 
 
-LaTeX Warning: Citation `PhasorPOD' on page 2 undefined on input line 63.
+LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 80.
 
 
-LaTeX Warning: Citation `KundurTwoArea' on page 2 undefined on input line 63.
+LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 83.
 
 
-LaTeX Warning: Citation `eMEGASIM' on page 2 undefined on input line 63.
+LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Citation `China_paper' on page 2 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Biplab' on page 2 undefined on input line 85.
+
+
+LaTeX Warning: Citation `PhasorPOD' on page 2 undefined on input line 88.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/n/sc' undefined
+(Font)              using `T1/ptm/n/n' instead on input line 88.
+
+
+LaTeX Warning: Citation `KundurTwoArea' on page 2 undefined on input line 88.
+
+
+LaTeX Warning: Citation `eMEGASIM' on page 2 undefined on input line 88.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
-(Font)              using `T1/ptm/n/n' instead on input line 65.
+(Font)              using `T1/ptm/n/n' instead on input line 90.
 
 
-LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation `PhasorPOD' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `PhasorPOD' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation `Kamwa' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `Kamwa' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Reference `Background' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `Background' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Reference `softhardware' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `softhardware' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Reference `SetupPreparation' on page 2 undefined on input line 7
-1.
+LaTeX Warning: Reference `SetupPreparation' on page 2 undefined on input line 9
+6.
 
 
-LaTeX Warning: Reference `Results' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `Results' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Reference `Challenges' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `Challenges' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Reference `Future' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `Future' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Reference `Conclusion' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `Conclusion' on page 2 undefined on input line 96.
 
-
-LaTeX Warning: Citation `WAMTCSC' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation `TaskForce' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Chaudhuri' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 76.
-
-<notaglineLogo.png, id=19, 169.38281pt x 42.91031pt>
+<notaglineLogo.png, id=18, 169.38281pt x 42.91031pt>
 File: notaglineLogo.png Graphic file (type png)
  <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 77.
+Package pdftex.def Info: notaglineLogo.png used on input line 97.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -710,85 +665,59 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [2 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
 V2/IEEE_Access/notaglineLogo.png>]
 
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 80.
+LaTeX Warning: Citation `WAMTCSC' on page 3 undefined on input line 101.
 
 
-LaTeX Warning: Citation `Chaudhuri' on page 3 undefined on input line 80.
+LaTeX Warning: Citation `TaskForce' on page 3 undefined on input line 101.
 
 
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 90.
+LaTeX Warning: Citation `Chaudhuri' on page 3 undefined on input line 101.
 
 
-LaTeX Warning: Citation `PhasorPODImplement' on page 3 undefined on input line 
-90.
+LaTeX Warning: Citation `WAPODNorway' on page 3 undefined on input line 101.
 
 
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 90.
+LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 105.
 
 
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 94.
+LaTeX Warning: Citation `Chaudhuri' on page 3 undefined on input line 105.
 
 
-LaTeX Warning: Citation `KundurTwoArea' on page 3 undefined on input line 94.
-
-
-LaTeX Warning: Citation `eMEGASIM' on page 3 undefined on input line 97.
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 3 undefined on input line 9
-7.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 3 undefined on input line 97.
-
-
-
-LaTeX Warning: Citation `cRIO9081' on page 3 undefined on input line 97.
-
-
-LaTeX Warning: Citation `cRIO9081' on page 3 undefined on input line 97.
-
-<DataFlow.png, id=24, 469.2732pt x 247.1634pt>
-File: DataFlow.png Graphic file (type png)
- <use DataFlow.png>
-Package pdftex.def Info: DataFlow.png used on input line 101.
-(pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
-File: DataFlow.png Graphic file (type png)
-
-<use DataFlow.png>
-Package pdftex.def Info: DataFlow.png used on input line 101.
-(pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
+LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 112.
 
 
 LaTeX Warning: Citation `PhasorPODImplement' on page 3 undefined on input line 
-104.
+112.
+
+
+LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 112.
+
+
+LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `KundurTwoArea' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `eMEGASIM' on page 3 undefined on input line 119.
 
 
 LaTeX Warning: Reference `Hardware_Outline' on page 3 undefined on input line 1
-04.
+19.
 
 
-LaTeX Warning: Reference `looprate' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Reference `RTArchitecture' on page 3 undefined on input line 108
+LaTeX Warning: Reference `NetworkOutline' on page 3 undefined on input line 119
 .
 
 
-LaTeX Warning: Citation `SDK' on page 3 undefined on input line 108.
+LaTeX Warning: Citation `cRIO9081' on page 3 undefined on input line 119.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[][][]\T1/ptm/m/n/8 Available as open-source soft-ware at
- []
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 3 undefined on input line 108.
-
+LaTeX Warning: Citation `cRIO9081' on page 3 undefined on input line 119.
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 109.
+Package pdftex.def Info: notaglineLogo.png used on input line 120.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -805,41 +734,99 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[3]
+[3] <DataFlow.png, id=32, 469.2732pt x 247.1634pt>
+File: DataFlow.png Graphic file (type png)
+ <use DataFlow.png>
+Package pdftex.def Info: DataFlow.png used on input line 123.
+(pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
+File: DataFlow.png Graphic file (type png)
 
-LaTeX Warning: Citation `cRIO9081' on page 4 undefined on input line 111.
+<use DataFlow.png>
+Package pdftex.def Info: DataFlow.png used on input line 123.
+(pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
+
+
+LaTeX Warning: Citation `PhasorPODImplement' on page 4 undefined on input line 
+126.
+
+
+LaTeX Warning: Reference `Hardware_Outline' on page 4 undefined on input line 1
+26.
+
+
+LaTeX Warning: Reference `looprate' on page 4 undefined on input line 126.
+
+
+LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 130
+.
+
+
+LaTeX Warning: Citation `LabViewManuals' on page 4 undefined on input line 130.
+
+
+
+LaTeX Warning: Citation `cRIO9081' on page 4 undefined on input line 133.
 
 <Final_RT_Arch.png, id=34, 2169.5454pt x 357.9774pt>
 File: Final_RT_Arch.png Graphic file (type png)
  <use Final_RT_Arch.png>
-Package pdftex.def Info: Final_RT_Arch.png used on input line 114.
-(pdftex.def)             Requested size: 404.09895pt x 66.67268pt.
+Package pdftex.def Info: Final_RT_Arch.png used on input line 136.
+(pdftex.def)             Requested size: 479.86412pt x 79.17586pt.
 File: Final_RT_Arch.png Graphic file (type png)
 
 <use Final_RT_Arch.png>
-Package pdftex.def Info: Final_RT_Arch.png used on input line 114.
-(pdftex.def)             Requested size: 404.09895pt x 66.67268pt.
+Package pdftex.def Info: Final_RT_Arch.png used on input line 136.
+(pdftex.def)             Requested size: 479.86412pt x 79.17586pt.
 
 
 LaTeX Warning: Citation `Rebello_WAPOD_Software' on page 4 undefined on input l
-ine 116.
+ine 138.
 
 
-LaTeX Warning: Citation `LabviewTemplate' on page 4 undefined on input line 116
+LaTeX Warning: Citation `LabviewTemplate' on page 4 undefined on input line 138
 .
 
 
-LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 116
+LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 138
 .
 
 
-LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 116
+LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 138
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
+
+
+LaTeX Warning: Reference `NetworkOutline' on page 4 undefined on input line 155
+.
+
+<PSS_degraded_response.pdf, id=35, 498.41205pt x 316.45099pt>
+File: PSS_degraded_response.pdf Graphic file (type pdf)
+
+<use PSS_degraded_response.pdf>
+Package pdftex.def Info: PSS_degraded_response.pdf used on input line 160.
+(pdftex.def)             Requested size: 230.53912pt x 146.37077pt.
+File: PSS_degraded_response.pdf Graphic file (type pdf)
+ <use PSS_degraded_response.pdf>
+Package pdftex.def Info: PSS_degraded_response.pdf used on input line 160.
+(pdftex.def)             Requested size: 230.53912pt x 146.37077pt.
+
+
+LaTeX Warning: Citation `KundurTwoArea' on page 4 undefined on input line 162.
+
+
+LaTeX Warning: Reference `NetworkOutline' on page 4 undefined on input line 162
+.
+
+
+LaTeX Warning: Reference `NetworkOutline' on page 4 undefined on input line 162
+.
+
+
+LaTeX Warning: Reference `PSS_Degrade' on page 4 undefined on input line 162.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -847,7 +834,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: notaglineLogo.png Graphic file (type png)
 
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 130.
+Package pdftex.def Info: notaglineLogo.png used on input line 163.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -864,77 +851,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[4 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/DataFlow.png>]
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 133
-.
-
-<PSS_degraded_response.pdf, id=39, 498.41205pt x 316.45099pt>
-File: PSS_degraded_response.pdf Graphic file (type pdf)
-
-<use PSS_degraded_response.pdf>
-Package pdftex.def Info: PSS_degraded_response.pdf used on input line 138.
-(pdftex.def)             Requested size: 230.53912pt x 146.37077pt.
-File: PSS_degraded_response.pdf Graphic file (type pdf)
- <use PSS_degraded_response.pdf>
-Package pdftex.def Info: PSS_degraded_response.pdf used on input line 138.
-(pdftex.def)             Requested size: 230.53912pt x 146.37077pt.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 5 undefined on input line 140.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 140
-.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 140
-.
-
-
-LaTeX Warning: Reference `PSS_Degrade' on page 5 undefined on input line 140.
-
-<Kundur2Area_outline_multi.png, id=40, 674.52pt x 246.9225pt>
-File: Kundur2Area_outline_multi.png Graphic file (type png)
-
-<use Kundur2Area_outline_multi.png>
-Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 143.
-(pdftex.def)             Requested size: 505.12177pt x 184.91258pt.
-File: Kundur2Area_outline_multi.png Graphic file (type png)
- <use Kundur2Area_outline_multi.png>
-Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 143.
-(pdftex.def)             Requested size: 505.12177pt x 184.91258pt.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 147
-.
-
-
-LaTeX Warning: Citation `PhasorPODImplement' on page 5 undefined on input line 
-147.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 147
-.
-
-
-LaTeX Warning: Citation `sVARdamp' on page 5 undefined on input line 147.
-
-
-LaTeX Warning: Citation `eMEGASIM' on page 5 undefined on input line 150.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 150
-.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 5 undefined on input line 150
-.
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: notaglineLogo.png Graphic file (type png)
+
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 151.
+Package pdftex.def Info: notaglineLogo.png used on input line 163.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -952,66 +875,120 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [5 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/Final_RT_Arch.png> <E:/University/data/Class Work/Thesis - KTH/E
-xtra Work/Papers/Journal Paper/V2/IEEE_Access/PSS_degraded_response.pdf>]
+V2/IEEE_Access/DataFlow.png> <E:/University/data/Class Work/Thesis - KTH/Extra 
+Work/Papers/Journal Paper/V2/IEEE_Access/Final_RT_Arch.png> <E:/University/data
+/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/PSS_deg
+raded_response.pdf>]
+<Kundur2Area_outline_multi.png, id=84, 674.52pt x 246.9225pt>
+File: Kundur2Area_outline_multi.png Graphic file (type png)
 
-LaTeX Warning: Reference `Hardware_Outline' on page 6 undefined on input line 1
-53.
+<use Kundur2Area_outline_multi.png>
+Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 165.
+(pdftex.def)             Requested size: 505.12177pt x 184.91258pt.
+File: Kundur2Area_outline_multi.png Graphic file (type png)
+ <use Kundur2Area_outline_multi.png>
+Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 165.
+(pdftex.def)             Requested size: 505.12177pt x 184.91258pt.
+
+Overfull \hbox (381.66666pt too wide) in paragraph at lines 165--165
+[][] []
+ []
 
 
-LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 153
+LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 169
 .
 
 
-Underfull \vbox (badness 4391) has occurred while \output is active []
+LaTeX Warning: Citation `PhasorPODImplement' on page 6 undefined on input line 
+169.
 
 
-
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 157.
-
-
-LaTeX Warning: Citation `Yuwa' on page 6 undefined on input line 157.
+LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 169
+.
 
 
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 157.
+LaTeX Warning: Citation `sVARdamp' on page 6 undefined on input line 169.
+
+
+LaTeX Warning: Citation `eMEGASIM' on page 6 undefined on input line 172.
+
+
+LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 172
+.
+
+
+LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 172
+.
+
+
+LaTeX Warning: Reference `Hardware_Outline' on page 6 undefined on input line 1
+75.
+
+
+LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 175
+.
+
+
+LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Yuwa' on page 6 undefined on input line 179.
+
+
+LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 179.
 
 
 LaTeX Warning: Reference `SVCResponseTable' on page 6 undefined on input line 1
-57.
+79.
 
 <Controller_Response_SVC_input.pdf, id=85, 498.48569pt x 316.45099pt>
 File: Controller_Response_SVC_input.pdf Graphic file (type pdf)
 
 <use Controller_Response_SVC_input.pdf>
-Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 1
-78.
-(pdftex.def)             Requested size: 230.53912pt x 146.35146pt.
+Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 2
+03.
+(pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
 File: Controller_Response_SVC_input.pdf Graphic file (type pdf)
 
 <use Controller_Response_SVC_input.pdf>
-Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 1
-78.
-(pdftex.def)             Requested size: 230.53912pt x 146.35146pt.
+Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 2
+03.
+(pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
 
 
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 180.
+LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 205.
 
 
-LaTeX Warning: Reference `ScopeCapture' on page 6 undefined on input line 180.
+LaTeX Warning: Reference `ScopeCapture' on page 6 undefined on input line 205.
 
 <Best_sample.png, id=86, 321.2pt x 240.9pt>
 File: Best_sample.png Graphic file (type png)
  <use Best_sample.png>
-Package pdftex.def Info: Best_sample.png used on input line 183.
-(pdftex.def)             Requested size: 230.53912pt x 172.9075pt.
+Package pdftex.def Info: Best_sample.png used on input line 208.
+(pdftex.def)             Requested size: 194.13957pt x 145.60709pt.
 File: Best_sample.png Graphic file (type png)
 
 <use Best_sample.png>
-Package pdftex.def Info: Best_sample.png used on input line 183.
-(pdftex.def)             Requested size: 230.53912pt x 172.9075pt.
+Package pdftex.def Info: Best_sample.png used on input line 208.
+(pdftex.def)             Requested size: 194.13957pt x 145.60709pt.
+
+
+LaTeX Warning: Reference `Generator_Plots' on page 6 undefined on input line 21
+1.
+
+
+LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 211.
+
+
+LaTeX Warning: Reference `Generator_Plots' on page 6 undefined on input line 21
+1.
+
+
+LaTeX Warning: Citation `Yuwa' on page 6 undefined on input line 211.
+
 File: notaglineLogo.png Graphic file (type png)
- <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 185.
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 212.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1028,59 +1005,44 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[6 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/Kundur2Area_outline_multi.png>]
-
-LaTeX Warning: Reference `Generator_Plots' on page 7 undefined on input line 18
-6.
-
-
-LaTeX Warning: Reference `SVC_Plots' on page 7 undefined on input line 186.
-
-
-LaTeX Warning: Reference `Generator_Plots' on page 7 undefined on input line 18
-6.
-
-
-LaTeX Warning: Citation `Yuwa' on page 7 undefined on input line 186.
-
+[6]
 <Controller_Response_Generator_input.pdf, id=90, 498.48569pt x 316.45099pt>
 File: Controller_Response_Generator_input.pdf Graphic file (type pdf)
 
 <use Controller_Response_Generator_input.pdf>
 Package pdftex.def Info: Controller_Response_Generator_input.pdf used on input 
-line 189.
-(pdftex.def)             Requested size: 230.53912pt x 146.35146pt.
+line 214.
+(pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
 File: Controller_Response_Generator_input.pdf Graphic file (type pdf)
 
 <use Controller_Response_Generator_input.pdf>
 Package pdftex.def Info: Controller_Response_Generator_input.pdf used on input 
-line 189.
-(pdftex.def)             Requested size: 230.53912pt x 146.35146pt.
+line 214.
+(pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
 
 
-LaTeX Warning: Reference `Generator_Plots' on page 7 undefined on input line 19
-1.
+LaTeX Warning: Reference `Generator_Plots' on page 7 undefined on input line 21
+6.
 
 
-LaTeX Warning: Reference `GENResponseTable' on page 7 undefined on input line 1
-91.
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 7 undefined on input line 2
-14.
+LaTeX Warning: Reference `GENResponseTable' on page 7 undefined on input line 2
+16.
 
 
 LaTeX Warning: Reference `Hardware_Outline' on page 7 undefined on input line 2
-14.
+39.
+
+
+LaTeX Warning: Reference `Hardware_Outline' on page 7 undefined on input line 2
+39.
 
 
 LaTeX Warning: Reference `varying_time_delay' on page 7 undefined on input line
- 214.
+ 239.
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 215.
+Package pdftex.def Info: notaglineLogo.png used on input line 240.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1098,10 +1060,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/Controller_Response_SVC_input.pdf> <E:/University/data/Class Wor
-k/Thesis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/Best_sample.png (
-PNG copy)> <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journa
-l Paper/V2/IEEE_Access/Controller_Response_Generator_input.pdf
+V2/IEEE_Access/Kundur2Area_outline_multi.png> <E:/University/data/Class Work/Th
+esis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/Controller_Response_S
+VC_input.pdf> <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Jou
+rnal Paper/V2/IEEE_Access/Best_sample.png (PNG copy)> <E:/University/data/Class
+ Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/Controller_Re
+sponse_Generator_input.pdf
 
 pdfTeX warning: pdflatex.EXE (file E:/University/data/Class Work/Thesis - KTH/E
 xtra Work/Papers/Journal Paper/V2/IEEE_Access/Controller_Response_Generator_inp
@@ -1111,56 +1075,44 @@ ut.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 File: delay_bar_chart.pdf Graphic file (type pdf)
 
 <use delay_bar_chart.pdf>
-Package pdftex.def Info: delay_bar_chart.pdf used on input line 217.
-(pdftex.def)             Requested size: 230.53912pt x 113.7324pt.
+Package pdftex.def Info: delay_bar_chart.pdf used on input line 242.
+(pdftex.def)             Requested size: 240.24814pt x 118.52417pt.
 File: delay_bar_chart.pdf Graphic file (type pdf)
  <use delay_bar_chart.pdf>
-Package pdftex.def Info: delay_bar_chart.pdf used on input line 217.
-(pdftex.def)             Requested size: 230.53912pt x 113.7324pt.
+Package pdftex.def Info: delay_bar_chart.pdf used on input line 242.
+(pdftex.def)             Requested size: 240.24814pt x 118.52417pt.
 
 
-LaTeX Warning: Citation `PhasorPOD' on page 8 undefined on input line 221.
+LaTeX Warning: Citation `PhasorPOD' on page 8 undefined on input line 246.
 
 
-LaTeX Warning: Reference `ScalingProblem' on page 8 undefined on input line 221
+LaTeX Warning: Reference `ScalingProblem' on page 8 undefined on input line 246
 .
 
 
-LaTeX Warning: Citation `eMEGASIM' on page 8 undefined on input line 221.
+LaTeX Warning: Citation `eMEGASIM' on page 8 undefined on input line 246.
 
 <Scaling.png, id=225, 572.6193pt x 132.2541pt>
 File: Scaling.png Graphic file (type png)
  <use Scaling.png>
-Package pdftex.def Info: Scaling.png used on input line 224.
-(pdftex.def)             Requested size: 230.53912pt x 53.24577pt.
+Package pdftex.def Info: Scaling.png used on input line 249.
+(pdftex.def)             Requested size: 240.24814pt x 55.48781pt.
 File: Scaling.png Graphic file (type png)
 
 <use Scaling.png>
-Package pdftex.def Info: Scaling.png used on input line 224.
-(pdftex.def)             Requested size: 230.53912pt x 53.24577pt.
+Package pdftex.def Info: Scaling.png used on input line 249.
+(pdftex.def)             Requested size: 240.24814pt x 55.48781pt.
 
 
-LaTeX Warning: Reference `RTArchitecture' on page 8 undefined on input line 229
+LaTeX Warning: Reference `RTArchitecture' on page 8 undefined on input line 254
 .
 
 
-LaTeX Warning: Reference `ex:LoopRates' on page 8 undefined on input line 229.
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 8 undefined on input line 251.
-
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 8 undefined on input line 251.
-
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 8 undefined on input line 251.
-
+LaTeX Warning: Reference `ex:LoopRates' on page 8 undefined on input line 254.
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 252.
+Package pdftex.def Info: notaglineLogo.png used on input line 273.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1181,58 +1133,37 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 V2/IEEE_Access/delay_bar_chart.pdf> <E:/University/data/Class Work/Thesis - KTH
 /Extra Work/Papers/Journal Paper/V2/IEEE_Access/Scaling.png>]
 
+LaTeX Warning: Citation `LabViewManuals' on page 9 undefined on input line 276.
+
+
+
+LaTeX Warning: Citation `LabViewManuals' on page 9 undefined on input line 276.
+
+
+
+LaTeX Warning: Citation `LabViewManuals' on page 9 undefined on input line 276.
+
+
+
 LaTeX Warning: Reference `Hardware_Outline' on page 9 undefined on input line 2
-53.
+78.
 
 
-LaTeX Warning: Reference `RTArchitecture' on page 9 undefined on input line 253
+LaTeX Warning: Reference `RTArchitecture' on page 9 undefined on input line 278
 .
 
 
-LaTeX Warning: Citation `Yuwa' on page 9 undefined on input line 257.
+LaTeX Warning: Citation `Yuwa' on page 9 undefined on input line 282.
 
 
-LaTeX Warning: Citation `Audur' on page 9 undefined on input line 257.
+LaTeX Warning: Citation `Audur' on page 9 undefined on input line 282.
 
 
-LaTeX Warning: Citation `Yuwa' on page 9 undefined on input line 260.
-
-LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 287.
-
-Underfull \hbox (badness 2707) in paragraph at lines 299--300
-[]\T1/ptm/n/it/7.61 Operating In-struc-tions and Spec-i-fi-ca-tions Com-pact RI
-O NI cRIO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
-[]\T1/ptm/n/it/7.61 FPGA Con-trol on Com-pact RIO Sam-ple Project Doc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
-\T1/ptm/n/it/7.61 u-men-ta-tion, Na-tional In-stru-ments, Avail-able On-line at
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
-[]\T1/ptm/n/sc/7.61 Generic Power Sys-tem Sta-bi-lizer Doc-u-men-ta-tion dis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
-\T1/ptm/n/sc/7.61 tributed with Mat-lab R2014a Avail-able on-line at
- []
-
-
-Overfull \hbox (59.15776pt too wide) in paragraph at lines 312--313
-[]$ 
- []
+LaTeX Warning: Citation `Yuwa' on page 9 undefined on input line 285.
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 314.
+Package pdftex.def Info: notaglineLogo.png used on input line 309.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1249,106 +1180,29 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[9] <a1.png, id=262, 72.27pt x 90.3375pt>
+[9]
+LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 312.
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+[]\T1/ptm/m/n/7.61 ``FPGA Con-trol on Com-pact RIO Sam-ple Project Doc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+\T1/ptm/m/n/7.61 u-men-ta-tion'', Na-tional In-stru-ments, Avail-able On-line a
+t
+ []
+
+<a1.png, id=262, 72.27pt x 90.3375pt>
 File: a1.png Graphic file (type png)
  <use a1.png>
-Package pdftex.def Info: a1.png used on input line 320.
+Package pdftex.def Info: a1.png used on input line 345.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: a1.png Graphic file (type png)
  <use a1.png>
-Package pdftex.def Info: a1.png used on input line 320.
+Package pdftex.def Info: a1.png used on input line 345.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 
-<a2.png, id=265, 72.27pt x 90.3375pt>
-File: a2.png Graphic file (type png)
- <use a2.png>
-Package pdftex.def Info: a2.png used on input line 331.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-File: a2.png Graphic file (type png)
- <use a2.png>
-Package pdftex.def Info: a2.png used on input line 331.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-Underfull \hbox (badness 2189) in paragraph at lines 331--336
-\T1/ptm/n/n/8 lottesville, in 2001 and the Ph.D. de-gree in
- []
-
-<a3.png, id=268, 72.27pt x 90.3375pt>
-File: a3.png Graphic file (type png)
- <use a3.png>
-Package pdftex.def Info: a3.png used on input line 338.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-File: a3.png Graphic file (type png)
- <use a3.png>
-Package pdftex.def Info: a3.png used on input line 338.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-File: bullet.png Graphic file (type png)
-
-<use bullet.png>
-Package pdftex.def Info: bullet.png used on input line 347.
-(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
-File: notaglineLogo.png Graphic file (type png)
- <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 349.
-(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[10
-
- <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
-/IEEE_Access/a1.png> <E:/University/data/Class Work/Thesis - KTH/Extra Work/Pap
-ers/Journal Paper/V2/IEEE_Access/a2.png> <E:/University/data/Class Work/Thesis 
-- KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/a3.png>]
-(Journal_Paper_IEEE_Access.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 5795 strings out of 493333
- 89458 string characters out of 3139188
- 157740 words of memory out of 3000000
- 9198 multiletter control sequences out of 15000+200000
- 106423 words of font info for 159 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 53i,13n,92p,1959b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
-vetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on Journal_Paper_IEEE_Access.pdf (10 pages, 1008211 bytes).
-PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!pdfTeX error: pdflatex.EXE (file E:/University/data/Class Work/Thesis - KTH/Ex
+tra Work/Papers/Journal Paper/V2/IEEE_Access/a2.png): libpng: internal error
+ ==> Fatal error occurred, no output PDF file produced!
