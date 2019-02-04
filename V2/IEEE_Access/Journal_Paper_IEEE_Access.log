@@ -1,30 +1,25 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.15)  3 FEB 2019 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  4 FEB 2019 17:07
 entering extended mode
-**"E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V
-2/IEEE_Access/Journal_Paper_IEEE_Access.tex"
-
-("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
-/IEEE_Access/Journal_Paper_IEEE_Access.tex"
-LaTeX2e <2017/01/01> patch level 1
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-
-("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
-/IEEE_Access\ieeeaccess.cls"
-("E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
-/IEEE_Access\IEEEtran.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Journal_Paper_IEEE_Access.tex
+(./Journal_Paper_IEEE_Access.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./ieeeaccess.cls (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
 \@IEEEtrantmpdimenC=\dimen104
-\@IEEEtrantmpcountA=\count79
-\@IEEEtrantmpcountB=\count80
-\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountC=\count82
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -96,83 +91,77 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen118
 \IEEEiedmathlabelsep=\dimen119
 \IEEEiedtopsep=\skip41
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@IEEEsubequation=\count86
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@IEEEsubequation=\count87
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-\c@figure=\count87
-\c@table=\count88
-\@IEEEeqnnumcols=\count89
-\@IEEEeqncolcnt=\count90
-\@IEEEsubeqnnumrollback=\count91
+\c@figure=\count88
+\c@table=\count89
+\@IEEEeqnnumcols=\count90
+\@IEEEeqncolcnt=\count91
+\@IEEEsubeqnnumrollback=\count92
 \@IEEEquantizeheightA=\dimen120
 \@IEEEquantizeheightB=\dimen121
 \@IEEEquantizeheightC=\dimen122
 \@IEEEquantizeprevdepth=\dimen123
-\@IEEEquantizemultiple=\count92
+\@IEEEquantizemultiple=\count93
 \@IEEEquantizeboxA=\box26
 \@IEEEtmpitemindent=\dimen124
 \IEEEPARstartletwidth=\dimen125
-\c@IEEEbiography=\count93
+\c@IEEEbiography=\count94
 \@IEEEtranrubishbin=\box27
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
-\XKV@depth=\count94
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count95
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)){C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+)){/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-pdfTeX warning: pdflatex.EXE (file t1-times.map): cannot open font map file
-
-
-pdfTeX warning: pdflatex.EXE (file t1-formata.map): cannot open font map file
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-times.map): cannot open f
+ont map file
 
 
-pdfTeX warning: pdflatex.EXE (file t1-giovannistd.map): cannot open font map fi
-le
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-formata.map): cannot open
+ font map file
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-giovannistd.map): cannot 
+open font map file
 \@draftversionrule=\dimen126
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count95
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\spotcolor\spotcolor.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/spotcolor/spotcolor.sty
 Package: spotcolor 2006/11/15 v1.2 Package for adding Spot Color support to pdf
 LaTeX.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -194,29 +183,29 @@ Package color Info: Redefining color black on input line 134.
 \titlepgskip=\skip46
 \maketitlebox=\box31
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen129
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen130
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count100
@@ -257,20 +246,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@ALC@unique=\count112
@@ -280,13 +269,13 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \ALC@tlm=\skip50
 \algorithmicindent=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen138
 \Gin@req@width=\dimen139
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2017/01/24 v2.0c Standard LaTeX package
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -300,9 +289,84 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -367,7 +431,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-No file Journal_Paper_IEEE_Access.aux.
+(./Journal_Paper_IEEE_Access.aux)
 \openout1 = `Journal_Paper_IEEE_Access.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -384,21 +448,22 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 13.
 
 -- Lines per column: 56 (exact).
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 13.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 
 LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
 (Font)              using `T1/ptm/m/n' instead on input line 13.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen140
@@ -411,125 +476,112 @@ LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
 \MPnumerator=\count120
 \makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks24
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 <bullet.png, id=3, 12.045pt x 35.38219pt>
 File: bullet.png Graphic file (type png)
- <use bullet.png>
-Package pdftex.def Info: bullet.png used on input line 34.
+<use bullet.png>
+Package pdftex.def Info: bullet.png  used on input line 36.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 34.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 36.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 
 LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
-(Font)              using `T1/phv/m/n' instead on input line 34.
+(Font)              using `T1/phv/m/n' instead on input line 36.
 
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png used on input line 38.
+Package pdftex.def Info: bullet.png  used on input line 40.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
-LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 44.
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 44.
-LaTeX Font Info:    Calculating math sizes for size <7.7> on input line 44.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 46.
+LaTeX Font Info:    Calculating math sizes for size <7.7> on input line 46.
 
-Overfull \hbox (9.2679pt too wide) in paragraph at lines 44--44
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 46--46
 []  
  []
 
 
-Overfull \hbox (9.2679pt too wide) in paragraph at lines 44--44
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 46--46
 []  
  []
 
 
-Overfull \hbox (21.57088pt too wide) in paragraph at lines 50--70
+Overfull \hbox (21.57088pt too wide) in paragraph at lines 52--72
 [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 73.
-
-LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `localREMcomparison' on page 1 undefined on input line 
-73.
-
-
-LaTeX Warning: Citation `Yuwa' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `Rogers_book' on page 1 undefined on input line 73.
-
-
-Underfull \vbox (badness 2486) has occurred while \output is active []
-
-
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
 <Logo.png, id=4, 206.27063pt x 53.44969pt>
 File: Logo.png Graphic file (type png)
- <use Logo.png>
-Package pdftex.def Info: Logo.png used on input line 74.
+<use Logo.png>
+Package pdftex.def Info: Logo.png  used on input line 76.
 (pdftex.def)             Requested size: 91.32pt x 23.66309pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -554,170 +606,19 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1
 
 
- <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2
-/IEEE_Access/Logo.png> <E:/University/data/Class Work/Thesis - KTH/Extra Work/P
-apers/Journal Paper/V2/IEEE_Access/bullet.png>]
-
-LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `localREMcomparison' on page 2 undefined on input line 
-80.
-
-
-LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 83.
-
-
-LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 83.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 83.
-
-
-LaTeX Warning: Citation `China_paper' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Citation `Biplab' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 2 undefined on input line 88.
-
+ <./Logo.png> <./bullet.png>]
 
 LaTeX Font Warning: Font shape `T1/ptm/n/sc' undefined
-(Font)              using `T1/ptm/n/n' instead on input line 88.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `eMEGASIM' on page 2 undefined on input line 88.
+(Font)              using `T1/ptm/n/n' instead on input line 92.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
-(Font)              using `T1/ptm/n/n' instead on input line 90.
+(Font)              using `T1/ptm/n/n' instead on input line 94.
 
-
-LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `Yuwa' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `Kamwa' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `WAPODChina' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Reference `Background' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `softhardware' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `SetupPreparation' on page 2 undefined on input line 9
-6.
-
-
-LaTeX Warning: Reference `Results' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `Challenges' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `Future' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `Conclusion' on page 2 undefined on input line 96.
-
-<notaglineLogo.png, id=18, 169.38281pt x 42.91031pt>
-File: notaglineLogo.png Graphic file (type png)
- <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 97.
-(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[2 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/notaglineLogo.png>]
-
-LaTeX Warning: Citation `WAMTCSC' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Citation `TaskForce' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Citation `Chaudhuri' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Citation `WAPODNorway' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 105.
-
-
-LaTeX Warning: Citation `Chaudhuri' on page 3 undefined on input line 105.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `PhasorPODImplement' on page 3 undefined on input line 
-112.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 3 undefined on input line 116.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 3 undefined on input line 116.
-
-
-LaTeX Warning: Citation `eMEGASIM' on page 3 undefined on input line 119.
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 3 undefined on input line 1
-19.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 3 undefined on input line 119
-.
-
-
-LaTeX Warning: Citation `cRIO9081' on page 3 undefined on input line 119.
-
-
-LaTeX Warning: Citation `cRIO9081' on page 3 undefined on input line 119.
-
+<notaglineLogo.png, id=19, 169.38281pt x 42.91031pt>
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 120.
+Package pdftex.def Info: notaglineLogo.png  used on input line 97.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -734,107 +635,81 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[3] <DataFlow.png, id=32, 469.2732pt x 247.1634pt>
+[2 <./notaglineLogo.png>]
+<DataFlow.png, id=25, 469.2732pt x 247.1634pt>
 File: DataFlow.png Graphic file (type png)
- <use DataFlow.png>
-Package pdftex.def Info: DataFlow.png used on input line 123.
-(pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
-File: DataFlow.png Graphic file (type png)
-
 <use DataFlow.png>
-Package pdftex.def Info: DataFlow.png used on input line 123.
+Package pdftex.def Info: DataFlow.png  used on input line 119.
 (pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
+File: DataFlow.png Graphic file (type png)
+<use DataFlow.png>
+Package pdftex.def Info: DataFlow.png  used on input line 119.
+(pdftex.def)             Requested size: 429.35658pt x 226.1485pt.
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 124.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
 
 
-LaTeX Warning: Citation `PhasorPODImplement' on page 4 undefined on input line 
-126.
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
 
 
-LaTeX Warning: Reference `Hardware_Outline' on page 4 undefined on input line 1
-26.
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
 
-
-LaTeX Warning: Reference `looprate' on page 4 undefined on input line 126.
-
-
-LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 130
-.
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 4 undefined on input line 130.
-
-
-
-LaTeX Warning: Citation `cRIO9081' on page 4 undefined on input line 133.
-
-<Final_RT_Arch.png, id=34, 2169.5454pt x 357.9774pt>
+[3]
+<Final_RT_Arch.png, id=35, 2169.5454pt x 357.9774pt>
 File: Final_RT_Arch.png Graphic file (type png)
- <use Final_RT_Arch.png>
-Package pdftex.def Info: Final_RT_Arch.png used on input line 136.
-(pdftex.def)             Requested size: 479.86412pt x 79.17586pt.
-File: Final_RT_Arch.png Graphic file (type png)
-
 <use Final_RT_Arch.png>
-Package pdftex.def Info: Final_RT_Arch.png used on input line 136.
+Package pdftex.def Info: Final_RT_Arch.png  used on input line 138.
 (pdftex.def)             Requested size: 479.86412pt x 79.17586pt.
+File: Final_RT_Arch.png Graphic file (type png)
+<use Final_RT_Arch.png>
+Package pdftex.def Info: Final_RT_Arch.png  used on input line 138.
+(pdftex.def)             Requested size: 479.86412pt x 79.17586pt.
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 144.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
-
-LaTeX Warning: Citation `Rebello_WAPOD_Software' on page 4 undefined on input l
-ine 138.
-
-
-LaTeX Warning: Citation `LabviewTemplate' on page 4 undefined on input line 138
-.
-
-
-LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 138
-.
-
-
-LaTeX Warning: Reference `RTArchitecture' on page 4 undefined on input line 138
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
  []
 
 
-LaTeX Warning: Reference `NetworkOutline' on page 4 undefined on input line 155
-.
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
 
-<PSS_degraded_response.pdf, id=35, 498.41205pt x 316.45099pt>
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4 <./DataFlow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+<PSS_degraded_response.pdf, id=40, 498.41205pt x 316.45099pt>
 File: PSS_degraded_response.pdf Graphic file (type pdf)
-
 <use PSS_degraded_response.pdf>
-Package pdftex.def Info: PSS_degraded_response.pdf used on input line 160.
+Package pdftex.def Info: PSS_degraded_response.pdf  used on input line 162.
 (pdftex.def)             Requested size: 230.53912pt x 146.37077pt.
 File: PSS_degraded_response.pdf Graphic file (type pdf)
- <use PSS_degraded_response.pdf>
-Package pdftex.def Info: PSS_degraded_response.pdf used on input line 160.
+<use PSS_degraded_response.pdf>
+Package pdftex.def Info: PSS_degraded_response.pdf  used on input line 162.
 (pdftex.def)             Requested size: 230.53912pt x 146.37077pt.
-
-
-LaTeX Warning: Citation `KundurTwoArea' on page 4 undefined on input line 162.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 4 undefined on input line 162
-.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 4 undefined on input line 162
-.
-
-
-LaTeX Warning: Reference `PSS_Degrade' on page 4 undefined on input line 162.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: notaglineLogo.png Graphic file (type png)
-
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 163.
+Package pdftex.def Info: notaglineLogo.png  used on input line 165.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -851,144 +726,37 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: notaglineLogo.png Graphic file (type png)
-
-<use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 163.
-(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[5 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/DataFlow.png> <E:/University/data/Class Work/Thesis - KTH/Extra 
-Work/Papers/Journal Paper/V2/IEEE_Access/Final_RT_Arch.png> <E:/University/data
-/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/PSS_deg
-raded_response.pdf>]
-<Kundur2Area_outline_multi.png, id=84, 674.52pt x 246.9225pt>
+[5 <./Final_RT_Arch.png> <./PSS_degraded_response.pdf>]
+<Kundur2Area_outline_multi.png, id=85, 674.52pt x 246.9225pt>
 File: Kundur2Area_outline_multi.png Graphic file (type png)
-
 <use Kundur2Area_outline_multi.png>
-Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 165.
+Package pdftex.def Info: Kundur2Area_outline_multi.png  used on input line 169.
+
 (pdftex.def)             Requested size: 505.12177pt x 184.91258pt.
 File: Kundur2Area_outline_multi.png Graphic file (type png)
- <use Kundur2Area_outline_multi.png>
-Package pdftex.def Info: Kundur2Area_outline_multi.png used on input line 165.
+<use Kundur2Area_outline_multi.png>
+Package pdftex.def Info: Kundur2Area_outline_multi.png  used on input line 169.
+
 (pdftex.def)             Requested size: 505.12177pt x 184.91258pt.
 
-Overfull \hbox (381.66666pt too wide) in paragraph at lines 165--165
+Overfull \hbox (381.66666pt too wide) in paragraph at lines 169--169
 [][] []
  []
 
-
-LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 169
-.
-
-
-LaTeX Warning: Citation `PhasorPODImplement' on page 6 undefined on input line 
-169.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 169
-.
-
-
-LaTeX Warning: Citation `sVARdamp' on page 6 undefined on input line 169.
-
-
-LaTeX Warning: Citation `eMEGASIM' on page 6 undefined on input line 172.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 172
-.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 172
-.
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 6 undefined on input line 1
-75.
-
-
-LaTeX Warning: Reference `NetworkOutline' on page 6 undefined on input line 175
-.
-
-
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 179.
-
-
-LaTeX Warning: Citation `Yuwa' on page 6 undefined on input line 179.
-
-
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 179.
-
-
-LaTeX Warning: Reference `SVCResponseTable' on page 6 undefined on input line 1
-79.
-
-<Controller_Response_SVC_input.pdf, id=85, 498.48569pt x 316.45099pt>
+<Controller_Response_SVC_input.pdf, id=86, 498.48569pt x 316.45099pt>
 File: Controller_Response_SVC_input.pdf Graphic file (type pdf)
-
 <use Controller_Response_SVC_input.pdf>
-Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 2
-03.
+Package pdftex.def Info: Controller_Response_SVC_input.pdf  used on input line 
+206.
 (pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
 File: Controller_Response_SVC_input.pdf Graphic file (type pdf)
-
 <use Controller_Response_SVC_input.pdf>
-Package pdftex.def Info: Controller_Response_SVC_input.pdf used on input line 2
-03.
+Package pdftex.def Info: Controller_Response_SVC_input.pdf  used on input line 
+206.
 (pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
-
-
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 205.
-
-
-LaTeX Warning: Reference `ScopeCapture' on page 6 undefined on input line 205.
-
-<Best_sample.png, id=86, 321.2pt x 240.9pt>
-File: Best_sample.png Graphic file (type png)
- <use Best_sample.png>
-Package pdftex.def Info: Best_sample.png used on input line 208.
-(pdftex.def)             Requested size: 194.13957pt x 145.60709pt.
-File: Best_sample.png Graphic file (type png)
-
-<use Best_sample.png>
-Package pdftex.def Info: Best_sample.png used on input line 208.
-(pdftex.def)             Requested size: 194.13957pt x 145.60709pt.
-
-
-LaTeX Warning: Reference `Generator_Plots' on page 6 undefined on input line 21
-1.
-
-
-LaTeX Warning: Reference `SVC_Plots' on page 6 undefined on input line 211.
-
-
-LaTeX Warning: Reference `Generator_Plots' on page 6 undefined on input line 21
-1.
-
-
-LaTeX Warning: Citation `Yuwa' on page 6 undefined on input line 211.
-
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 212.
+Package pdftex.def Info: notaglineLogo.png  used on input line 209.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1006,43 +774,29 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [6]
-<Controller_Response_Generator_input.pdf, id=90, 498.48569pt x 316.45099pt>
+<Best_sample.png, id=90, 321.2pt x 240.9pt>
+File: Best_sample.png Graphic file (type png)
+<use Best_sample.png>
+Package pdftex.def Info: Best_sample.png  used on input line 211.
+(pdftex.def)             Requested size: 194.13957pt x 145.60709pt.
+File: Best_sample.png Graphic file (type png)
+<use Best_sample.png>
+Package pdftex.def Info: Best_sample.png  used on input line 211.
+(pdftex.def)             Requested size: 194.13957pt x 145.60709pt.
+<Controller_Response_Generator_input.pdf, id=91, 498.48569pt x 316.45099pt>
 File: Controller_Response_Generator_input.pdf Graphic file (type pdf)
-
 <use Controller_Response_Generator_input.pdf>
-Package pdftex.def Info: Controller_Response_Generator_input.pdf used on input 
-line 214.
+Package pdftex.def Info: Controller_Response_Generator_input.pdf  used on input
+ line 217.
 (pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
 File: Controller_Response_Generator_input.pdf Graphic file (type pdf)
-
 <use Controller_Response_Generator_input.pdf>
-Package pdftex.def Info: Controller_Response_Generator_input.pdf used on input 
-line 214.
+Package pdftex.def Info: Controller_Response_Generator_input.pdf  used on input
+ line 217.
 (pdftex.def)             Requested size: 240.24814pt x 152.5128pt.
-
-
-LaTeX Warning: Reference `Generator_Plots' on page 7 undefined on input line 21
-6.
-
-
-LaTeX Warning: Reference `GENResponseTable' on page 7 undefined on input line 2
-16.
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 7 undefined on input line 2
-39.
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 7 undefined on input line 2
-39.
-
-
-LaTeX Warning: Reference `varying_time_delay' on page 7 undefined on input line
- 239.
-
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 240.
+Package pdftex.def Info: notaglineLogo.png  used on input line 238.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1059,60 +813,29 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[7 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/Kundur2Area_outline_multi.png> <E:/University/data/Class Work/Th
-esis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/Controller_Response_S
-VC_input.pdf> <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Jou
-rnal Paper/V2/IEEE_Access/Best_sample.png (PNG copy)> <E:/University/data/Class
- Work/Thesis - KTH/Extra Work/Papers/Journal Paper/V2/IEEE_Access/Controller_Re
-sponse_Generator_input.pdf
-
-pdfTeX warning: pdflatex.EXE (file E:/University/data/Class Work/Thesis - KTH/E
-xtra Work/Papers/Journal Paper/V2/IEEE_Access/Controller_Response_Generator_inp
-ut.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->] <delay_bar_chart.pdf, id=224, 433.62pt x 213.91919pt>
+[7 <./Kundur2Area_outline_multi.png> <./Controller_Response_SVC_input.pdf> <./B
+est_sample.png (PNG copy)>]
+<delay_bar_chart.pdf, id=154, 433.62pt x 213.91919pt>
 File: delay_bar_chart.pdf Graphic file (type pdf)
-
 <use delay_bar_chart.pdf>
-Package pdftex.def Info: delay_bar_chart.pdf used on input line 242.
+Package pdftex.def Info: delay_bar_chart.pdf  used on input line 247.
 (pdftex.def)             Requested size: 240.24814pt x 118.52417pt.
 File: delay_bar_chart.pdf Graphic file (type pdf)
- <use delay_bar_chart.pdf>
-Package pdftex.def Info: delay_bar_chart.pdf used on input line 242.
+<use delay_bar_chart.pdf>
+Package pdftex.def Info: delay_bar_chart.pdf  used on input line 247.
 (pdftex.def)             Requested size: 240.24814pt x 118.52417pt.
-
-
-LaTeX Warning: Citation `PhasorPOD' on page 8 undefined on input line 246.
-
-
-LaTeX Warning: Reference `ScalingProblem' on page 8 undefined on input line 246
-.
-
-
-LaTeX Warning: Citation `eMEGASIM' on page 8 undefined on input line 246.
-
-<Scaling.png, id=225, 572.6193pt x 132.2541pt>
+<Scaling.png, id=155, 572.6193pt x 132.2541pt>
 File: Scaling.png Graphic file (type png)
- <use Scaling.png>
-Package pdftex.def Info: Scaling.png used on input line 249.
-(pdftex.def)             Requested size: 240.24814pt x 55.48781pt.
-File: Scaling.png Graphic file (type png)
-
 <use Scaling.png>
-Package pdftex.def Info: Scaling.png used on input line 249.
+Package pdftex.def Info: Scaling.png  used on input line 254.
 (pdftex.def)             Requested size: 240.24814pt x 55.48781pt.
-
-
-LaTeX Warning: Reference `RTArchitecture' on page 8 undefined on input line 254
-.
-
-
-LaTeX Warning: Reference `ex:LoopRates' on page 8 undefined on input line 254.
-
+File: Scaling.png Graphic file (type png)
+<use Scaling.png>
+Package pdftex.def Info: Scaling.png  used on input line 254.
+(pdftex.def)             Requested size: 240.24814pt x 55.48781pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 273.
+Package pdftex.def Info: notaglineLogo.png  used on input line 276.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1129,41 +852,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[8 <E:/University/data/Class Work/Thesis - KTH/Extra Work/Papers/Journal Paper/
-V2/IEEE_Access/delay_bar_chart.pdf> <E:/University/data/Class Work/Thesis - KTH
-/Extra Work/Papers/Journal Paper/V2/IEEE_Access/Scaling.png>]
+[8 <./Controller_Response_Generator_input.pdf> <./delay_bar_chart.pdf
 
-LaTeX Warning: Citation `LabViewManuals' on page 9 undefined on input line 276.
-
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 9 undefined on input line 276.
-
-
-
-LaTeX Warning: Citation `LabViewManuals' on page 9 undefined on input line 276.
-
-
-
-LaTeX Warning: Reference `Hardware_Outline' on page 9 undefined on input line 2
-78.
-
-
-LaTeX Warning: Reference `RTArchitecture' on page 9 undefined on input line 278
-.
-
-
-LaTeX Warning: Citation `Yuwa' on page 9 undefined on input line 282.
-
-
-LaTeX Warning: Citation `Audur' on page 9 undefined on input line 282.
-
-
-LaTeX Warning: Citation `Yuwa' on page 9 undefined on input line 285.
-
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./delay_bar_chart.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./Scaling.png>]
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png used on input line 309.
+Package pdftex.def Info: notaglineLogo.png  used on input line 301.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1181,28 +877,146 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [9]
-LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 312.
+LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 317.
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+[]\T1/ptm/m/n/7.61 OPAL-RT Tech-nolo-gies ``eMEGASIM Power Grid Real-Time
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 317--318
+\T1/ptm/m/n/7.61 Dig-i-tal Hard-ware in the Loop Sim-u-la-tor'' Avail-able On-l
+ine at :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 []\T1/ptm/m/n/7.61 ``FPGA Con-trol on Com-pact RIO Sam-ple Project Doc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 \T1/ptm/m/n/7.61 u-men-ta-tion'', Na-tional In-stru-ments, Avail-able On-line a
 t
  []
 
-<a1.png, id=262, 72.27pt x 90.3375pt>
-File: a1.png Graphic file (type png)
- <use a1.png>
-Package pdftex.def Info: a1.png used on input line 345.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-File: a1.png Graphic file (type png)
- <use a1.png>
-Package pdftex.def Info: a1.png used on input line 345.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 
-!pdfTeX error: pdflatex.EXE (file E:/University/data/Class Work/Thesis - KTH/Ex
-tra Work/Papers/Journal Paper/V2/IEEE_Access/a2.png): libpng: internal error
- ==> Fatal error occurred, no output PDF file produced!
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+[]\T1/ptm/n/sc/7.61 National In-stru-ments ``IP Cor-ner: The Lab-VIEW Fixed-Poi
+nt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+\T1/ptm/n/sc/7.61 Data Type Part^^U1 Fixed^^UPoint 101'' Avail-able On-line at
+ []
+
+<a1.png, id=263, 301.125pt x 342.27875pt>
+File: a1.png Graphic file (type png)
+<use a1.png>
+Package pdftex.def Info: a1.png  used on input line 368.
+(pdftex.def)             Requested size: 72.27147pt x 82.14856pt.
+File: a1.png Graphic file (type png)
+<use a1.png>
+Package pdftex.def Info: a1.png  used on input line 368.
+(pdftex.def)             Requested size: 72.27147pt x 82.14856pt.
+<a2.png, id=266, 180.675pt x 225.84375pt>
+File: a2.png Graphic file (type png)
+<use a2.png>
+Package pdftex.def Info: a2.png  used on input line 372.
+(pdftex.def)             Requested size: 72.2687pt x 90.33589pt.
+File: a2.png Graphic file (type png)
+<use a2.png>
+Package pdftex.def Info: a2.png  used on input line 372.
+(pdftex.def)             Requested size: 72.2687pt x 90.33589pt.
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 376.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[10 <./a1.png> <./a2.png>]
+<a3.png, id=277, 180.675pt x 225.84375pt>
+File: a3.png Graphic file (type png)
+<use a3.png>
+Package pdftex.def Info: a3.png  used on input line 376.
+(pdftex.def)             Requested size: 72.2687pt x 90.33589pt.
+File: a3.png Graphic file (type png)
+<use a3.png>
+Package pdftex.def Info: a3.png  used on input line 376.
+(pdftex.def)             Requested size: 72.2687pt x 90.33589pt.
+File: bullet.png Graphic file (type png)
+<use bullet.png>
+Package pdftex.def Info: bullet.png  used on input line 380.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 382.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[11
+
+ <./a3.png>] (./Journal_Paper_IEEE_Access.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4690 strings out of 492649
+ 69511 string characters out of 6129622
+ 144080 words of memory out of 5000000
+ 8447 multiletter control sequences out of 15000+600000
+ 108046 words of font info for 160 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,13n,53p,1774b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
+helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Journal_Paper_IEEE_Access.pdf (11 pages, 1000427 bytes).
+PDF statistics:
+ 341 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+
